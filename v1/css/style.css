@@ -2448,6 +2448,7 @@ ul{
 	display:inline-block;
 	padding-top:50px;
 	padding-bottom:50px;
+	border-radius: 10px 0 0 10px;
 	background:#4775B2;
 }
 .gc_counter_cont_wrapper2{
@@ -2475,6 +2476,7 @@ ul{
 	display:inline-block;
 	padding-top:50px;
 	padding-bottom:50px;
+	border-radius: 0 10px 10px 0;
 	background:#22b5db;
 }
 .count-description {
