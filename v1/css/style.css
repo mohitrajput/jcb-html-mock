@@ -1141,6 +1141,48 @@ ul{
 }
 /*---------- jp tittle slider Wrapper End -------*/
 /*---------- jp first sidebar Wrapper Start -------*/
+.jp_news_ticker_wrapper{
+	position: relative;
+	margin-bottom: 30px;
+}
+.jp_news_ticker_wrapper .head-text{
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: 1px;
+    padding: 0 15px;
+    background: #4675b2;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 48px;
+    z-index: 999;
+	border-radius: 10px 18px 0 10px;
+}
+.jp_news_ticker_wrapper .news-ticker{
+	position: relative;
+    padding: 0 0 0 135px;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.jp_news_ticker_wrapper .news-ticker:before{
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: inset 0 0 10px 10px rgba(255,255,255,1);
+	border-radius: 10px;
+}
+.jp_news_ticker_wrapper .news-ticker .item{
+	font-size: 18px;
+    line-height: 50px;
+}
 .jp_first_sidebar_main_wrapper{
 	float:left;
 	width:100%;
@@ -1438,6 +1480,16 @@ ul{
 	margin-top: 15px;
 	text-align:center;
 }
+.video_nav_img_wrapper a.btn-outline {
+    border: 1px solid #797979;
+    padding: 6px 15px;
+	border-radius: 10px;
+	transition: all 0.5s;
+}
+.video_nav_img_wrapper a.btn-outline:hover {
+	background: #797979;
+	color: #FFF;
+}
 .video_nav_img ul{
 	display:inline-block;
 	position: relative;
@@ -1555,6 +1607,7 @@ ul{
     padding-bottom: 30px;
 	border:1px solid #e9e9e9;
 	border-bottom:0;
+	border-radius: 10px 10px 0 0;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -1591,102 +1644,88 @@ ul{
 .jp_job_post_right_cont li:first-child{
 	margin-left:0;
 	color:#000000;
-	font-size:16px;
+	font-size:14px;
 	font-weight:bold;
 }
 .jp_job_post_right_cont li:last-child{
 	color:#797979;
-	font-size:16px;
+	font-size:14px;
 }
 .jp_job_post_heading_wrapper{
 	float:left;
 }
 .jp_job_post_right_btn_wrapper ul{
 	float:right;
-	margin-top: 15px;
+	margin-top: 0;
 }
 .jp_job_post_right_btn_wrapper li{
 	float:left;
 	margin-left:20px;
 }
 .jp_job_post_right_btn_wrapper li:first-child{
-	margin-left:0;
-}
-.jp_job_post_right_btn_wrapper li:first-child a{
-	float:left;
-	width:30px;
-	height:30px;
-	border:1px solid #e9e9e9;
-	text-align:center;
-	line-height:30px;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	border-radius:10px;
-	color:#f36969;
-	background:transparent;
-	-webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-}
-.jp_job_post_right_btn_wrapper li:first-child a:hover{
-	background:#f36969;
-	color:#ffffff;
-	border:1px solid #f36969;
-	-webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-}
-.jp_job_post_right_btn_wrapper li:nth-child(2){
 	float:none;
 	margin-left:50px;
 }
-.jp_job_post_right_btn_wrapper li:nth-child(2) a{
-	float:left;
+.jp_job_post_right_btn_wrapper li:first-child a{
+	display:inline-block;
 	width:100px;
 	height:30px;
 	line-height:30px;
 	text-align:center;
-	background:#37d09c;
+	/* background:#37d09c; */
+	background: #f36969;
 	color:#ffffff;
 	font-size:12px;
 	text-transform:uppercase;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	border-radius:10px;
+	transition: all 0.5s;
+}
+.jp_job_post_right_btn_wrapper li:first-child a:hover{
+	background: #4775B2;
+}
+.jp_job_post_right_btn_wrapper li.btn-applied:first-child a{
+	background: #d4d4d4;
+    color: #777;
+    cursor: not-allowed;
 }
 .jp_job_post_right_btn_wrapper li:last-child{
 	margin-left:50px;
-	margin-top:40px;
+	margin-top:15px;
 	float:none;
 }
 .jp_job_post_right_btn_wrapper li:last-child a{
-	float:left;
+	display: inline-block;
 	width:100px;
 	height:30px;
 	line-height:30px;
 	text-align:center;
-	background:#f36969;
-	color:#ffffff;
+	background:transparent;
+	color:#4775B2;
 	font-size:12px;
 	text-transform:uppercase;
+	border: 1px solid transparent;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	border-radius:10px;
+	transition: all 0.5s;
+}
+.jp_job_post_right_btn_wrapper li:last-child a:hover {
+	border-color: #4775B2;
 }
 .jp_job_post_keyword_wrapper{
 	float:left;
 	width:100%;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
 	padding-left: 30px;
-    padding-right: 30px;
+	padding-right: 30px;
+	font-size: 14px;
 	border:1px solid #e9e9e9;
 	background:transparent;
 	border-top:0;
+	border-radius: 0 0 10px 10px;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -2663,7 +2702,7 @@ ul{
 }
 .jp_client_heading_wrapper h2{
 	font-size:20px;
-	color:#ffffff;
+	color:#000;
 	font-weight:900;
 	text-transform:uppercase;
 	position:relative;
@@ -2707,7 +2746,7 @@ ul{
     padding: 0;
     right: 30px;
 	top:0;
-	color:#ffffff85;
+	color:#dedede;
 	background:none;
     position: absolute;
     text-align: center;
@@ -2725,7 +2764,7 @@ ul{
 	top:0;
 	right:0;
     position: absolute;
-	color:#ffffff85;
+	color:#dedede;
 	background:none;
     text-align: center;
 	-webkit-transition: all 0.5s;
@@ -2743,10 +2782,6 @@ ul{
     transition: all 0.5s;
 }
 .jp_first_client_slider_wrapper{
-	background:url('../images/content/client_bg.jpg') 50% 0 repeat-y;
-	background-position:center 0;
-	background-size:cover;
-	background-repeat:no-repeat;
 	float:left;
 	width:100%;
 	height:100%;
@@ -2759,7 +2794,9 @@ ul{
 	right:0%;
 	left:0%;
 	bottom:0%;
-	background:#0e1427d9;
+	background: #ffffff;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
 }
 .jp_client_slide_show_wrapper{
 	float:left;
@@ -2783,13 +2820,11 @@ ul{
 .jp_client_slider_cont_wrapper p{
 	font-size:20px;
 	font-style:italic;
-	color:#ffffffd4;
 }
 .jp_client_slider_cont_wrapper i{
 	color:#f1a835;
 }
 .jp_client_slider_cont_wrapper span{
-	color:#ffffff;
 	font-size:16px;
 	font-family: 'Montserrat', sans-serif;
 	margin-left:10px;

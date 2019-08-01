@@ -42,6 +42,18 @@ $('#return-to-top').on('click', function() {
 
 
    $(document).ready(function() {
+
+    $('.news-ticker').owlCarousel({
+      items: 1,
+      loop:true,
+      autoplay:true,
+      autoplayTimeout: 3000,
+      dots: false,
+      slideTransition: 'linear',
+      animateIn: 'slideInUp',
+      animateOut: 'slideOutUp'
+    });
+
               $('.jp_tittle_slider_content_wrapper .owl-carousel').owlCarousel({
                 loop: true,
                 margin: 10,
