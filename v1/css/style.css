@@ -172,7 +172,7 @@ ul{
 	left:0%;
 	bottom:0%;
 	background: rgba(71, 117, 178,0.7);
-
+	background: #0e1427d4;
 }
 .menu-bar {
     cursor: pointer;
@@ -222,7 +222,7 @@ ul{
     font-size: 14px;
     letter-spacing: 1px;
 	text-transform: capitalize;
-    padding: 0px 20px 30px 10px;
+    padding: 0px 10px 30px 10px;
 	font-family: 'Montserrat', sans-serif;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     position: relative;
