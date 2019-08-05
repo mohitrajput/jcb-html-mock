@@ -96,7 +96,7 @@ ul{
 }
 .gc_logo img{
 	display:inline-block;
-	max-height: 50px;
+	max-height: 70px;
 }
 .header-area{
 	float:left;
@@ -165,6 +165,9 @@ ul{
 	border-bottom: 1px solid #ffffff21;
 	position:relative;
 }
+.gc_main_menu_wrapper > .container-fluid { max-width: 1400px; }
+.gc_main_menu_wrapper > .container-fluid > .row { position: relative; }
+
 .jp_slide_img_overlay{
 	position:absolute;
 	top:0%;
@@ -222,7 +225,7 @@ ul{
     font-size: 14px;
     letter-spacing: 1px;
 	text-transform: capitalize;
-    padding: 0px 10px 30px 10px;
+    padding: 10px 10px 36px 10px;
 	font-family: 'Montserrat', sans-serif;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     position: relative;
@@ -475,7 +478,7 @@ ul{
 	content: '';
     border: 1px solid #ffffff21;
     width: 1px;
-    height: 85px;
+    height: 100px;
     position: absolute;
     top: -30px;
     right: -16px;
@@ -734,10 +737,12 @@ ul{
 	margin-left:20px;
 }
 .jp_navi_right_btn_wrapper li a{
-	float:left;
-	width:130px;
-	height:50px;
-	line-height:50px;
+	float: left;
+    width: 130px;
+    height: 34px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 34px;
 	background: transparent;
 	color:#ffffff;
 	border:1px solid #ffffff40;
@@ -817,6 +822,53 @@ ul{
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 } */
+.top_header_language_wrapper .language-wrapper {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    padding: 2px 0;
+    background: #4f5462;
+    color: #fff;
+    transform: translateY(100%);
+    z-index: 1;
+}
+
+.top_header_language_wrapper .language-wrapper ul li {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.top_header_language_wrapper .language-wrapper ul li:first-child:after {
+    content: ' | ';
+    position: absolute;
+    right: -3px;
+}
+
+.top_header_language_wrapper .language-wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 0;
+    height: 0;
+    border-left: 42px solid transparent;
+    border-right: 8px solid #4f5462;
+    border-top: 28px solid #4f5462;
+}
+
+.top_header_language_wrapper .language-wrapper:after {
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 2000px;
+    height: 0;
+    border-right: 42px solid transparent;
+    border-left: 8px solid #4f5462;
+    border-top: 28px solid #4f5462;
+}
 /*-- Heading Css Start --*/
 .gc_heading{
 	float:left;
@@ -1004,7 +1056,7 @@ ul{
 }
 .jp_top_jobs_category_wrapper{
 	float:left;
-	width:16.5%;
+	width:20%;
 	text-align:center;
 	background:transparent;
 	padding-top:20px;

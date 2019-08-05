@@ -230,14 +230,14 @@
 }
 @media (max-width: 1700px){
 	.mainmenu{
-		right:-85px;
+		right:-30px;
 	}
 }
-@media (max-width: 1550px){
+/* @media (max-width: 1550px){
 	.mainmenu{
 		right:-25px;
 	}
-}
+} */
 @media (max-width: 1250px){
 	.full_width{
 		width:100%;

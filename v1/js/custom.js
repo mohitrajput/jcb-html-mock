@@ -50,8 +50,8 @@ $('#return-to-top').on('click', function() {
       autoplayTimeout: 3000,
       dots: false,
       slideTransition: 'linear',
-      animateIn: 'slideInUp',
-      animateOut: 'slideOutUp'
+      animateIn: 'slideInRight',
+      animateOut: 'slideOutLeft'
     });
 
               $('.jp_tittle_slider_content_wrapper .owl-carousel').owlCarousel({
