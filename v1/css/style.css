@@ -130,7 +130,7 @@ ul{
 	float:left;
 	width:100%;
 	height:100%;
-	border-top:3px solid #4775B2;
+	border-top:3px solid #a6e043;
 	position:relative;
 	background-color: hsla(200,40%,30%,.4);
 	background-image:
@@ -220,7 +220,7 @@ ul{
     position: relative;
 }
 .mainmenu ul li a {
-    color: #000000;
+    color: #FFF;
     display: block;
     font-size: 14px;
     letter-spacing: 1px;
@@ -299,14 +299,14 @@ ul{
     visibility: visible;
     top: 100%;
 	background:#0e142773;
-	border-top: 2px solid #4775B2;
+	border-top: 2px solid #a6e043;
 }
 .mainmenu ul ul li {
     display: block;
 }
 .mainmenu ul ul li a,
 .mainmenu ul li.has-mega .mega-menu span a {
-    color: #222;
+    /* color: #222; */
     text-transform: capitalize;
     letter-spacing: 1px;
     padding: 8px 10px 8px 20px;
@@ -320,9 +320,9 @@ ul{
     border-bottom: 0px;
 }
 .mainmenu ul ul li:hover > a {
-    background-color: #4775B2;
+    background-color: #a6e043;
     padding-left: 23px;
-	color:#ffffff !important;
+	color:#0e1427d4;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -382,14 +382,19 @@ ul{
     background-color: #eee;
     font-weight: 600;
 }
+.mainmenu .gc_main_navigation.active {
+	color: #a6e043;
+}
 .mainmenu .gc_main_navigation.parent:after,
 .mainmenu .gc_main_navigation.parent:before,
+.mainmenu .gc_main_navigation.active:after,
+.mainmenu .gc_main_navigation.active:before,
 .mainmenu ul li.has-mega > a:before,
 .mainmenu ul li.has-mega > a:after {
     content: "";
     width: 11px;
     height: 1px;
-    background-color: #4775B2 !important;
+    background-color: #a6e043 !important;
     top: 20px;
     position: absolute;
 	left:0;
@@ -409,6 +414,11 @@ ul{
     width: 10px;
     top: 50%;
 }
+.mainmenu .gc_main_navigation.active:before {
+    width: 10px;
+	top: 50%;
+	left:-31px;
+}
 .mainmenu .gc_main_navigation.parent:after,
 .mainmenu ul li.has-mega a:after {
     width: 0px;
@@ -419,6 +429,11 @@ ul{
 .mainmenu ul li.has-mega:hover > a:after {
     width: 30px;
     top: 50%;
+}
+.mainmenu .gc_main_navigation.active:after {
+	width: 30px;
+	top: 50%;
+	left:13px;
 }
 /*************************
 02.2 Sticky menu
@@ -446,10 +461,10 @@ ul{
     background-color: #222;
     color: #fff;
 }
-.header-area.stick .mainmenu ul li a,
+/* .header-area.stick .mainmenu ul li a,
 .stick .mean-container a.meanmenu-reveal {
     color: #ffffff;
-}
+} */
 
 .header-area.stick .menu-bar:after,
 .header-area.stick .menu-bar:before,
@@ -614,7 +629,7 @@ ul{
 	transition: all 0.5s;
 }
 .gc_right_menu > ul > li svg:hover #share, .gc_right_menu > ul > li > svg:hover #search, .gc_right_menu > ul > li > svg:hover .menubar{
-	fill:#4775B2;
+	fill:#a6e043;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -671,8 +686,8 @@ ul{
 }
 .gc_search_box button:hover{
 	color:#ffffff;
-	background-color: #4775B2;
-	border-color:#4775B2;
+	background-color: #a6e043;
+	border-color:#a6e043;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -727,7 +742,7 @@ ul{
 	transition: all 0.5s;
 }
 .gc_main_navigation i{
-	color:#4775B2;
+	color:#a6e043;
 }
 .jp_navi_right_btn_wrapper ul{
 	float:right;
@@ -757,8 +772,9 @@ ul{
 	transition: all 0.5s;
 }
 .jp_navi_right_btn_wrapper li a:hover{
-	background: #4775B2;
-	border: 1px solid #4775B2;
+	background: #a6e043;
+	color: #0e1427d4;
+	border: 1px solid #a6e043;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -827,7 +843,7 @@ ul{
     right: 0;
     bottom: -1px;
     padding: 2px 0;
-    background: #4f5462;
+    background: rgba(0,0,0,0.15);
     color: #fff;
     transform: translateY(100%);
     z-index: 1;
@@ -840,10 +856,20 @@ ul{
     padding: 0 10px;
 }
 
+.top_header_language_wrapper .language-wrapper ul li:hover {
+	color: #a6e043;
+	cursor: pointer;
+}
+
 .top_header_language_wrapper .language-wrapper ul li:first-child:after {
     content: ' | ';
     position: absolute;
     right: -3px;
+}
+.top_header_language_wrapper .language-wrapper ul li:last-child:before {
+    content: ' | ';
+    position: absolute;
+    left: -4px;
 }
 
 .top_header_language_wrapper .language-wrapper:before {
@@ -854,8 +880,8 @@ ul{
     width: 0;
     height: 0;
     border-left: 42px solid transparent;
-    border-right: 8px solid #4f5462;
-    border-top: 28px solid #4f5462;
+    border-right: 8px solid rgba(0,0,0,0.15);
+    border-top: 28px solid rgba(0,0,0,0.15);
 }
 
 .top_header_language_wrapper .language-wrapper:after {
@@ -866,8 +892,8 @@ ul{
     width: 2000px;
     height: 0;
     border-right: 42px solid transparent;
-    border-left: 8px solid #4f5462;
-    border-top: 28px solid #4f5462;
+    border-left: 8px solid rgba(0,0,0,0.15);
+    border-top: 28px solid rgba(0,0,0,0.15);
 }
 /*-- Heading Css Start --*/
 .gc_heading{
@@ -937,7 +963,7 @@ ul{
 	font-size:20px;
 	left:30px;
 	z-index:1;
-	color:#4775B2;
+	color:#0e1427d4;
 }
 .jp_form_location_wrapper select, .jp_form_exper_wrapper select{
 	width:100%;
@@ -962,7 +988,7 @@ ul{
 	font-size:20px;
 	left:30px;
 	z-index:1;
-	color:#4775B2;
+	color:#0e1427d4;
 }
 .jp_form_btn_wrapper {
 	position: relative;
@@ -974,8 +1000,8 @@ ul{
 	-webkit-border-radius:15px;
 	-moz-border-radius:15px;
 	border-radius:15px;
-	background:#4775B2;
-	color:#ffffff;
+	background:#a6e043;
+	color:#0e1427d4;
 	line-height:50px;
 	text-align:center;
 	font-weight:bold;
@@ -987,7 +1013,7 @@ ul{
 	transition: all 0.5s;
 }
 .jp_form_btn_wrapper li a[href]:hover{
-	background:#ffffff;
+	background:#fdd014;
 	color:#000000;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -1028,7 +1054,7 @@ ul{
 }
 .jp_banner_main_jobs li i{
 	padding-right:5px;
-	color:#4775B2;
+	color:#a6e043;
 }
 .jp_banner_main_jobs li a{
 	color:#ffffffcf;
@@ -1075,7 +1101,7 @@ ul{
 	border-left:1px solid #ffffff21;
 }
 .jp_top_jobs_category_wrapper:hover{
-	background:#4775B2;
+	background:#a6e043;
 	box-shadow: 0px 0px 37px #00000091;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
@@ -1086,6 +1112,12 @@ ul{
     -moz-transform: scale(1.1);
     transition: all 200ms ease-in;
     transform: scale(1.1);
+}
+.jp_top_jobs_category_wrapper:hover h3 a{
+	color: #0e1427d4;
+}
+.jp_top_jobs_category_wrapper:hover p{
+	color: #0e1427d4;
 }
 .jp_top_jobs_category{
 	display:inline-block;
@@ -1100,7 +1132,7 @@ ul{
 	transition: all 0.5s;
 }
 .jp_top_jobs_category_wrapper:hover .jp_top_jobs_category i{
-	color:#ffffff;
+	color:#0e1427d4;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -1126,7 +1158,7 @@ ul{
 	float:left;
 	width:15%;
 	text-align:center;
-	background:#4775B2;
+	background:#a6e043;
 	padding-top: 35px;
     padding-bottom: 30px;
 }
@@ -1189,7 +1221,7 @@ ul{
 }
 .jp_tittle_side_cont_wrapper p{
 	font-size:14px;
-	color:#4775B2;
+	color:#a6e043;
 }
 /*---------- jp tittle slider Wrapper End -------*/
 /*---------- jp first sidebar Wrapper Start -------*/
@@ -1203,10 +1235,9 @@ ul{
     bottom: 1px;
     left: 1px;
     padding: 0 15px;
-    background: #4675b2;
+    background: #0e1427d4;
     color: #fff;
     font-size: 16px;
-    font-weight: 600;
     line-height: 48px;
     z-index: 999;
 	border-radius: 10px 18px 0 10px;
@@ -1260,7 +1291,7 @@ ul{
 }
 .jp_hiring_heading_wrapper h2:after{
 	content:'';
-	border:1px solid #4775B2;
+	border:1px solid #a6e043;
 	width:30px;
 	position:absolute;
 	bottom: -15px;
@@ -1268,7 +1299,7 @@ ul{
 }
 .jp_hiring_heading_wrapper h2:before{
 	content:'';
-	border:1px solid #4775B2;
+	border:1px solid #a6e043;
 	width:8px;
 	position:absolute;
 	bottom: -15px;
@@ -1325,7 +1356,7 @@ ul{
     transition: all 0.5s;
 }
 .jp_hiring_slider_wrapper .owl-theme .owl-nav .owl-prev:hover, .jp_hiring_slider_wrapper  .owl-theme .owl-nav .owl-next:hover{
-	color:#4775B2;
+	color:#0e1427d4;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1337,7 +1368,7 @@ ul{
 	width:100%;
 	background:#ffffff;
 	border:1px solid #e9e9e9;
-	/* border-bottom:2px solid #4775B2; */
+	/* border-bottom:2px solid #a6e043; */
 	text-align:center;
 	padding-top:40px;
 	padding-bottom:40px;
@@ -1386,7 +1417,7 @@ ul{
 	display:inline-block !important;
 }
 .jp_hiring_content_main_wrapper:hover{
-	border-color:#4775B2;
+	border-color:#a6e043;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -1514,8 +1545,8 @@ ul{
     transition: all 0.5s;
 }
 .ss_featured_products  .owl-theme .owl-nav .owl-prev:hover, .ss_featured_products   .owl-theme .owl-nav .owl-next:hover{
-	background:#4775B2;
-	border:1px solid #4775B2;
+	background:#a6e043;
+	border:1px solid #a6e043;
 	color:#ffffff;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -1588,8 +1619,8 @@ ul{
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
 	color:#ffffff;
-	border: 1px solid #4775B2;
-    background: #4775B2;
+	border: 1px solid #a6e043;
+    background: #a6e043;
 	-webkit-border-top-right-radius:0;
 	-moz-border-top-right-radius:0;
 	border-top-right-radius:0;
@@ -1629,9 +1660,9 @@ ul{
 	border-bottom:1px solid #eeeeee;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-	    color: #ffffff;
-    border: 1px solid #4775B2;
-    background: #4775B2;
+	color: #ffffff;
+    border: 1px solid #0e1427d4;
+    background: #0e1427d4;
     -webkit-border-top-right-radius: 0;
     -moz-border-top-right-radius: 0;
     border-top-right-radius: 0;
@@ -1683,7 +1714,7 @@ ul{
 }
 .jp_job_post_right_cont p{
 	font-size:16px;
-	color:#4775B2;
+	color:#797979;
 	padding-top:5px;
 }
 .jp_job_post_right_cont li{
@@ -1724,10 +1755,10 @@ ul{
 	height:30px;
 	line-height:30px;
 	text-align:center;
-	/* background:#37d09c; */
-	background: #f36969;
-	color:#ffffff;
+	background: #a6e043;
+	color:#0e1427d4;
 	font-size:12px;
+	font-weight: bold;
 	text-transform:uppercase;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
@@ -1735,7 +1766,7 @@ ul{
 	transition: all 0.5s;
 }
 .jp_job_post_right_btn_wrapper li:first-child a:hover{
-	background: #4775B2;
+	background: #fdd014;
 }
 .jp_job_post_right_btn_wrapper li.btn-applied:first-child a{
 	background: #d4d4d4;
@@ -1754,17 +1785,18 @@ ul{
 	line-height:30px;
 	text-align:center;
 	background:transparent;
-	color:#4775B2;
+	color:#353b4a;
 	font-size:12px;
 	text-transform:uppercase;
-	border: 1px solid transparent;
+	border: 1px solid #353b4a;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	border-radius:10px;
 	transition: all 0.5s;
 }
 .jp_job_post_right_btn_wrapper li:last-child a:hover {
-	border-color: #4775B2;
+	background-color: #0e1427d4;
+	color: #fff;
 }
 .jp_job_post_keyword_wrapper{
 	float:left;
@@ -1799,7 +1831,7 @@ ul{
 }
 .jp_job_post_keyword_wrapper li i{
 	padding-right:5px;
-	color:#4775B2;
+	color:#a6e043;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -1825,7 +1857,7 @@ ul{
 	transition: all 0.5s;
 }
 .jp_job_post_main_wrapper_cont:hover .jp_job_post_main_wrapper{
-	border:1px solid #4775B2;
+	border:1px solid #d4d4d4;
 	border-bottom:0;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -1834,9 +1866,9 @@ ul{
 	transition: all 0.5s;
 }
 .jp_job_post_main_wrapper_cont:hover .jp_job_post_keyword_wrapper{
-	border:1px solid #4775B2;
+	border:1px solid #d4d4d4;
 	border-top:0;
-	background:#4775B2;
+	background:#d4d4d4;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -1846,7 +1878,7 @@ ul{
 .jp_job_post_main_wrapper_cont:hover .jp_job_post_keyword_wrapper li,
 .jp_job_post_main_wrapper_cont:hover .jp_job_post_keyword_wrapper li i,
 .jp_job_post_main_wrapper_cont:hover .jp_job_post_keyword_wrapper li a{
-	color:#ffffff;
+	color:#0e1427d4;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -1867,7 +1899,7 @@ ul{
 	text-align:center;
 	background:#ffffff;
 	border:1px solid #e9e9e9;
-	border-bottom:1px solid #4775B2;
+	border-bottom:1px solid #a6e043;
 	border-right:0;
 	padding-top:85px;
 	padding-bottom:85px;
@@ -1885,7 +1917,7 @@ ul{
 }
 .jp_regis_left_side_box h4:before {
     content: '';
-    border: 1px solid #4775B2;
+    border: 1px solid #a6e043;
     width: 8px;
     position: absolute;
     bottom: -15px;
@@ -1895,7 +1927,7 @@ ul{
 }
 .jp_regis_left_side_box h4:after {
     content: '';
-    border: 1px solid #4775B2;
+    border: 1px solid #a6e043;
     width: 30px;
     position: absolute;
 	 bottom: -15px;
@@ -1918,7 +1950,7 @@ ul{
 	line-height:50px;
 	color:#ffffff;
 	font-weight:bold;
-	background:#4775B2;
+	background:#a6e043;
 	-webkit-border-radius: 10px;
   -moz-border-radius: 10px;
    border-radius: 10px;
@@ -1970,7 +2002,7 @@ ul{
 }
 .jp_regis_right_side_box h4:before {
     content: '';
-    border: 1px solid #4775B2;
+    border: 1px solid #a6e043;
     width: 8px;
     position: absolute;
     bottom: -15px;
@@ -1980,7 +2012,7 @@ ul{
 }
 .jp_regis_right_side_box h4:after {
     content: '';
-    border: 1px solid #4775B2;
+    border: 1px solid #a6e043;
     width: 30px;
     position: absolute;
 	 bottom: -15px;
@@ -2015,7 +2047,7 @@ ul{
 	transition: all 0.5s;
 }
 .jp_regis_right_side_box li a:hover{
-	background:#4775B2;
+	background:#a6e043;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -2025,7 +2057,7 @@ ul{
 .jp_regis_center_tag_wrapper{
 	width:70px;
 	height:70px;
-	background:#4775B2;
+	background:#a6e043;
 	position: absolute;
     left: -34px;
     top: 50%;
@@ -2086,7 +2118,7 @@ ul{
 }
 .jp_add_resume_cont h4:before {
     content: '';
-    border: 1px solid #4775B2;
+    border: 1px solid #a6e043;
     width: 8px;
     position: absolute;
     bottom: -15px;
@@ -2096,7 +2128,7 @@ ul{
 }
 .jp_add_resume_cont h4:after {
     content: '';
-    border: 1px solid #4775B2;
+    border: 1px solid #a6e043;
     width: 30px;
     position: absolute;
     bottom: -15px;
@@ -2114,9 +2146,9 @@ ul{
 	height:50px;
 	text-align:center;
 	line-height:50px;
-	color:#ffffff;
+	color:#0e1427d4;
 	font-weight:bold;
-	background:#4775B2;
+	background:#a6e043;
 	-webkit-border-radius: 10px;
   -moz-border-radius: 10px;
    border-radius: 10px;
@@ -2127,7 +2159,7 @@ ul{
 	transition: all 0.5s;
 }
 .jp_add_resume_cont li a:hover{
-	background:#f36969;
+	background:#fdd014;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -2142,7 +2174,7 @@ ul{
 .spotlight_header_wrapper{
 	float:left;
 	width:100%;
-	background:#4775B2;
+	background:#0e1427d4;
 	padding-top:15px;
 	padding-bottom:15px;
 	padding-left:20px;
@@ -2205,7 +2237,7 @@ ul{
     padding: 0;
     right: 20px;
 	top:0;
-	color:#ffffffab;
+	color:rgba(255,255,255,0.25);
 	background:none;
     position: absolute;
     text-align: center;
@@ -2222,7 +2254,7 @@ ul{
 	top:0;
 	right:-10px;
     position: absolute;
-	color:#ffffffab;
+	color:rgba(255,255,255,0.25);
 	background:none;
     text-align: center;
 	-webkit-transition: all 0.5s;
@@ -2232,7 +2264,7 @@ ul{
     transition: all 0.5s;
 }
 .jp_spotlight_slider_wrapper .owl-theme .owl-nav .owl-prev:hover, .jp_spotlight_slider_wrapper  .owl-theme .owl-nav .owl-next:hover{
-	color:#ffffff;
+	color:rgba(255,255,255,0.75);
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2247,7 +2279,7 @@ ul{
 }
 .jp_spotlight_slider_cont_Wrapper p{
 	font-size:16px;
-	color:#4775B2;
+	color:#797979;
 	padding-top:5px;
 }
 .jp_spotlight_slider_cont_Wrapper li{
@@ -2282,9 +2314,9 @@ ul{
 	height:50px;
 	text-align:center;
 	line-height:50px;
-	color:#ffffff;
 	font-weight:bold;
-	background:#f36969;
+	background:#a6e043;
+	color:#0e1427d4;
 	-webkit-border-radius: 10px;
   -moz-border-radius: 10px;
    border-radius: 10px;
@@ -2295,7 +2327,7 @@ ul{
 	transition: all 0.5s;
 }
 .jp_spotlight_slider_btn li a:hover{
-	background:#4775B2;
+	background:#fdd014;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -2310,7 +2342,7 @@ ul{
 .jp_rightside_job_categories_heading{
 	float:left;
 	width:100%;
-	background:#4775B2;
+	background:#0e1427d4;
 	padding-top:15px;
 	padding-bottom:15px;
 	padding-left:20px;
@@ -2323,7 +2355,7 @@ ul{
 }
 .jp_rightside_job_categories_heading h4{
 	font-size:16px;
-	color:#ffffff;
+	color:#fff;
 }
 .jp_rightside_job_categories_content{
 	float:left;
@@ -2366,7 +2398,7 @@ ul{
     transition: all 0.5s;
 }
 .jp_rightside_job_categories_content li a:hover{
-	color:#4775B2;
+	color:#0e1427d4;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2381,16 +2413,25 @@ ul{
 	color:#f36969;
 }
 .jp_rightside_job_categories_content li a span{
-	color:#4775B2;
+	color:#f36969;
 }
 .jp_rightside_job_categories_content li:last-child a{
 	font-size:14px;
 	font-weight:bold;
-	color:#4775B2;
+	color:#0e1427d4;
 	text-transform:uppercase;
 }
 .jp_rightside_job_categories_content li:last-child i{
-	color:#4775B2;
+	color:#0e1427d4;
+}
+.jp_rightside_job_categories_content li:last-child:hover a,
+.jp_rightside_job_categories_content li:last-child:hover i{
+	color: #f36969;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 .jp_rightside_career_wrapper{
 	float:left;
@@ -2400,7 +2441,7 @@ ul{
 .jp_rightside_career_heading{
 	float:left;
 	width:100%;
-	background:#4775B2;
+	background:#0e1427d4;
 	padding-top:15px;
 	padding-bottom:15px;
 	padding-left:20px;
@@ -2413,7 +2454,7 @@ ul{
 }
 .jp_rightside_career_heading h4{
 	font-size:16px;
-	color:#ffffff;
+	color:#fff;
 }
 .jp_rightside_career_main_content{
 	float:left;
@@ -2479,12 +2520,24 @@ ul{
 	margin-top:20px;
 }
 .jp_rightside_career_btn a{
-	text-transform:uppercase;
-	color:#22c0e9;
 	padding-left:30px;
+	font-size: 14px;
+    font-weight: bold;
+    color: #0e1427d4;
+    text-transform: uppercase;
 }
 .jp_rightside_career_btn a i{
-	color:#22c0e9;
+	padding-right: 5px;
+	color:#0e1427d4;
+}
+.jp_rightside_career_btn:hover a,
+.jp_rightside_career_btn:hover a i {
+	color: #f36969;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 /*-- jp Featured product Wrapper End --*/
 /*-- jp counter Wrapper Start --*/
@@ -2501,7 +2554,7 @@ ul{
 	padding-top:50px;
 	padding-bottom:50px;
 	border-radius: 10px 0 0 10px;
-	background:#4775B2;
+	background:rgba(0, 0, 0, 0.7);
 }
 .gc_counter_cont_wrapper2{
 	float:left;
@@ -2509,7 +2562,7 @@ ul{
 	display:inline-block;
 	padding-top:50px;
 	padding-bottom:50px;
-	background:#22b5db;
+	background:rgba(238, 52, 73, 0.8);
 	border-left:0;
 	border-right:0;
 }
@@ -2519,7 +2572,7 @@ ul{
 	display:inline-block;
 	padding-top:50px;
 	padding-bottom:50px;
-	background:#4775B2;
+	background:rgba(253, 208, 20, 0.9);
 	border-right:0;
 }
 .gc_counter_cont_wrapper4{
@@ -2529,7 +2582,7 @@ ul{
 	padding-top:50px;
 	padding-bottom:50px;
 	border-radius: 0 10px 10px 0;
-	background:#22b5db;
+	background:rgba(150, 201, 62, 0.9);
 }
 .count-description {
 	margin-top:30px;
@@ -2594,7 +2647,7 @@ ul{
 }
 .jp_best_deal_heading_wrapper h2:after{
 	content:'';
-	border:1px solid #4775B2;
+	border:1px solid #a6e043;
 	width:30px;
 	position:absolute;
 	bottom: -15px;
@@ -2602,7 +2655,7 @@ ul{
 }
 .jp_best_deal_heading_wrapper h2:before{
 	content:'';
-	border:1px solid #4775B2;
+	border:1px solid #a6e043;
 	width:8px;
 	position:absolute;
 	bottom: -15px;
@@ -2659,7 +2712,7 @@ ul{
     transition: all 0.5s;
 }
 .jp_best_deal_slider_wrapper .owl-theme .owl-nav .owl-prev:hover, .jp_best_deal_slider_wrapper  .owl-theme .owl-nav .owl-next:hover{
-	color:#4775B2;
+	color:#a6e043;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2763,7 +2816,7 @@ ul{
 }
 .jp_client_heading_wrapper h2:after{
 	content:'';
-	border:1px solid #4775B2;
+	border:1px solid #a6e043;
 	width:30px;
 	position:absolute;
 	bottom: -15px;
@@ -2771,7 +2824,7 @@ ul{
 }
 .jp_client_heading_wrapper h2:before{
 	content:'';
-	border:1px solid #4775B2;
+	border:1px solid #a6e043;
 	width:8px;
 	position:absolute;
 	bottom: -15px;
@@ -2828,7 +2881,7 @@ ul{
     transition: all 0.5s;
 }
 .jp_client_slider_wrapper .owl-theme .owl-nav .owl-prev:hover, .jp_client_slider_wrapper  .owl-theme .owl-nav .owl-next:hover{
-	color:#ffffff;
+	color:#0e1427d4;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2885,7 +2938,7 @@ ul{
 	font-weight:bold;
 }
 .jp_client_slider_cont_wrapper span b{
-	color:#4775B2;
+	color:#0e1427d4;
 	font-family: 'Lato', sans-serif;
 }
 /*-- jp Client Wrapper End --*/
@@ -2950,7 +3003,7 @@ ul{
     transition: all 0.5s;
 }
 .pricing_border_box1_wrapper:hover{
-	border-bottom:1px solid #4775B2;
+	border-bottom:1px solid #a6e043;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -2983,7 +3036,7 @@ ul{
 }
 .box1_heading_wrapper h4:before {
     content: '';
-    border: 1px solid #4775B2;
+    border: 1px solid #a6e043;
     width: 8px;
     position: absolute;
     bottom: -15px;
@@ -2993,7 +3046,7 @@ ul{
 }
 .box1_heading_wrapper h4:after {
     content: '';
-    border: 1px solid #4775B2;
+    border: 1px solid #a6e043;
     width: 30px;
     position: absolute;
     bottom: -15px;
@@ -3063,7 +3116,7 @@ ul{
 .price_box1{
 	width:120px;
 	height:120px;
-	border:2px solid #4775B2;
+	border:2px solid #a6e043;
 	-webkit-border-radius:38px;
 	-moz-border-radius:38px;
 	border-radius:38px;
@@ -3071,7 +3124,7 @@ ul{
 	margin-top:-75px;
 	line-height: 55px;
 	z-index:1;
-	background:#4775B2;
+	background:#a6e043;
 	    -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -3209,8 +3262,8 @@ ul{
 	border:2px solid #0e1427;
 }
 .pricing_box1_wrapper:hover .pricing_btn1 li a{
-	background:#4775B2;
-	border:2px solid #4775B2;
+	background:#a6e043;
+	border:2px solid #a6e043;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -3304,7 +3357,7 @@ ul{
 	left:0%;
 	right:0%;
 	bottom:0%;
-	background:#4775B2e0;
+	background:#a6e043e0;
 }
 .ss_download_wrapper_details{
 	float:left;
@@ -3515,7 +3568,7 @@ ul{
 	left: 29px;
     z-index: 1;
     top: 17px;
-	color:#4775B2;
+	color:#a6e043;
 }
 .jp_newsletter_field input::-webkit-input-placeholder {
 	color: #797979;
@@ -3569,7 +3622,7 @@ ul{
 	width:100%;
 	height:100%;
 	position:relative;
-	border-bottom:2px solid #4775B2;
+	border-bottom:2px solid #a6e043;
 }
 .jp_footer_logo_wrapper{
 	float:left;
@@ -3628,7 +3681,7 @@ ul{
 }
 .jp_footer_candidate h2:after{
 	content:'';
-	border:1px solid #4775B2;
+	border:1px solid #a6e043;
 	width:30px;
 	position:absolute;
 	bottom: -15px;
@@ -3636,7 +3689,7 @@ ul{
 }
 .jp_footer_candidate h2:before{
 	content:'';
-	border:1px solid #4775B2;
+	border:1px solid #a6e043;
 	width:8px;
 	position:absolute;
 	bottom: -15px;
@@ -3672,7 +3725,7 @@ ul{
 	color:#f36969;
 }
 .jp_footer_candidate ul li a:hover{
-	color:#f36969;
+	color:#a6e043;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -3706,7 +3759,7 @@ ul{
 	transition: all 0.5s;
 }
 .jp_bottom_footer_disclaimer a:hover{
-	color:#f36969;
+	color:#a6e043;
 }
 .jp_bottom_footer_disclaimer a::after{
 	content: '|';
@@ -3744,8 +3797,8 @@ ul{
 	transition: all 0.5s;
 }
 .jp_bottom_footer_right_cont li a:hover{
-	background:#4775B2;
-	color:#ffffff;
+	background:#a6e043;
+	color:#0e1427d4;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
@@ -3796,7 +3849,7 @@ ul{
 	color:#ffffff;
 }
 #return-to-top:hover{
-	background:#4775B2;
+	background:#a6e043;
 	border:1px solid transparent;
 	-webkit-transition: all 0.5s;
 	-o-transition: all 0.5s;
