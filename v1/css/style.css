@@ -997,6 +997,7 @@ ul{
 .jp_form_btn_wrapper li a[href]{
 	display:block;
 	width:100%;
+	padding: 0 20px;
 	height:50px;
 	-webkit-border-radius:15px;
 	-moz-border-radius:15px;
@@ -1083,7 +1084,7 @@ ul{
 }
 .jp_top_jobs_category_wrapper{
 	float:left;
-	width:20%;
+	width:25%;
 	text-align:center;
 	background:transparent;
 	padding-top:20px;
@@ -1231,6 +1232,8 @@ ul{
 	margin-bottom: 30px;
 }
 .jp_news_ticker_wrapper .head-text{
+	display: flex;
+    align-items: center;
     position: absolute;
     top: 1px;
     bottom: 1px;
@@ -1238,34 +1241,30 @@ ul{
     padding: 0 15px;
     background: #0e1427d4;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 48px;
     z-index: 999;
 	border-radius: 10px 18px 0 10px;
 }
+.jp_news_ticker_wrapper .head-text span {
+	margin-left: 5px;
+}
 .jp_news_ticker_wrapper .news-ticker{
 	position: relative;
-    padding: 0 0 0 135px;
+    padding: 0 0 0 150px;
     background: #fff;
     border: 1px solid #e9e9e9;
     border-radius: 10px;
     font-size: 16px;
     text-align: center;
 }
-.jp_news_ticker_wrapper .news-ticker:before{
-	content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    box-shadow: inset 0 0 10px 10px rgba(255,255,255,1);
-	border-radius: 10px;
+.jp_news_ticker_wrapper .news-ticker .owl-stage{
+	display: flex;
+	align-items: center;
 }
 .jp_news_ticker_wrapper .news-ticker .item{
-	font-size: 18px;
-    line-height: 50px;
+	padding: 10px;
+	font-size: 16px;
 }
 .jp_first_sidebar_main_wrapper{
 	float:left;
@@ -2311,7 +2310,7 @@ ul{
 }
 .jp_spotlight_slider_btn li a{
 	float:left;
-	width:160px;
+	padding: 0 10px;
 	height:50px;
 	text-align:center;
 	line-height:50px;

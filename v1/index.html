@@ -238,8 +238,42 @@
                     <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
                         <div class="jp_navi_right_btn_wrapper">
                             <ul>
-                                <li><a href="register.html">Employer</a></li>
-                                <li><a href="login.html">Job Seeker</a></li>
+								<li class="jobsekker_hover_btn">
+									<a href="login.html">Job Seeker</a>
+								</li>
+                                <li class="employer_hover_btn">
+									<a href="register.html">Employer</a>
+										<ul class="navi_2_dropdown signin_wrapper">
+											<li class="signin_dropdown"><div class="formsix-pos">
+                                                <div class="form-group i-email">
+                                                    <input type="email" class="form-control" required="" id="emailTen" placeholder="ROC Number *">
+                                                </div>
+                                            </div>
+                                            <div class="formsix-e">
+                                                <div class="form-group i-password">
+                                                    <input type="password" class="form-control" required="" id="namTen-first" placeholder="Password *">
+                                                </div>
+                                            </div>
+                                            <div class="remember_box">
+                                                <label class="control control--checkbox">Remember me
+													<input type="checkbox">
+													<span class="control__indicator"></span>
+												</label>
+                                                <a href="#" class="forget_password">
+													Forgot Password
+												</a>
+                                            </div>
+                                          <div class="jp_spotlight_slider_btn emp_login_btn">
+                                              <ul>
+                                                  <li><a href="#"><i class="fa fa-sign-in"></i>&nbsp;login</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="sign_up_message">
+                                                <p>Don’t have an account ? <a href="#"> Sign up </a> </p>
+                                            </div>
+										</li>
+									</ul>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -343,13 +377,13 @@
                         <p>(1457 jobs)</p>
                     </div>
                 </div> -->
-                <div class="jp_top_jobs_category_wrapper">
+                <!-- <div class="jp_top_jobs_category_wrapper">
                     <div class="jp_top_jobs_category">
                         <i class="fa fa-th-large"></i>
                         <h3><a href="#">All Jobs</a></h3>
                         <p>(2000+ jobs)</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -360,7 +394,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="jp_news_ticker_wrapper">
-                        <div class="head-text"><i class="fa fa-bell"></i> News &amp; Updates</div>
+                        <div class="head-text"><i class="fa fa-bell"></i><span>News &amp; Updates</span></div>
                         <div class="news-ticker owl-carousel owl-theme">
                             <div class="item">Over 600 jobs expected for PPK's next two intakes</div>
                             <div class="item">China-Brunei joint venture provides training, employment for local Bruneians...</div>

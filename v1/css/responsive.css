@@ -2,6 +2,15 @@
 	.mainmenu{
 		display:none;
 	}
+	.jp_news_ticker_wrapper .news-ticker {
+		padding: 0 0 0 45px;
+	}
+	.jp_news_ticker_wrapper .head-text span {
+		display: none;
+	}
+	.jp_spotlight_slider_btn_wrapper {
+		text-align: left;
+	}
 	.jp_form_btn_wrapper li a{
 		width:145px;
 	}
@@ -21,7 +30,7 @@
 		top:37px;
 	}
 	.jp_top_jobs_category_wrapper{
-		width:33.33%;
+		width:50%;
 	}
 	.jp_job_cate_left_border_res{
 		border-left:1px solid #ffffff21;
@@ -47,6 +56,13 @@
 	.jp_footer_candidate_wrapper4, .jp_footer_candidate_wrapper3{
 		margin-top:40px;
 	}
+	.jp_counter_main_wrapper .gc_counter_cont_wrapper, .jp_counter_main_wrapper .gc_counter_cont_wrapper2, .jp_counter_main_wrapper .gc_counter_cont_wrapper3, .jp_counter_main_wrapper .gc_counter_cont_wrapper4{
+		border-radius: 0;
+	}
+	.jp_counter_main_wrapper .gc_counter_cont_wrapper{ border-top-left-radius: 10px; }
+	.jp_counter_main_wrapper .gc_counter_cont_wrapper2{ border-top-right-radius: 10px; }
+	.jp_counter_main_wrapper .gc_counter_cont_wrapper3{ border-bottom-left-radius: 10px; }
+	.jp_counter_main_wrapper .gc_counter_cont_wrapper4{ border-bottom-right-radius: 10px; }
 	.jp_bottom_footer_Wrapper{
 		text-align:center;
 	}
@@ -82,7 +98,6 @@
 	}
 	.gc_logo{
 		position: relative;
-		top: -16px;
 	}
 	.jp_spotlight_slider_cont_Wrapper li{
 		float:none;
@@ -114,8 +129,12 @@
 		width:100%;
 	}
 	.gc_counter_cont_wrapper, .gc_counter_cont_wrapper2, .gc_counter_cont_wrapper3, .gc_counter_cont_wrapper4{
-		width:100%;
+		width:50%;
+		padding-top: 20px;
+		padding-bottom: 30px;
 	}
+	.count-description span { font-size: 32px; }
+	.count-description i { font-size: 16px; }
 	.jp_footer_candidate_wrapper2{
 		margin-top:40px;
 	}
@@ -172,6 +191,12 @@
 	}
 	.nav-tabs > li > a{
 		border:0 !important;
+	}
+	.jp_bottom_footer_left_cont p { margin-bottom: 10px; }
+	.jp_bottom_footer_disclaimer {
+		text-align: center;
+		margin-top: 0;
+		margin-bottom: 10px;
 	}
 }
 @media (max-width: 580px){
@@ -272,7 +297,7 @@
 }
 @media (max-width: 600px){
 	.jp_top_jobs_category_wrapper{
-		width:49%;
+		width:50%;
 		border:1px solid #ffffff21;
 	}
 
