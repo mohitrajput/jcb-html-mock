@@ -25,6 +25,7 @@ body, html {
 	font-size: 16px;
 	line-height: 23px;
 	color: #797979;
+	padding-right:0 !important;
 	background:#f9f9f9;
 	overflow-x:hidden;
 }
@@ -201,7 +202,7 @@ ul{
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     padding-right: 15px;
     position: absolute;
-    right: -145px;
+    right:0;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
     -webkit-transition: all 0.3s ease 0s;
@@ -3858,3 +3859,370 @@ ul{
 	transition: all 0.5s;
 }
 /*-- jp footer Wrapper End --*/
+/*---- mouse hover button css ------*/
+.navi_2_dropdown{
+    width: 270px;
+    position: absolute;
+    text-align: left;
+    top: calc(100% + 30px);
+    z-index: 9999999;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+    border-radius: 8px;
+    border: 1px solid #e9e9e9;
+    border-top: 3px solid #a6e043;
+    background: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+	right:0;
+	padding:20px;
+	padding-bottom:10px;
+}
+.jp_navi_right_btn_wrapper .employer_hover_btn:hover > .navi_2_dropdown{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    top: 97%;
+}
+.jp_navi_right_btn_wrapper .jobsekker_hover_btn:hover > .navi_2_dropdown{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    top: 97%;
+}
+.jobsekker_hover_btn .navi_2_dropdown{
+	left:auto;
+	right:10px;
+} 
+.formsix-pos,.formsix-e{
+	position: relative;
+}
+.form-group.i-password:after, .form-group.i-email:after{
+   position: absolute;
+    top: 10px;
+    font-size: 16px;
+    font-family: "FontAwesome";
+    color: #b1b1b1;
+}
+.signin_dropdown .form-group.i-email:after{
+	content: "\f0e0";
+	right: 15px;
+}
+.signin_dropdown .form-group.i-password:after{
+	content: "\f09c";
+	right: 15px;
+}
+.remember_box{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#999;
+}
+.remember_box .control {
+    position: relative;
+	padding-left:20px;
+    cursor: pointer;
+    font-size: 14px;
+	margin:0;
+}
+.remember_box .control input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.remember_box .control__indicator {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border: 1px solid #999;
+}
+.remember_box .control__indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.remember_box .control input:checked ~ .control__indicator:after {
+  display: block;
+}
+.jp_navi_right_btn_wrapper ul li{
+	padding-bottom:20px;
+}
+.remember_box .control--checkbox .control__indicator:after {
+  left: 4px;
+  top: 0;
+  width: 5px;
+  height: 10px;
+  border: solid #111;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.remember_box .forget_password{
+	float:right;
+	color:#db4c3e;
+	line-height:12px;
+	width:auto;
+	height:auto;
+	border:0;
+	margin:0;
+	margin-top:8px;
+	text-decoration:underline;
+}
+.remember_box .forget_password:hover{
+	background:#fff;
+	border:0;
+	color:#a6e043;
+}
+.login_wrapper{
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #e4e4e4;
+}
+.sign_up_message p{
+	font-size:16px;
+	margin:0;
+}
+.sign_up_message a{
+	color:#4385f5;
+}
+.signin_wrapper .dropdown-menu li .sign_up_message a{
+	display: inline-block;
+    padding: 0;
+    color: #4385f5;
+	font-size:16px;
+}
+.signin_wrapper .dropdown-menu li .sign_up_message a:hover{
+	background:#fff;
+}
+.signin_wrapper .signin_dropdown a.span{
+	float:left;
+}
+.signin_wrapper .dropdown-menu .signin_dropdown a i{
+	float:right;
+	margin:0;
+	line-height: 35px;
+}
+.signin_wrapper .signin_dropdown a.google-plus{
+    background: #db4c3e;
+    border: 1px solid #db4c3e;
+}
+.signin_wrapper .signin_dropdown a.google-plus:hover{
+    background: #bd4033;
+    border-color:#bd4033;
+}
+.signin_wrapper .signin_dropdown h2 {
+    font-size: 18px;
+	font-weight:500;
+	margin-bottom:20px;
+	color:#111;
+    line-height: 20px;
+    text-transform: uppercase;
+	text-align:center;
+    position: relative;
+}
+.signin_wrapper .signin_dropdown h2::before, .signin_dropdown h2::after {
+    content: "";
+    background: #e4e4e4;
+    width: 100px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+}
+.signin_wrapper .signin_dropdown h2::before {
+    right: 60%;
+}
+.signin_wrapper .signin_dropdown h2::after {
+    left: 60%;
+}
+.signin_wrapper .signin_dropdown .form-control {
+	height: 35px;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 24px;
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    box-shadow: none;
+	-webkit-transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -o-transition: all 0.3s ease 0s;
+   transition: all 0.3s ease 0s;
+   background-color: #fafafa;
+}
+.signin_wrapper .signin_dropdown textarea.form-control{
+	height:auto;
+	resize:none;
+}
+.signin_wrapper .signin_dropdown input::placeholder, .signin_dropdown textarea::placeholder {
+  color: #999;
+}
+.signin_wrapper .signin_dropdown .form-control:focus {
+	color: #999;
+	background-color: #fafafa;
+	border: 1px solid #a6e043 !important;	
+}
+.emp_login_btn{
+	margin:0;
+	float:left;
+	width:100%;
+	border-bottom:1px solid #e2e2e2;
+}
+.emp_login_btn li a{
+	font-size:16px;
+	width:100%;
+	text-transform:uppercase;
+	margin-top:10px;
+	border:0;
+	height:40px;
+	line-height:40px;
+}
+.emp_login_btn li a i{
+	margin-right:5px;
+}
+.sign_up_message{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+}
+.emp_login_btn li a:hover{
+	border:0;
+}
+.emp_login_btn li{
+	padding:0;
+	float:left;
+	width:100%;
+	padding-bottom:15px;
+}
+.signin_dropdown{
+	padding:0 !important;
+}
+.emp_login_btn ul{
+	margin:0;
+	width:100%;
+	float:left;
+}
+.sign_up_message p a{
+	color:#dc3545;
+	padding:0;
+	float:none;
+	border:0;
+	font-size:16px;
+}
+.sign_up_message p a:hover{
+	background:transparent;
+	border:0;
+	color:#a6e043;
+}
+/*----- Modal section Start-------*/
+.loading_popup .ws_model_main_wrapper{
+	text-align:center;
+}	
+.loading_popup .ws_model_main_wrapper p{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.loading_popup .ws_model_main_wrapper input{
+	width:100%;
+	height:50px;
+	border:2px solid #eaeaea;
+	padding-left:20px;
+	margin-top:20px;
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.loading_popup .modal-header{
+	border:0;
+}
+.loading_popup .modal-body{
+	padding:40px;
+}
+.loading_popup .modal-content{
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.loading_popup .modal-dialog {
+    max-width: 700px;
+}
+.modal-open .modal{
+	padding-right:0 !important;
+}
+.modal{
+	background:rgba(0, 0, 0, 0.45);
+}
+.loading_popup .modal-dialog {
+    top: 10%;
+}
+.loading_popup .modal-header{
+	background-color:#a6e043;
+	border-top-left-radius:20px;
+	padding:15px 25px;
+	border-top-right-radius:20px;
+	box-shadow: 0 5px 25px 0 rgba(0,0,0,.1);
+}
+.loading_popup .modal-header .lead{
+	font-size:22px;
+	color:#fff;
+	text-transform:capitalize;
+	margin:0;
+	font-weight:500;
+	padding-top:8px;
+}
+.loading_popup .modal-header .close {
+	padding:0;
+	margin:0;
+    width: 40px;
+    height: 40px;
+    line-height: 28px;
+    background: #649e00;
+    border-radius: 100px;
+    color: #fff;
+    border: 0;
+	font-size:24px;
+	text-shadow:none;
+    text-align: center;
+}
+.loading_popup .close:not(:disabled):not(.disabled):focus, .loading_popup .close:not(:disabled):not(.disabled):hover {
+    color: #ffc107;
+    text-decoration: none;
+    opacity: 1;
+	 background: #649e00;
+}
+.loading_mockup_img img{
+	width:100%;
+}
+.loading_btn_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:30px;
+	border-top:1px solid #e2e2e2;
+}
+.loading_btn_wrapper ul{
+	float:none;
+	display:inline-block;
+}
+.loading_btn_wrapper li:first-child{
+	float:left;
+	margin-left:0;
+}
+.loading_btn_wrapper li{
+	float:left;
+}
+.jp_job_post_right_btn_wrapper li:first-child a, .jp_job_post_right_btn_wrapper li:last-child a{
+	width:150px;
+	height:40px;
+	font-size:16px;
+	line-height:40px;
+}
+.loading_btn_wrapper li:last-child{
+	float:left;
+	margin-top:0;
+	margin-left:30px;
+}
+/*----- Modal section End-------*/

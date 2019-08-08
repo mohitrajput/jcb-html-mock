@@ -198,6 +198,12 @@
 		margin-top: 0;
 		margin-bottom: 10px;
 	}
+	.loading_btn_wrapper ul{
+		float:none;
+	}
+	.loading_popup .modal-body{
+		padding:20px;
+	}
 }
 @media (max-width: 580px){
 	.jp_job_post_right_cont li{

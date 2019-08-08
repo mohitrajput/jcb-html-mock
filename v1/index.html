@@ -38,6 +38,37 @@
     <!-- Top Scroll End -->
     <!-- Header Wrapper Start -->
     <div class="jp_top_header_img_wrapper">
+	<div class="modal fade loading_popup" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+					  <p class="heading lead">JCB new website migration</p>
+
+					  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true" class="white-text">×</span>
+					  </button>
+					</div>
+                    <div class="modal-body">
+                        <div class="ws_model_main_wrapper">
+                            <img src="images/content/msg.png" alt="img">
+                          
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim, ab officiis totam.</p>
+							<div class="loading_mockup_img">
+								<img src="images/content/mockup.png" alt="img" class="img-responsive">
+							</div>
+                        </div>
+						<div class="jp_job_post_right_btn_wrapper loading_btn_wrapper">
+                            <ul>
+                               <li><a href="#">read more</a></li>
+                               <li class="btn-text"><a href="#" data-dismiss="modal">no, thanks</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="jp_slide_img_overlay"></div>
         <div class="gc_main_menu_wrapper">
             <div class="container-fluid">
@@ -237,11 +268,11 @@
                     <!-- mobile menu area end -->
                     <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
                         <div class="jp_navi_right_btn_wrapper">
-                            <ul>
-								<li class="jobsekker_hover_btn">
-									<a href="login.html">Job Seeker</a>
+                           <ul>
+								<li class="jobsekker_hover_btn"> 
+									<a href="login.html">Job Seeker</a>					
 								</li>
-                                <li class="employer_hover_btn">
+                                <li class="employer_hover_btn"> 
 									<a href="register.html">Employer</a>
 										<ul class="navi_2_dropdown signin_wrapper">
 											<li class="signin_dropdown"><div class="formsix-pos">
@@ -273,7 +304,7 @@
                                             </div>
 										</li>
 									</ul>
-                                </li>
+								</li>                    
                             </ul>
                         </div>
                     </div>
@@ -1201,6 +1232,11 @@
     <script src="js/modernizr.js"></script>
     <script src="js/custom.js"></script>
     <!--main js file end-->
+	  <script>
+        $(window).on('load',function() {
+            $('#myModal').modal('show');
+        });
+    </script>
 </body>
 
 </html>
