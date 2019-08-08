@@ -4156,7 +4156,7 @@ ul{
 	background:rgba(0, 0, 0, 0.45);
 }
 .loading_popup .modal-dialog {
-    top: 10%;
+    top: 1%;
 }
 .loading_popup .modal-header{
 	background-color:#a6e043;
