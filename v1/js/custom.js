@@ -233,7 +233,14 @@ $('#return-to-top').on('click', function() {
             });
             $(this).off('inview');
         }
-    });
+    });	
+			
+			//***------comment double hide show------***//
+			 $(document).ready(function(){
+				$('.epm_hover_hide').on("click", function(){
+				  $('.emp_block_tab').toggle('fade');
+				  });
+				});
 
 
 	});

@@ -3861,42 +3861,23 @@ ul{
 }
 /*-- jp footer Wrapper End --*/
 /*---- mouse hover button css ------*/
+.jobsekker_hover_btn .navi_2_dropdown{
+	left:auto;
+	right:10px;
+}
 .navi_2_dropdown{
     width: 270px;
     position: absolute;
     text-align: left;
-    top: calc(100% + 30px);
     z-index: 9999999;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    opacity: 0;
     border-radius: 8px;
     border: 1px solid #e9e9e9;
     border-top: 3px solid #a6e043;
     background: #fff;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    visibility: hidden;
-    -webkit-transform-origin: 0 0 0;
-    transform-origin: 0 0 0;
 	right:0;
+	top:80px;
 	padding:20px;
 	padding-bottom:10px;
-}
-.jp_navi_right_btn_wrapper .employer_hover_btn:hover > .navi_2_dropdown{
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    visibility: visible;
-    top: 97%;
-}
-.jp_navi_right_btn_wrapper .jobsekker_hover_btn:hover > .navi_2_dropdown{
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    visibility: visible;
-    top: 97%;
-}
-.jobsekker_hover_btn .navi_2_dropdown{
-	left:auto;
-	right:10px;
 } 
 .formsix-pos,.formsix-e{
 	position: relative;
@@ -4130,6 +4111,9 @@ ul{
     height: auto;
     padding: 0px;
 }
+.emp_block_tab{
+	display:none;
+}
 .feedback_dection_popup .modal-content {
     border-radius: 20px;
     height: auto;
@@ -4351,3 +4335,112 @@ ul{
 		padding:25px;
 	}
 }
+/*----- Modal section Start-------*/
+.loading_popup .ws_model_main_wrapper{
+	text-align:center;
+}	
+.loading_popup .ws_model_main_wrapper p{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.loading_popup .ws_model_main_wrapper input{
+	width:100%;
+	height:50px;
+	border:2px solid #eaeaea;
+	padding-left:20px;
+	margin-top:20px;
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.loading_popup .modal-header{
+	border:0;
+}
+.loading_popup .modal-body{
+	padding:40px;
+}
+.loading_popup .modal-content{
+	-webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.loading_popup .modal-dialog {
+    max-width: 700px;
+}
+.modal-open .modal{
+	padding-right:0 !important;
+}
+.modal{
+	background:rgba(0, 0, 0, 0.45);
+}
+.loading_popup .modal-dialog {
+    top: 1%;
+}
+.loading_popup .modal-header{
+	background-color:#a6e043;
+	border-top-left-radius:20px;
+	padding:15px 25px;
+	border-top-right-radius:20px;
+	box-shadow: 0 5px 25px 0 rgba(0,0,0,.1);
+}
+.loading_popup .modal-header .lead{
+	font-size:22px;
+	color:#fff;
+	text-transform:capitalize;
+	margin:0;
+	font-weight:500;
+	padding-top:8px;
+}
+.loading_popup .modal-header .close {
+	padding:0;
+	margin:0;
+    width: 40px;
+    height: 40px;
+    line-height: 28px;
+    background: #649e00;
+    border-radius: 100px;
+    color: #fff;
+    border: 0;
+	font-size:24px;
+	text-shadow:none;
+    text-align: center;
+}
+.loading_popup .close:not(:disabled):not(.disabled):focus, .loading_popup .close:not(:disabled):not(.disabled):hover {
+    color: #ffc107;
+    text-decoration: none;
+    opacity: 1;
+	 background: #649e00;
+}
+.loading_mockup_img img{
+	width:100%;
+}
+.loading_btn_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-top:30px;
+	border-top:1px solid #e2e2e2;
+}
+.loading_btn_wrapper ul{
+	float:none;
+	display:inline-block;
+}
+.loading_btn_wrapper li:first-child{
+	float:left;
+	margin-left:0;
+}
+.loading_btn_wrapper li{
+	float:left;
+}
+.jp_job_post_right_btn_wrapper li:first-child a, .jp_job_post_right_btn_wrapper li:last-child a{
+	width:150px;
+	height:40px;
+	font-size:16px;
+	line-height:40px;
+}
+.loading_btn_wrapper li:last-child{
+	float:left;
+	margin-top:0;
+	margin-left:30px;
+}
+/*----- Modal section End-------*/
