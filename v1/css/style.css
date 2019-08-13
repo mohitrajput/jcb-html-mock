@@ -4111,7 +4111,7 @@ ul{
     height: auto;
     padding: 0px;
 }
-.emp_block_tab{
+#emp_block_tab{
 	display:none;
 }
 .feedback_dection_popup .modal-content {

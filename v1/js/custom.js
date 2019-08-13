@@ -236,12 +236,30 @@ $('#return-to-top').on('click', function() {
     });	
 			
 			//***------comment double hide show------***//
+				
 			 $(document).ready(function(){
-				$('.epm_hover_hide').on("click", function(){
-				  $('.emp_block_tab').toggle('fade');
-				  });
-				});
-
-
+    
+    $('#epm_hover_hide').click( function(e) {
+        
+        e.preventDefault(); // stops link from making page jump to the top
+        e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
+        $('#emp_block_tab').toggle('fade');
+        
+    });
+    
+    $('#emp_block_tab').click( function(e) {
+        
+        e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+        
+    });
+    
+    $('body').click( function() {
+       
+        $('#emp_block_tab').hide();
+        
+    });
+    
+});
+					
 	});
 })();
