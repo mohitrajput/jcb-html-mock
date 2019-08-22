@@ -96,6 +96,64 @@ $('#return-to-top').on('click', function() {
                 }
               })
             })
+			
+			$(document).ready(function() {
+              $('.jp_career_slider_wrapper .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+				autoplay:true,
+                responsiveClass: true,
+				smartSpeed: 1200,
+				navText : ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>','<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 2,
+                    nav: true
+                  },
+                  1000: {
+                    items: 3,
+                    nav: true,
+                    loop: true,
+                    margin: 20
+                  }
+                }
+              })
+            })
+			
+			
+			$(document).ready(function() {
+              $('.jp_testi_slider_wrapper .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+				autoplay:true,
+                responsiveClass: true,
+				smartSpeed: 1200,
+				navText : ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>','<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 1,
+                    nav: true
+                  },
+                  1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 20
+                  }
+                }
+              })
+            })
+			
+			
+			
 			// Featured Products Js
 				$('.ss_featured_products .owl-carousel').owlCarousel({
 					loop:true,
@@ -145,6 +203,37 @@ $('#return-to-top').on('click', function() {
                 }
               })
             })
+			
+			
+			
+			$(document).ready(function() {
+              $('.jp_client_second_slider_wrapper .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+				autoplay:true,
+                responsiveClass: true,
+				smartSpeed: 1200,
+				navText : ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>','<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 3,
+                    nav: true
+                  },
+                  1000: {
+                    items: 5,
+                    nav: true,
+                    loop: true,
+                    margin: 20
+                  }
+                }
+              })
+            })
+			
+			
 			
 			$(document).ready(function() {
               $('.jp_best_deal_slider_wrapper .owl-carousel').owlCarousel({
@@ -200,6 +289,34 @@ $('#return-to-top').on('click', function() {
               })
             })
 			
+			
+			$(document).ready(function() {
+              $('.jp_first_blog_post_slider .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+				autoplay:true,
+                responsiveClass: true,
+				smartSpeed: 1200,
+				navText : ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>','<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 1,
+                    nav: true
+                  },
+                  1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 20
+                  }
+                }
+              })
+            })
+			
 			//------------------------ OWL JS End--------------------//
 			
 			
@@ -223,6 +340,35 @@ $('#return-to-top').on('click', function() {
         }
     });
    
+   
+    
+   $(document).ready(function() {
+              $('.jp_listing_related_slider_wrapper .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+				autoplay:true,
+                responsiveClass: true,
+				smartSpeed: 1200,
+				navText : ['PREV','NEXT'],
+                responsive: {
+                  0: {
+                    items: 1,
+                    nav: true
+                  },
+                  600: {
+                    items: 1,
+                    nav: true
+                  },
+                  1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 20
+                  }
+                }
+              })
+            })
+			
    
    
 	
