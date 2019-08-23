@@ -1,0 +1,553 @@
+.jp_map_wrapper {
+	float: left;
+	width: 100%;
+	background: #f9f9f9;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.map-container-2 {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.map-container-2 iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.jp_contact_right {
+	float: left;
+	width: 100%;
+	margin-top: 60px;
+	z-index: 1;
+}
+
+.jp_contact_form_box,
+.jp_contact_right {
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.jp_contact_form_add_heading_wrapper h2 {
+	font-size: 25px;
+	text-shadow: 1px 2px 5px #757575;
+}
+
+.jp_contact_form_add_heading_wrapper {
+	background: #23c0e9;
+	padding: 20px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 20px;
+}
+
+.jp-contact-detail {
+	background: #ffff;
+	padding: 20px;
+}
+
+.gc_map_location_icon_cont_wrapper h3 {
+	font-size: 16px;
+	color: #0f0e0e;
+}
+
+.jp_map_location_icon_wrapper {
+
+	color: #757575;
+}
+
+.gc_map_location_icon_cont_wrapper h3 a {
+	color: #757575;
+}
+
+.jp_contact_form_social_icon li a {
+	color: #757575;
+}
+
+.jp_contact_form_social_icon {
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom: 1px solid #23c0e9;
+}
+
+.mobile {
+	padding-top: 15px;
+}
+
+.mobile .jp_contact_inputs_wrapper i {
+	top: 34px;
+}
+
+.form-control {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #e9e9e9;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-left: 45px;
+	position: relative;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.jp_contact_heading_main_wrapper{
+	float:left;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px;
+	background:#f9f9f9;
+}
+
+@media (max-width: 767px){
+	.jp_contact_heading_main_wrapper{
+		padding-bottom: 20px;
+		padding-top:20px;
+		margin-top:20px;
+	}
+}
+
+.remove-padding{
+	padding-top: 0px;
+}
+
+.remove-padding-bottom{
+	padding-bottom:100px;
+}
+
+.remove-margin{
+	margin-top:0px;
+}
+
+.jp_contact_form_social_icon .remove-margin{
+	margin-top:0px;
+}
+.jp_contact_heading_wrapper{
+	float:left;
+	width:100%;
+}
+.remove-border{
+	border:0;
+}
+.jp_contact_form_social_icon .remove-border{
+	border: 0;
+}
+.jp_contact_heading_wrapper h2{
+	font-size:20px;
+	font-weight:bold;
+	color:#000000;
+	text-transform:uppercase;
+	text-align:center;
+	position:relative;
+}
+.jp_contact_heading_wrapper h2:before {
+    content: '';
+    border: 1px solid #a6e043;
+    width: 8px;
+    position: absolute;
+    bottom: -15px;
+    left: -45px;
+    right: 0;
+    margin: 0px auto;
+}
+.jp_contact_heading_wrapper h2:after {
+    content: '';
+    border: 1px solid #a6e043;
+    width: 30px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+}
+.jp_contact_heading_wrapper p{
+	font-size:35px;
+	text-align:center;
+	padding-top:50px;
+	color:#aaaaaa;
+	line-height: 36px;
+}
+
+@media (max-width:767px){
+	.jp_contact_heading_wrapper p{
+		padding-top:20px;
+	}
+}
+.jp_contact_heading_wrapper span{
+	color:#ff5353;
+}
+.jp_contact_heading_wrapper p a{
+	color:#a6e043;
+}
+
+@media (max-width:767px){
+	.jp_contact_heading_wrapper p{
+		font-size:20px;
+	}
+}
+
+.jp_contact_map_wrapper{
+	/*float:left;*/
+	width:100%;
+	position:relative;
+}
+
+@media (max-width:767px){
+	.jp_contact_heading_wrapper h2{
+		font-size: 16px;
+	}
+}
+
+/*--jp Contact form Wrapper Start --*/
+.jp_contact_form_main_wrapper{
+	float:left;
+	width:100%;
+	background:#f9f9f9;
+	padding-top:48px;
+	padding-bottom:48px;
+}
+.jp_contact_form_heading_wrapper{
+	float:left;
+	width:100%;
+}
+.jp_contact_form_heading_wrapper h2{
+	font-size:20px;
+	font-weight:bold;
+	color:#000000;
+	position:relative;
+	text-transform:uppercase;
+}
+.jp_contact_form_heading_wrapper h2:after{
+	content:'';
+	border:1px solid #a6e043;
+	width:30px;
+	position:absolute;
+	bottom: -15px;
+    left: 11px;
+}
+.jp_contact_form_heading_wrapper h2:before{
+	content:'';
+	border:1px solid #a6e043;
+	width:8px;
+	position:absolute;
+	bottom: -15px;
+    left: 0;
+}
+.jp_contact_form_box{
+	float:left;
+	width:100%;
+	border:1px solid #e9e9e9;
+	padding:10px 50px 20px;
+	background:#ffffff;
+	margin-top:60px;
+}
+
+@media (max-width:767px){
+	.jp_contact_form_box{
+		padding:10px 20px;
+	}
+}
+.jp_contact_inputs_wrapper input{
+	width:100%;
+	height:50px;
+	border:1px solid #e9e9e9;
+	-webkit-border-radius: 10px; 
+  -moz-border-radius: 10px; 
+   border-radius: 10px; 
+   padding-left:45px;
+   position:relative;
+   -webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+@media (max-width:767px){
+	.jp_contact_inputs_wrapper input{
+		padding-left: 30px;
+	}
+}
+.jp_contact_inputs_wrapper input:hover, .jp_contact_inputs_wrapper input:focus{
+	border:1px solid #d4d4d4;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_contact_inputs_wrapper i{
+	position: absolute;
+    z-index: 1;
+    top: 18px;
+    left: 40px;
+	color:#797979;
+}
+@media(max-width:767px){
+	.jp_contact_inputs_wrapper i{
+		left:25px;
+	}
+}
+.jp_contact_inputs3_wrapper{
+	margin-top:30px;
+}
+.jp_contact_inputs2_wrapper{
+	margin-top:30px;
+}
+.jp_contact_inputs2_wrapper i{
+	top:48px;
+}
+@media(max-width:767px){
+	.jp_contact_inputs2_wrapper i{
+		top:47px;
+	}
+}
+.jp_contact_inputs3_wrapper i{
+	top:48px;
+}
+.jp_contact_inputs4_wrapper textarea{
+	width:100%;
+	padding-left:45px;
+	margin-top:30px;
+	position:relative;
+	padding-top:15px;
+	-webkit-border-radius: 10px; 
+  -moz-border-radius: 10px; 
+   border-radius: 10px; 
+   resize:none;
+	border:1px solid #e9e9e9;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_contact_inputs4_wrapper textarea:hover, .jp_contact_inputs4_wrapper textarea:focus{
+	border:1px solid #d4d4d4;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+@media(max-width:767px){
+	.jp_contact_inputs4_wrapper textarea{
+		padding-left:30px;
+	}
+}
+.jp_contact_inputs4_wrapper i{
+	position:absolute;
+	color:#797979;
+	top: 51px;
+	z-index:1000;
+}
+.jp_contact_form_btn_wrapper ul{
+	margin-top:15px;
+}
+.jp_contact_form_btn_wrapper li{
+	float:left;
+}
+.jp_contact_form_btn_wrapper li a{
+	float:left;
+	width:160px;
+	height:50px;
+	line-height:45px;
+	color:black;
+	background:#a6e043;
+	text-align:center;
+	text-transform: uppercase;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_contact_form_btn_wrapper li a:hover{
+	background:#fdd014;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_contact_right_box_wrapper{
+	float:left;
+	width:100%;
+	background:white;
+	/*padding: 50px;*/
+	margin-top:60px;
+	z-index: 1;
+	border-radius: 20px;
+	border: 1px solid #e9e9e9;
+}
+.gc_get_heading_icon{
+	float:left;
+	width:30px;
+	padding-top: 13px;
+}
+.gc_get_pera{
+	float:left;
+	width:100%;
+}
+.gc_get_pera p{
+	color:rgba(255, 255, 255, 0.78);
+	padding-top:30px;
+}
+.gc_get_pera p a{
+	color:#00468c;
+	font-style:italic;
+	padding-left:5px;
+}
+.jp_form_add_wrapper{
+	float:left;
+	width:100%;
+}
+.gc_map_add_wrapper1{
+	padding:20px 20px;	
+}
+
+.gc_map_add_wrapper1 .remove_padding{
+	padding: 0px;
+}
+.gc_map_add_wrapper2, .gc_map_add_wrapper3{
+	padding:10px 20px;	
+}
+.jp_map_location_icon_wrapper{
+	width:20px;
+	height:50px;
+	float:left;
+	line-height:50px;
+	font-size:22px;
+	color:#ffffff96;
+}
+.gc_map_location_icon_cont_wrapper{
+	float:left;
+	width:calc(100% - 20px);
+	padding-left:10px;
+}
+.gc_map_location_icon_cont_wrapper h3{
+	font-size:16px;
+	color:#ffffff;
+	padding-top: 10px;
+	font-family: 'Lato', sans-serif;
+}
+.gc_map_location_icon_cont_wrapper h3 a{
+	color:#ffffff;
+}
+.gc_map_add_wrapper3 .jp_map_location_icon_wrapper{
+	font-size:15px !important;
+	line-height: 45px !important;
+}
+.jp_contact_form_add_heading_wrapper{
+	float:left;
+	width:100%;
+}
+.jp_contact_form_add_heading_wrapper h2{
+	font-size:20px;
+	font-weight:bold;
+	color:#ffffff;
+	position:relative;
+	text-transform:uppercase;
+}
+.jp_contact_form_add_heading_wrapper h2:after{
+	content:'';
+	border:1px solid #ffffff;
+	width:30px;
+	position:absolute;
+	bottom: -15px;
+    left: 11px;
+}
+.jp_contact_form_add_heading_wrapper h2:before{
+	content:'';
+	border:1px solid #ffffff;
+	width:8px;
+	position:absolute;
+	bottom: -15px;
+    left: 0;
+}
+.jp_contact_form_social_icon{
+	float:left;
+	width:100%;
+	padding:0px 0px;
+}
+.jp_contact_form_social_icon li:first-child{
+	margin-left:0;
+}
+.jp_contact_form_social_icon li{
+	float:left;
+	margin-left:10px;
+}
+.jp_contact_form_social_icon li a{
+	float:left;
+	width:40px;
+	height:40px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	background:transparent; 
+	text-align:center;
+	line-height:40px;
+	color:#ffffff8c;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_contact_form_social_icon li a:hover{
+	background:#a6e043; 
+	color:#000000;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.gc_map_location_icon_cont_wrapper2 h3, .gc_map_location_icon_cont_wrapper4 h3{
+	padding-top:12px;
+}
+.gc_map_location_icon_cont_wrapper3 h3{
+	padding-top:16px;
+}
+/*--jp Contact form Wrapper End --*/
+
+.add_margin{
+	margin-top:63px;
+}
+@media(max-width:767px){
+	.add_margin{
+		margin-top:0px;
+	}
+}
+
+.add_black{
+	color:#797979;
+}
+
+.gc_map_location_icon_cont_wrapper .add_black{
+	color:#797979;
+}
+
+.red-link{
+	color: #f36969;
+}
+
+.hidden-xs, .red-link{
+	color:#f36969;
+}
+
+.icon-wid{
+	padding: 0px 5px;
+}
+
