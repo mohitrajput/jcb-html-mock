@@ -118,6 +118,10 @@
 	padding-top:15px;
 }
 
-.add-padding{
-    padding-bottom: 60px;
+.add-padding-bottom{
+    padding-bottom: 70px;
+}
+
+.remove-margin-top{
+    margin-top:14px;
 }
