@@ -551,3 +551,7 @@
 	padding: 0px 5px;
 }
 
+.jp_rightside_job_categories_content li{
+    display: flex;
+}
+
