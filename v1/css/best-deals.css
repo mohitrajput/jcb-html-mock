@@ -131,7 +131,7 @@
 }
 
 .round-corners{
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .round-top{
@@ -151,4 +151,8 @@
 
 .card-body{
     padding:15px;
+}
+
+.card{
+    margin:15px 0;
 }
