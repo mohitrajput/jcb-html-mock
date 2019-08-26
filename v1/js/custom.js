@@ -287,6 +287,10 @@ $('#return-to-top').on('click', function() {
     });
     
 });
+$(document).ready(function () {
+  $('#dtBasicExample').DataTable();
+  $('.dataTables_length').addClass('bs-select');
+});
 					
 	});
 })();
