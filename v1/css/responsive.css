@@ -105,6 +105,13 @@
     .jp_top_header_img_wrapper{
 		border-top:0;
 	}
+	.about_image_wrapper{
+		text-align:left;
+		margin-top:60px;
+	}
+	.accordion_wrapper{
+		margin-top:60px;
+	}
 }
 @media (max-width: 767px){
 	.jp_job_heading h1{
@@ -220,6 +227,17 @@
 	.jp_listing_left_bottom_sidebar_key_wrapper{
 		padding:20px 25px;
 	}			}
+}
+@media (max-width: 472px){
+
+	.jp_newsletter_field input{
+		width:100%;
+		float:none;
+	}
+	.jp_newsletter_field button{
+		float:none;
+		margin-top:20px;
+	}
 }
 @media (max-width: 380px){
 	.jp_job_post_right_btn_wrapper ul li{

@@ -1,0 +1,101 @@
+
+/************************* ---- Download CSS Start ---- *************************/
+
+.jp_tittle_main_wrapper{
+	background:url('../images/content/pricing_tittle_bg.jpg') 50% 0 repeat-y;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center 0;
+	position:relative;
+	float:left;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.jp_tittle_img_overlay{
+	position:absolute;
+	top:0%;
+	right:0%;
+	left:0%;
+	bottom:0%;
+	background:#0e1427d9;
+}
+.jp_tittle_heading{
+	float:left;
+	width:100%;
+}
+.jp_tittle_heading h2{
+	font-size:36px;
+	color:#ffffff;
+	font-weight:bold;
+}	
+.jp_tittle_breadcrumb_main_wrapper{
+	float:left;
+	width:100%;
+	padding-top:25px;
+}
+.jp_tittle_breadcrumb_wrapper li{
+	margin-left:20px;
+	float:left;
+}
+.jp_tittle_breadcrumb_wrapper li a{
+	color:#ffffffa6;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_tittle_breadcrumb_wrapper li a:hover{
+	color:#23c0e9;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_tittle_breadcrumb_wrapper li:first-child{
+	margin-left:0;
+}
+.jp_tittle_breadcrumb_wrapper li i{
+	color:#23c0e9;
+	position: relative;
+    left: 10px;
+}
+.jp_tittle_breadcrumb_wrapper li:last-child{
+	color:#23c0e9;
+}
+.table thead tr th {
+    font-size: 15px;
+    color: #000000;
+}
+.table tr td {
+    font-size: 14px;
+    color: #797979;
+    padding: 8px 12px;
+}
+.dataTables_info {
+	font-size: 14px;
+	color: #797979;
+}
+.dataTables_length {
+	font-size: 15px;
+	color: #797979;
+}
+.page-item .page-link {
+    font-size: 15px;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #d4d4d4;
+    border-color: #d4d4d4;
+}
+.page-link {
+    color: #797979;
+}
+.download_section {
+    clear: both;
+    padding-top: 60px;
+}
+
