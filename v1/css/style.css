@@ -2,7 +2,7 @@
 [Table of contents]
 
 1. Body
-2. Custom css / a
+2. Custom css
 3. Preloader/ #preloader
 4. Navigation
 5. Slider
@@ -1255,7 +1255,7 @@ ul {
 
 .jp_top_jobs_category_wrapper {
     float: left;
-    width: 20%;
+    width: 25%;
     text-align: center;
     background: transparent;
     padding-top: 20px;
