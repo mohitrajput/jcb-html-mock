@@ -621,9 +621,9 @@ Purchase:
     
     <!-- Header Wrapper End -->
     <!-- jp Tittle Wrapper Start -->
-    <div class="jp_tittle_main_wrapper">
-        <div class="jp_tittle_img_overlay"></div>
-        <!--<div class="container">
+   <!-- <div class="jp_tittle_main_wrapper">
+        <div class="jp_tittle_img_overlay"></div>-->
+                <!--<div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="jp_tittle_heading_wrapper">
@@ -643,8 +643,33 @@ Purchase:
                 </div>
             </div>
         </div>-->
-    </div>
+   <!-- </div> -->
     <!-- jp Tittle Wrapper End -->
+
+    <div class="jp_tittle_main_wrapper">
+        <div class="jp_tittle_img_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="jp_tittle_heading_wrapper">
+                        <div class="jp_tittle_heading">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="jp_tittle_breadcrumb_main_wrapper">
+                            <div class="jp_tittle_breadcrumb_wrapper">
+                                <ul>
+                                    <li><a href="#">Home</a> <i class="fa fa-angle-right"></i></li>
+                                    <li><a href="#">Pages</a> <i class="fa fa-angle-right"></i></li>
+                                    <li>Contact Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- jp Contact heading Wrapper Start -->
     <div class="jp_contact_heading_main_wrapper">
         <div class="container">
@@ -652,7 +677,7 @@ Purchase:
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="jp_contact_heading_wrapper">
                         <h2 class="res-head">Our Helpline 24x7 Available</h2>
-                        <p class="res-text">Call us at <span>+0123 125 1457</span> or Email us at <a href="#">support@site.com</a></p>
+                        <p class="res-text">Call us at <span>+0123 125 1457</span> <!--or Email us at <a href="#">support@site.com</a>--></p>
                     </div>
                 </div>
             </div>
@@ -688,11 +713,51 @@ Purchase:
                                 <i class="fa fa-envelope"></i><input type="text" placeholder="Email *">
                             </div>
                         </div>
+
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="jp_contact_inputs_wrapper jp_contact_inputs3_wrapper">
-                                <i class="fa fa-pencil-square-o"></i><input type="text" placeholder="Subject">
+                                <div class="form-group"> <i class="fa fa-id-badge" aria-hidden="true"></i>
+                                    <select class="form-control" id="sel1" name="sellist1">
+                                        <option> You are registered as ?*</option>
+                                        <option>Jobseeker</option>
+                                        <option>Employer</option>
+                                        <option>None</option>
+                                    </select>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="jp_contact_inputs_wrapper">
+                                <i class="fa fa-text-height"></i><input type="text"
+                                    placeholder="Please Enter Your Registerd Number*">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12  mobile">
+                            <div class="jp_contact_inputs_wrapper">
+                                <i class="fa fa-phone"></i>
+                                <input type="text" placeholder="Mobile Number">
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="jp_contact_inputs_wrapper jp_contact_inputs3_wrapper">
+
+                                <div class="form-group"><i class="fa fa-book"></i>                                       
+                                    <select class="form-control" id="sel1" name="sellist1">
+                                        <option>Subject</option>
+                                        <option>Subject 1</option>
+                                        <option>Subject 2</option>
+                                        <option>Subject 3</option>
+                                        <option>Subject 4</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="jp_contact_inputs_wrapper jp_contact_inputs4_wrapper">
                                 <i class="fa fa-text-height"></i><textarea rows="6" placeholder="Type Your Message *"></textarea>

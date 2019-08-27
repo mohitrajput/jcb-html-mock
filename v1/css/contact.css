@@ -103,8 +103,7 @@
 .jp_contact_heading_main_wrapper{
 	float:left;
 	width:100%;
-	padding-top:100px;
-	padding-bottom:100px;
+	padding:50px 0;
 	background:#f9f9f9;
 }
 
@@ -555,3 +554,69 @@
     display: flex;
 }
 
+.jp_tittle_main_wrapper{
+	background:url('../images/content/pricing_tittle_bg.jpg') 50% 0 repeat-y;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center 0;
+	position:relative;
+	float:left;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+.jp_tittle_img_overlay{
+	position:absolute;
+	top:0%;
+	right:0%;
+	left:0%;
+	bottom:0%;
+	background:#0e1427d9;
+}
+
+.jp_tittle_heading{
+	float:left;
+	width:100%;
+}
+.jp_tittle_heading h2{
+	font-size:36px;
+	color:#ffffff;
+	font-weight:bold;
+}	
+.jp_tittle_breadcrumb_main_wrapper{
+	float:left;
+	width:100%;
+	padding-top:25px;
+}
+.jp_tittle_breadcrumb_wrapper li{
+	margin-left:20px;
+	float:left;
+}
+.jp_tittle_breadcrumb_wrapper li a{
+	color:#ffffffa6;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_tittle_breadcrumb_wrapper li a:hover{
+	color:#a6e043;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_tittle_breadcrumb_wrapper li:first-child{
+	margin-left:0;
+}
+.jp_tittle_breadcrumb_wrapper li i{
+	color:#a6e043;
+	position: relative;
+    left: 10px;
+}
+.jp_tittle_breadcrumb_wrapper li:last-child{
+	color:#a6e043;
+}
