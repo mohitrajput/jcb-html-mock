@@ -212,7 +212,7 @@ ul {
     left: 0%;
     bottom: 0%;
     background: rgba(71, 117, 178, 0.7);
-    background: #0e1427d4;
+    background: #0e1427eb;
 }
 
 .menu-bar {
@@ -5288,7 +5288,7 @@ ul {
 
 /************************* ---- Listing CSS Start---- *************************/
 
-.jp_bottom_footer_Wrapper_header_img_wrapper {
+/* .jp_bottom_footer_Wrapper_header_img_wrapper {
     float: left;
     width: 100%;
     background: url('../images/content/listing_bg.jpg') 50% 0 repeat-y;
@@ -5307,7 +5307,7 @@ ul {
     bottom: 0%;
     background: #0e1427eb;
 }
-
+ */
 
 /* .jp_banner_heading_cont_wrapper{
 	float:left;
@@ -5315,7 +5315,7 @@ ul {
 	padding-top:130px;
 } */
 
-.jp_job_heading h1 {
+/*  .jp_job_heading h1 {
     font-size: 60px;
     color: #ffffff;
 }
@@ -5332,7 +5332,7 @@ ul {
 }
 
 
-/* .jp_header_form_wrapper{
+.jp_header_form_wrapper{
 	float:left;
 	width:100%;
 	background:#ffffff24;
