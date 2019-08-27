@@ -83,7 +83,7 @@
 }
 
 .jp_rightside_faq_categories_wrapper li a:hover {
-    color: #23c0e9;
+    color: #a6e043;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -101,7 +101,7 @@
 }
 
 .jp_rightside_faq_categories_wrapper li a span {
-    color: #23c0e9;
+    color: #a6e043;
 }
 
 .jp_faq_wrapper {
@@ -111,7 +111,7 @@
 }
 
 .jp_edit_pro_main_wrapper {
-    background: #23c0e9;
+    background: #a6e043;
     padding: 20px;
 }
 
@@ -200,7 +200,7 @@
 .jp_edit_phone_wrapper li a {
     float: right;
     background: #fff;
-    color: #23c0e9;
+    color: #a6e043;
     width: 60px;
     height: 22px;
     line-height: 22px;
@@ -335,7 +335,7 @@
 
 .jp_faq_fix_header_content li a span {
     text-transform: uppercase;
-    color: #23c0e9;
+    color: #a6e043;
     float: right;
     font-weight: 600;
 }
@@ -355,7 +355,7 @@
 .jp_faq_right_box_main_wrapper {
     background: #fff;
     border: 1px solid #e9e9e9;
-    border-bottom: 1px solid #23c0e9;
+    border-bottom: 1px solid #a6e043;
     padding: 30px 20px;
     margin-bottom: 30px;
 }
@@ -705,7 +705,7 @@
 }
 
 .jp_tittle_breadcrumb_wrapper li a:hover {
-    color: #23c0e9;
+    color: #a6e043;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -718,13 +718,13 @@
 }
 
 .jp_tittle_breadcrumb_wrapper li i {
-    color: #23c0e9;
+    color: #a6e043;
     position: relative;
     left: 10px;
 }
 
 .jp_tittle_breadcrumb_wrapper li:last-child {
-    color: #23c0e9;
+    color: #a6e043;
 }
 
 .about_text_wrapper h2,

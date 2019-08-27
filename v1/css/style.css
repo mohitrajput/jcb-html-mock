@@ -6151,4 +6151,111 @@ input[type="checkbox"]:checked+label:after {
 /*-- jp listing sidebar Wrapper End --*/
 
 
+/*track_floating*/
+
+.fab {
+    background: #03A9F4;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFF;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5), 3px 3px 3px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    bottom: 48px;
+    right: 48px;
+    font-size: 2.6667em;
+    display: inline-block;
+    cursor: default;
+}
+
+.fab span {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.fab.child {
+    right: 58.66666667px;
+    width: 42.66666667px;
+    height: 42.66666667px;
+    display: none;
+    opacity: 0;
+    font-size: 2em;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.6;
+    display: none;
+}
+
+
+/*track_floating_ends*/
+
+
+/*track_floating*/
+
+.track_floating {
+    position: fixed;
+    right: 2%;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #a6e043;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 19px -5px rgba(0, 0, 0, 0.75);
+    background-image: url("../images/content/menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.track_floating i.fa.fa-ellipsis-v {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    margin-left: 12px;
+}
+
+.pro_new_i_pr_infor_me_box {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0px;
+    z-index: 9
+}
+
+.inn_float_menu {
+    position: fixed;
+    bottom: 95px;
+    right: 2%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1200em;
+    z-index: 99;
+    text-align: right;
+}
+
+.inn_float_menu>.pro_new_i_pr_infor_me_box1 {
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.in_box_icn {
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+
 /************************* ---- Listing CSS End---- *************************/
