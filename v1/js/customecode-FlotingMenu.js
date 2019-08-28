@@ -1,29 +1,31 @@
-var
-    inn_float_menu = $(".inn_float_menu"),
-    pro_new_i_pr_infor_me_box = $(".pro_new_i_pr_infor_me_box"),
-    pro_new_i_pr_infor_me_box1 = $(".pro_new_i_pr_infor_me_box1"),
-    bg_chan = $(".bg_chan"),
-    roated = $(".roated")
+$(document).ready(function() {
+    $('.floatingButton').on('click',
+        function(e) {
+            e.preventDefault();
+            $(this).toggleClass('open');
+            if ($(this).children('.fa').hasClass('fa-plus')) {
+                $(this).children('.fa').removeClass('fa-plus');
+                $(this).children('.fa').addClass('fa-close');
+            } else if ($(this).children('.fa').hasClass('fa-close')) {
+                $(this).children('.fa').removeClass('fa-close');
+                $(this).children('.fa').addClass('fa-plus');
+            }
+            $('.floatingMenu').stop().slideToggle();
+        }
+    );
+    $(this).on('click', function(e) {
+        var container = $(".floatingButton");
 
-
-
-
-tlo_i_info = new TimelineLite({
-    paused: true,
-    reversed: true
-})
-
-tlo_i_info.from(inn_float_menu, 0.1, { autoAlpha: 0, ease: Power2.easeOut });
-tlo_i_info.from(pro_new_i_pr_infor_me_box, 0.5, { autoAlpha: 0, ease: Power2.easeOut });
-tlo_i_info.staggerFrom(pro_new_i_pr_infor_me_box1, 0.5, { y: "-=10", autoAlpha: 0, ease: Power2.easeOut }, 0.1, '-=0.5', "stagger");
-tlo_i_info.to(bg_chan, 0.6, { backgroundImage: "url('./images/content/close.png')", ease: Power2.easeOut }, '-=0.6');
-tlo_i_info.to(bg_chan, 0.6, { rotation: 180, ease: Power2.easeOut }, '-=0.8');
-
-tlo_i_info.pause();
-$(".pro_icon_anim_at").on("click", function() {
-    if (tlo_i_info.reversed()) {
-        tlo_i_info.play();
-    } else {
-        tlo_i_info.reverse();
-    }
+        // if the target of the click isn't the container nor a descendant of the container
+        if (!container.is(e.target) && $('.floatingButtonWrap').has(e.target).length === 0) {
+            if (container.hasClass('open')) {
+                container.removeClass('open');
+            }
+            if (container.children('.fa').hasClass('fa-close')) {
+                container.children('.fa').removeClass('fa-close');
+                container.children('.fa').addClass('fa-plus');
+            }
+            $('.floatingMenu').hide();
+        }
+    });
 });
