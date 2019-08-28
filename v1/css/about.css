@@ -441,29 +441,10 @@
     transition: all 0.5s;
 }
 
-.jp_recent_main:hover .jp_career_cont_wrapper h3 a {
-    color: #f36969;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-.jp_recent_main:hover .jp_career_slider_bottom_cont {
-    border-bottom: 1px solid #f36969;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
 .jp_career_slider_bottom_cont {
     float: left;
     width: 100%;
     border: 1px solid #e9e9e9;
-    border-bottom: 1px solid #a6e043;
     border-top: 0;
     background: #f9f9f9;
     padding: 20px;
