@@ -1,0 +1,101 @@
+.floatingButtonWrap {
+    display: block;
+    position: fixed;
+    bottom: 45px;
+    right: 30px;
+    z-index: 999999999;
+}
+
+.floatingButtonInner {
+    position: relative;
+}
+
+.floatingButton {
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    background: #a6e043;
+    color: #fff;
+    line-height: 50px;
+    position: absolute;
+    border-radius: 50% 50%;
+    bottom: 0px;
+    right: 0px;
+    -webkit-box-shadow: 1px 1px 2px rgba(14, 20, 39, 0.2);
+    box-shadow: 1px 1px 2px rgba(14, 20, 39, 0.2);
+    /* opacity: 0.3; */
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+.floatingButton .fa {
+    font-size: 22px !important;
+}
+
+.floatingButton.open,
+.floatingButton:hover,
+.floatingButton:focus,
+.floatingButton:active {
+    opacity: 1;
+    color: #fff;
+}
+
+.floatingButton .fa {
+    transform: rotate(0deg);
+    transition: all 0.4s;
+}
+
+.floatingButton.open .fa {
+    transform: rotate(270deg);
+}
+
+.floatingButton.open .fa-ellipsis-v:before {
+    content: "\f00d";
+}
+
+.floatingMenu {
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+    /* width: 200px; */
+    display: none;
+}
+
+.floatingMenu li {
+    width: 100%;
+    float: right;
+    list-style: none;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.floatingMenu li a {
+    padding: 8px 15px;
+    display: inline-block;
+    background: #0e1427;
+    color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.4s;
+    /* -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.22); */
+    -webkit-box-shadow: 1px 3px 5px rgba(14, 20, 39, 0.5);
+    box-shadow: 1px 3px 5px rgba(14, 20, 39, 0.5);
+}
+
+.floatingMenu li a i.fa {
+    margin-left: 8px;
+    padding: 4px;
+    border: 2px solid #fff;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.floatingMenu li a:hover {
+    margin-right: 10px;
+    text-decoration: none;
+}
