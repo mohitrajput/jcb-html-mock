@@ -4699,7 +4699,7 @@ ul{
 }
 .jp_listing_tabs_wrapper{
 	float:left;
-	width:100%;
+	/* width:100%; */
 	background:#ffffff;
 	padding:25px;
 	margin-top:60px;
