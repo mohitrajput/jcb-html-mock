@@ -53,7 +53,7 @@
 }
 
 .jp_tittle_breadcrumb_wrapper li a:hover {
-    color: #23c0e9;
+    color: #a6e043;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -66,13 +66,13 @@
 }
 
 .jp_tittle_breadcrumb_wrapper li i {
-    color: #23c0e9;
+    color: #a6e043;
     position: relative;
     left: 10px;
 }
 
 .jp_tittle_breadcrumb_wrapper li:last-child {
-    color: #23c0e9;
+    color: #a6e043;
 }
 
 .table thead tr th {

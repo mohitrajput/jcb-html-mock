@@ -1,32 +1,41 @@
-
 /************************* ---- About CSS Start ---- *************************/
-.aboutus_section{
-	float:left;
-	width:100%;
-	padding-top:100px;
-	padding-bottom:50px;
+
+.aboutus_section {
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
-.about_image_wrapper,.about_text_wrapper {
-	float:left;
-	width:100%;
+
+.about_image_wrapper,
+.about_text_wrapper {
+    float: left;
+    width: 100%;
 }
-.about_image_wrapper{
-	text-align:center;
+
+.about_image_wrapper {
+    text-align: center;
 }
+
 .aboutus_section .section_heading .border {
     margin-bottom: 30px;
 }
-.about_image_wrapper img{
-	display:inline-block;
+
+.about_image_wrapper img {
+    display: inline-block;
 }
-.about_text_wrapper h2, .aboutus_text_section h2 {
+
+.about_text_wrapper h2,
+.aboutus_text_section h2 {
     font-size: 20px;
     font-weight: bold;
     color: #000000;
     text-transform: uppercase;
     position: relative;
 }
-.about_text_wrapper h2:before, .aboutus_text_section h2:before {
+
+.about_text_wrapper h2:before,
+.aboutus_text_section h2:before {
     content: '';
     border: 1px solid #a6e043;
     width: 8px;
@@ -34,7 +43,9 @@
     bottom: -15px;
     left: 0;
 }
-.about_text_wrapper h2:after, .aboutus_text_section h2:after {
+
+.about_text_wrapper h2:after,
+.aboutus_text_section h2:after {
     content: '';
     border: 1px solid #a6e043;
     width: 30px;
@@ -42,442 +53,522 @@
     bottom: -15px;
     left: 12px;
 }
+
 .about_text_wrapper p {
     font-size: 16px;
     line-height: 26px;
-	margin-bottom: 20px;
-	    padding-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px;
 }
-.abt_txt_page_2 p{
-	color:#999999;
-	    padding-top: 30px;
+
+.abt_txt_page_2 p {
+    color: #999999;
+    padding-top: 30px;
 }
-.about_text_wrapper ul{
-	margin:0;
-	padding:0;
-	list-style:none;
+
+.about_text_wrapper ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
-.abt_2_para{
-	padding-top:60px;
+
+.abt_2_para {
+    padding-top: 60px;
 }
-.about_text_wrapper ul li:first-child{
-	padding-top: 0px;
+
+.about_text_wrapper ul li:first-child {
+    padding-top: 0px;
 }
-.about_text_wrapper ul li{
-	padding-top: 20px;
-	font-size: 16px;
+
+.about_text_wrapper ul li {
+    padding-top: 20px;
+    font-size: 16px;
 }
-.abt_txt_page_2 li{
-	margin-top:10px;
+
+.abt_txt_page_2 li {
+    margin-top: 10px;
 }
-.abt_txt_page_2 li i{
-	color:#a6e043;
+
+.abt_txt_page_2 li i {
+    color: #a6e043;
 }
-.about_text_wrapper ul li a{
-	color: #999999;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	-ms-transition: all .5s;
-	-o-transition: all .5s;
-	transition: all .5s;
+
+.about_text_wrapper ul li a {
+    color: #999999;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
-.about_text_wrapper a:hover{
-	color: #9a558f ;
-	-webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	-ms-transition: all .5s;
-	-o-transition: all .5s;
-	transition: all .5s;
+
+.about_text_wrapper a:hover {
+    color: #9a558f;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
-.about_text_wrapper ul li i{
-	padding-right: 10px;
-	color: #a6e043 ;
+
+.about_text_wrapper ul li i {
+    padding-right: 10px;
+    color: #a6e043;
 }
-.abt_page_2_wrapper .panel .panel-heading a.collapsed{
-		background:#0e1427d4 !important;
+
+.abt_page_2_wrapper .panel .panel-heading a.collapsed {
+    background: #0e1427d4 !important;
 }
-.abt_page_2_wrapper .panel .panel-heading.desktop a.collapsed:before{
-	color:#fff;
+
+.abt_page_2_wrapper .panel .panel-heading.desktop a.collapsed:before {
+    color: #fff;
 }
-.abt_page_2_wrapper .panel .panel-heading.horn a.collapsed:before{
-	color:#fff;
+
+.abt_page_2_wrapper .panel .panel-heading.horn a.collapsed:before {
+    color: #fff;
 }
-.abt_page_2_wrapper .panel .panel-heading.bell a.collapsed:before{
-	color:#fff;
+
+.abt_page_2_wrapper .panel .panel-heading.bell a.collapsed:before {
+    color: #fff;
 }
-.abt_page_2_wrapper .panel .panel-heading a{
-	background:#bd6495;
+
+.abt_page_2_wrapper .panel .panel-heading a {
+    background: #bd6495;
 }
-.abt_page_2_wrapper .panel .panel-heading.desktop a:before{
-	color:#fff;
+
+.abt_page_2_wrapper .panel .panel-heading.desktop a:before {
+    color: #fff;
 }
-.abt_page_2_wrapper .panel .panel-heading.horn a:before{
-	color:#fff;
+
+.abt_page_2_wrapper .panel .panel-heading.horn a:before {
+    color: #fff;
 }
-.abt_page_2_wrapper .panel .panel-heading.bell a:before{
-	color:#fff;
+
+.abt_page_2_wrapper .panel .panel-heading.bell a:before {
+    color: #fff;
 }
-.abt_page_2_wrapper .panel-group .panel-heading+.panel-collapse>.panel-body{
-	background:#f7f7f7;
-	color:#111111;
+
+.abt_page_2_wrapper .panel-group .panel-heading+.panel-collapse>.panel-body {
+    background: #f7f7f7;
+    color: #111111;
 }
-.accordion_wrapper{
-	float: left;
-	width: 100%;
-}	
+
+.accordion_wrapper {
+    float: left;
+    width: 100%;
+}
+
 .accordion_wrapper .panel-heading {
-	padding: 0px;
-	border-radius: 0px;
+    padding: 0px;
+    border-radius: 0px;
 }
+
 .accordion_wrapper .panel-heading h4 {
     font-size: 18px;
     line-height: 24px;
 }
-.accordion_wrapper h2{
-	font-size: 28px;
+
+.accordion_wrapper h2 {
+    font-size: 28px;
     font-weight: 800;
     color: #fff;
     line-height: 22px;
     text-transform: uppercase;
-	margin-bottom: 24px;
+    margin-bottom: 24px;
 }
+
 .accordion_wrapper .panel-group .panel+.panel {
-	margin-top: 0px;
+    margin-top: 0px;
 }
+
 .accordion_wrapper .panel-group {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
+
 .accordion_wrapper .panel-default {
-  border: 0;
+    border: 0;
 }
+
 .accordion_wrapper .panel-default>.panel-heading {
-  border-radius: 0px;
+    border-radius: 0px;
 }
+
 .accordion_wrapper .panel-default .panel-heading {
-	background: transparent;
+    background: transparent;
 }
+
 .accordion_wrapper .panel {
-	background-color: transparent;
-	box-shadow: none;
-	border-left: 1px solid transparent;
-	border-right: 1px solid transparent;
-	border-radius: 0;
-	margin: 0;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    background-color: transparent;
+    box-shadow: none;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-radius: 0;
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
 }
+
 .accordion_wrapper .panel:last-of-type {
-	border-bottom: 1px solid transparent;
+    border-bottom: 1px solid transparent;
 }
-.accordion_wrapper .panel .panel-heading a {	
-	display: block;
-	background: #0e1427d4;
-	padding: 12px 20px;
-	color: #fff;
+
+.accordion_wrapper .panel .panel-heading a {
+    display: block;
+    background: #0e1427d4;
+    padding: 12px 20px;
+    color: #fff;
 }
+
 .accordion_wrapper .panel .panel-heading a.collapsed {
-	color: #fff;
-	background: rgba(108, 89, 89, 0.3);
-	display: block;
-	padding: 12px 20px;
-	border-top: 1px solid transparent;
+    color: #fff;
+    background: rgba(108, 89, 89, 0.3);
+    display: block;
+    padding: 12px 20px;
+    border-top: 1px solid transparent;
 }
+
 .accordion_wrapper .panel-group .panel-heading+.panel-collapse>.panel-body {
-  border-top: 0;
-  padding-top: 0;
-  padding: 25px 30px 30px 70px;
-      background: #eee;
+    border-top: 0;
+    padding-top: 0;
+    padding: 25px 30px 30px 70px;
+    background: #eee;
     color: #797979;
-  font-size:16px;
-  line-height:24px;
+    font-size: 16px;
+    line-height: 24px;
 }
+
 .accordion_wrapper .panel .panel-heading a:before,
-.accordion_wrapper .panel .panel-heading a.collapsed:before{
-	font-family: 'FontAwesome';
-	font-size: 20px;
-	float: left;
-	margin-right: 20px;
+.accordion_wrapper .panel .panel-heading a.collapsed:before {
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    float: left;
+    margin-right: 20px;
 }
-.accordion_wrapper .panel .panel-heading.desktop a:before {  
-  content: "\f108";  
-  color: #ffffff;
+
+.accordion_wrapper .panel .panel-heading.desktop a:before {
+    content: "\f108";
+    color: #ffffff;
 }
+
 .accordion_wrapper .panel .panel-heading.desktop a.collapsed:before {
-	content: "\f108"; 
-	color: #ffffff;
+    content: "\f108";
+    color: #ffffff;
 }
-.accordion_wrapper .panel .panel-heading.horn a:before {  
-  content: "\f0a1";  
-  color: #ffffff;
+
+.accordion_wrapper .panel .panel-heading.horn a:before {
+    content: "\f0a1";
+    color: #ffffff;
 }
+
 .accordion_wrapper .panel .panel-heading.horn a.collapsed:before {
-	content: "\f0a1";
-	color: #ffffff;			
+    content: "\f0a1";
+    color: #ffffff;
 }
-.accordion_wrapper .panel .panel-heading.bell a:before {  
-  content: "\f0f3";  
-  color: #ffffff;
+
+.accordion_wrapper .panel .panel-heading.bell a:before {
+    content: "\f0f3";
+    color: #ffffff;
 }
+
 .accordion_wrapper .panel .panel-heading.bell a.collapsed:before {
-	content: "\f0f3";
-	color: #ffffff;	
+    content: "\f0f3";
+    color: #ffffff;
 }
+
 .accordion_wrapper .panel .panel-heading a:after,
-.accordion_wrapper .panel .panel-heading a.collapsed:after{
-	font-size: 14px;
-	float: right;
-	width: 25px;
-	height: 25px;
-	line-height: 24px;
-	text-align: center;
-	display: block;
-	border-radius: 50%;		
-}
-.accordion_wrapper .panel .panel-heading a:after {  
-  content: "\2212";
-  color: #fff;
-  border: 1px solid #fff;
- }
 .accordion_wrapper .panel .panel-heading a.collapsed:after {
-	content: "+";
-	color: #fff;	
-	border: 1px solid #fff;
+    font-size: 14px;
+    float: right;
+    width: 25px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
 }
-.aboutus_page_2_section{
-	float:left;
-	width:100%;
-	padding-bottom:100px;
-	    padding-top: 100px;
+
+.accordion_wrapper .panel .panel-heading a:after {
+    content: "\2212";
+    color: #fff;
+    border: 1px solid #fff;
 }
-.jp_career_main_wrapper22{
-	float:left;
-	width:100%;
-	padding:100px 0;
-	padding-bottom:70px;
+
+.accordion_wrapper .panel .panel-heading a.collapsed:after {
+    content: "+";
+    color: #fff;
+    border: 1px solid #fff;
 }
-.jp_career_slider_heading_wrapper h2{
-	font-size:20px;
-	color:#000000;
-	font-weight:900;
-	text-transform:uppercase;
-	position:relative;
+
+.aboutus_page_2_section {
+    float: left;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
-.jp_career_slider_heading_wrapper h2:after{
-	content:'';
-	border:1px solid #a6e043;
-	width:30px;
-	position:absolute;
-	bottom: -15px;
+
+.jp_career_main_wrapper22 {
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    padding-bottom: 70px;
+}
+
+.jp_career_slider_heading_wrapper h2 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.jp_career_slider_heading_wrapper h2:after {
+    content: '';
+    border: 1px solid #a6e043;
+    width: 30px;
+    position: absolute;
+    bottom: -15px;
     left: 11px;
 }
-.jp_career_slider_heading_wrapper h2:before{
-	content:'';
-	border:1px solid #a6e043;
-	width:8px;
-	position:absolute;
-	bottom: -15px;
+
+.jp_career_slider_heading_wrapper h2:before {
+    content: '';
+    border: 1px solid #a6e043;
+    width: 8px;
+    position: absolute;
+    bottom: -15px;
     left: 0;
 }
-.jp_career_slider_wrapper{
-	float:left;
-	width:100%;
-	margin-top: 50px;
+
+.jp_career_slider_wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
 }
-.jp_career_slider_wrapper  .owl-theme .owl-dots{
-	display:none;
+
+.jp_career_slider_wrapper .owl-theme .owl-dots {
+    display: none;
 }
+
 .jp_career_slider_wrapper .owl-theme .owl-nav {
     position: absolute;
     top: -73px;
     margin: 0;
     left: 0;
     right: 0;
-	z-index:1000;
-	display:block;
+    z-index: 1000;
+    display: block;
 }
-.jp_career_slider_wrapper .owl-theme .owl-nav .owl-prev{
+
+.jp_career_slider_wrapper .owl-theme .owl-nav .owl-prev {
     font-size: 26px;
     margin: 0;
     padding: 0;
     right: 30px;
-	top:0;
-	color:#00000047;
-	background:none;
+    top: 0;
+    color: #00000047;
+    background: none;
     position: absolute;
     text-align: center;
-	-webkit-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
-.jp_career_slider_wrapper  .owl-theme .owl-nav .owl-next{
+
+.jp_career_slider_wrapper .owl-theme .owl-nav .owl-next {
     font-size: 26px;
     margin: 0;
     padding: 0;
     right: 0;
-	top:0;
-	right:0;
+    top: 0;
+    right: 0;
     position: absolute;
-	color:#00000047;
-	background:none;
+    color: #00000047;
+    background: none;
     text-align: center;
-	-webkit-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
-.jp_career_slider_wrapper .owl-theme .owl-nav .owl-prev:hover, .jp_career_slider_wrapper  .owl-theme .owl-nav .owl-next:hover{
-	color:#a6e043;
-	-webkit-transition: all 0.5s;
+
+.jp_career_slider_wrapper .owl-theme .owl-nav .owl-prev:hover,
+.jp_career_slider_wrapper .owl-theme .owl-nav .owl-next:hover {
+    color: #a6e043;
+    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
-.jp_career_main_box_wrapper{
-	float:left;
-	width:100%;
-	background:#fff;
+
+.jp_career_main_box_wrapper {
+    float: left;
+    width: 100%;
+    background: #fff;
 }
-.jp_career_cont_wrapper{
-	float:left;
-	width:100%;
-	border:1px solid #e9e9e9;
-	border-top:0;
-	padding-top:40px;
-	padding-bottom:30px;
-	padding-left:30px;
-	padding-right:30px;
+
+.jp_career_cont_wrapper {
+    float: left;
+    width: 100%;
+    border: 1px solid #e9e9e9;
+    border-top: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.jp_career_cont_wrapper p i{
-	color:#a6e043;
+
+.jp_career_cont_wrapper p i {
+    color: #a6e043;
 }
-.jp_career_cont_wrapper h3{
-	font-size:20px;
-	color:#000000;
-	font-weight:bold;
-	margin-top:10px;
-	padding-bottom:10px;
+
+.jp_career_cont_wrapper h3 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
-.jp_career_cont_wrapper h3 a{
-	color:#000000;
-	-webkit-transition: all 0.5s;
+
+.jp_career_cont_wrapper h3 a {
+    color: #000000;
+    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
-.jp_recent_main:hover .jp_career_cont_wrapper h3 a{
-	color:#f36969;
-	-webkit-transition: all 0.5s;
+
+.jp_recent_main:hover .jp_career_cont_wrapper h3 a {
+    color: #f36969;
+    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
-.jp_recent_main:hover .jp_career_slider_bottom_cont{
-	border-bottom:1px solid #f36969;
-	-webkit-transition: all 0.5s;
+
+.jp_recent_main:hover .jp_career_slider_bottom_cont {
+    border-bottom: 1px solid #f36969;
+    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
-.jp_career_slider_bottom_cont{
-	float:left;
-	width:100%;
-	border:1px solid #e9e9e9;
-	border-bottom:1px solid #a6e043;
-	border-top:0;
-	background:#f9f9f9;
-	padding:20px;
-	-webkit-transition: all 0.5s;
+
+.jp_career_slider_bottom_cont {
+    float: left;
+    width: 100%;
+    border: 1px solid #e9e9e9;
+    border-bottom: 1px solid #a6e043;
+    border-top: 0;
+    background: #f9f9f9;
+    padding: 20px;
+    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
 }
-.jp_career_slider_bottom_cont ul{
-	display:inline-block;
+
+.jp_career_slider_bottom_cont ul {
+    display: inline-block;
 }
-.jp_career_slider_bottom_cont li img{
-	width:auto !important;
-	float:left;
+
+.jp_career_slider_bottom_cont li img {
+    width: auto !important;
+    float: left;
 }
-.jp_career_slider_bottom_cont li a{
-	position: relative;
+
+.jp_career_slider_bottom_cont li a {
+    position: relative;
     top: 7px;
 }
-.jp_career_slider_bottom_cont p{
-	float:right;
-	font-size: 22px;
+
+.jp_career_slider_bottom_cont p {
+    float: right;
+    font-size: 22px;
     margin-top: 6px;
 }
-.jp_career_slider_bottom_cont p a{
-	color:#a6e043;
+
+.jp_career_slider_bottom_cont p a {
+    color: #a6e043;
 }
-.jp_tittle_main_wrapper{
-	background:url('../images/content/pricing_tittle_bg.jpg') 50% 0 repeat-y;
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center 0;
-	position:relative;
-	float:left;
-	width:100%;
-	padding-top:100px;
-	padding-bottom:100px;
+
+.jp_tittle_main_wrapper {
+    background: url('../images/content/pricing_tittle_bg.jpg') 50% 0 repeat-y;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.jp_tittle_img_overlay{
-	position:absolute;
-	top:0%;
-	right:0%;
-	left:0%;
-	bottom:0%;
-	background:#0e1427d9;
+
+.jp_tittle_img_overlay {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    background: #0e1427d9;
 }
-.jp_tittle_heading{
-	float:left;
-	width:100%;
+
+.jp_tittle_heading {
+    float: left;
+    width: 100%;
 }
-.jp_tittle_heading h2{
-	font-size:36px;
-	color:#ffffff;
-	font-weight:bold;
-}	
-.jp_tittle_breadcrumb_main_wrapper{
-	float:left;
-	width:100%;
-	padding-top:25px;
+
+.jp_tittle_heading h2 {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: bold;
 }
-.jp_tittle_breadcrumb_wrapper li{
-	margin-left:20px;
-	float:left;
+
+.jp_tittle_breadcrumb_main_wrapper {
+    float: left;
+    width: 100%;
+    padding-top: 25px;
 }
-.jp_tittle_breadcrumb_wrapper li a{
-	color:#ffffffa6;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
+
+.jp_tittle_breadcrumb_wrapper li {
+    margin-left: 20px;
+    float: left;
 }
-.jp_tittle_breadcrumb_wrapper li a:hover{
-	color:#23c0e9;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
+
+.jp_tittle_breadcrumb_wrapper li a {
+    color: #ffffffa6;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
-.jp_tittle_breadcrumb_wrapper li:first-child{
-	margin-left:0;
+
+.jp_tittle_breadcrumb_wrapper li a:hover {
+    color: #a6e043;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
-.jp_tittle_breadcrumb_wrapper li i{
-	color:#23c0e9;
-	position: relative;
+
+.jp_tittle_breadcrumb_wrapper li:first-child {
+    margin-left: 0;
+}
+
+.jp_tittle_breadcrumb_wrapper li i {
+    color: #a6e043;
+    position: relative;
     left: 10px;
 }
-.jp_tittle_breadcrumb_wrapper li:last-child{
-	color:#23c0e9;
+
+.jp_tittle_breadcrumb_wrapper li:last-child {
+    color: #a6e043;
 }
