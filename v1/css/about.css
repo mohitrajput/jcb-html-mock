@@ -407,6 +407,13 @@
     float: left;
     width: 100%;
     background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.jp_career_img_wrapper img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .jp_career_cont_wrapper {
@@ -453,6 +460,8 @@
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .jp_career_slider_bottom_cont ul {
