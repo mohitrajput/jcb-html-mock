@@ -7921,8 +7921,8 @@ input[type="checkbox"]:checked+label:after {
 
 .jp_edit_phone_wrapper li a {
     float: right;
-    background: #fff;
-    color: #797979;
+    background: #a6e043;
+    color: #fff;
     width: 60px;
     height: 22px;
     line-height: 22px;
@@ -7930,6 +7930,16 @@ input[type="checkbox"]:checked+label:after {
     border-radius: 3px;
     text-transform: uppercase;
     font-size: 12px;
+}
+
+.jp_edit_phone_wrapper li a[href]:hover {
+    background: #fdd014;
+    color: #000000;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .skills span {
@@ -8148,6 +8158,17 @@ input[type="checkbox"]:checked+label:after {
     height: 48px;
     line-height: 35px;
     color: #fff;
+}
+
+.fileUpload:hover {
+    background: #fdd014;
+    color: #000000;
+    border: 1px solid #fdd014;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 p {
