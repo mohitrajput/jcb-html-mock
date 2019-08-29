@@ -51,13 +51,17 @@
     background: #ffffff;
     margin-top: 60px;
     border-radius: 20px;
-    padding-bottom: 86px;
+    padding-bottom: 20px;
     max-width: 800px;
     margin: 0 auto;
 }
 .jp_adp_form_wrapper{
 	width:100%;
 	margin-top:30px;
+}
+.jp-adp-form-label {
+    font-weight: bold;
+    color: #000;
 }
 .jp_adp_form_wrapper input, .jp_adp_form_wrapper select{
 	width:100%;
@@ -67,6 +71,7 @@
 	-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+    color: #797979;
 }
 .jp_adp_form_wrapper select[multiple] {
     padding-top: 12px;
@@ -147,6 +152,7 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
 }
 .jdp-range-text {
     padding-bottom: 10px;
+    margin-bottom: 23px;
 }
 .jp_adp_form_wrapper-vacancy {
     margin-top: 15px;
@@ -205,7 +211,6 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
 	width:250px;
 }
 .jp_adp_choose_resume_bottom_btn_post{
-	width:100px;
 	margin-top:30px;
 }
 .jp_adp_choose_resume_bottom_btn_post li a {
@@ -302,7 +307,48 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
 .jp_title_main_wrapper-posting .jp_tittle_breadcrumb_wrapper li:last-child {
     color: #a6e043;
 }
-.jdp-expiry-date {
-    
+.slider-container {
+    padding: 0 15px;
+}
+.slider-container .scale ins {
+    font-size: 14px;
+}
+.slider-container .back-bar .pointer-label {
+    font-size: 14px;
+    top: -19px;
+}
+.jp_adp_form_wrapper input[type=date]::-webkit-inner-spin-button, .jp_adp_form_wrapper input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+.jp_adp_form_wrapper input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background-image: url(../images/content/calendar.png);
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    width: 15px;
+    height: 15px;
+    border-width: thin;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.jp_adp_form_wrapper input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    background-color: transparent;
+}
+.jp_adp_form_wrapper .range-min-max {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 767px) {
+    .jp_adp_main_section_wrapper .jp_adp_form_heading_wrapper.job_deatils_head {
+        margin-bottom: 15px;
+    }
+    .jp_adp_form_heading_wrapper p {
+        text-align: left;
+    }
 }
 /************************* ---- Add Posting CSS End---- *************************/

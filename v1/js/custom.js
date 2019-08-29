@@ -272,7 +272,7 @@ $('#return-to-top').on('click', function() {
     step: 1,
     scale: [18, 25, 30],
     format: '%s',
-    width: 300,
+    width: 'auto',
     showLabels: true,
     isRange : true
 });
@@ -282,7 +282,7 @@ $('#return-to-top').on('click', function() {
     step: 10000,
     scale: [80000,300000,700000,1000000],
     format: '%s',
-    width: 300,
+    width: 'auto',
     showLabels: true,
     isRange : true
 });
@@ -292,7 +292,7 @@ $('#return-to-top').on('click', function() {
     step: 5000,
     scale: [10000,20000,30000,40000,50000],
     format: '%s',
-    width: 300,
+    width: 'auto',
     showLabels: true,
     isRange : true
 });

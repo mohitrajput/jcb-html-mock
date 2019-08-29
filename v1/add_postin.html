@@ -346,14 +346,14 @@ Purchase:
     <div class="jp_adp_main_section_wrapper">
         <div class="container">
             <div class="row jp-adp-heading-row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="jp_career_slider_heading_wrapper job_deatils_head">
                         <h2>Job Details</h2>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                     <div class="jp_adp_form_heading_wrapper job_deatils_head">
-                        <p>Fields with * are mandetory</p>
+                        <p>Fields with * are mandatory</p>
                     </div>
                 </div>
             </div>
@@ -361,28 +361,30 @@ Purchase:
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="jp-adp-form-outer">
                         <div class="jp_adp_form_wrapper">
-                            <input type="text" placeholder="Job Title *">
+                            <p class="jp-adp-form-label">Job Title *</p>
+                            <input type="text" name="jobtitle">
                         </div>
 
                         <div class="jp_adp_form_wrapper">
-                            <input type="text" placeholder="Position *">
+                            <p class="jp-adp-form-label">Position *</p>
+                            <input type="text" name="position">
                         </div>
 
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">Total Vacancy *</p>
                             <select>
-                                <option>Total Vacancy *</option>
                                 <option>1</option>
                                 <option>5</option>
                                 <option>10</option>
                                 <option>15</option>
                             </select>
                             <div class="jp_adp_form_wrapper-vacancy" style="display: none;">
-                                <input type="text" placeholder="1">
+                                <input type="text">
                             </div>
                         </div>
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">District *</p>
                             <select>
-                                <option>District *</option>
                                 <option>Brunei-Muara</option>
                                 <option>Belait</option>
                                 <option>Tutong</option>
@@ -390,51 +392,76 @@ Purchase:
                             </select>
                         </div>
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">Kampong *</p>
                             <select>
-                                <option>Kampong *</option>
                                 <option>Kampong 1</option>
                                 <option>Kampong 2</option>
                                 <option>Kampong 3</option>
                             </select>
                         </div>
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">Education level *</p>
                             <select>
-                                <option>Education level *</option>
                                 <option>Education level 1</option>
                                 <option>Education level 2</option>
                                 <option>Education level 3</option>
                             </select>
                         </div>
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">Course Name *</p>
                             <select>
-                                <option>Course Name *</option>
                                 <option>Course Name 1</option>
                                 <option>Course Name 2</option>
                                 <option>Course Name 3</option>
                             </select>
                         </div>
                         <div class="jp_adp_form_wrapper jdp-range">
-                            <p class="jdp-range-text range-age">Age:</p>
+                            <p class="jp-adp-form-label jdp-range-text range-age">Age *</p>
                             <input type="hidden" class="range-slider-age" />
+                            <div class="range-min-max">
+                                <div class="range-min">
+                                    <p class="jp-adp-form-label">Min: </p><input type="text" name="range-age-min"/>
+                                </div>
+                                <div class="range-max">
+                                    <p class="jp-adp-form-label">Max: </p><input type="text" name="range-age-max"/>
+                                </div>
+                            </div>
                         </div>
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">Driving License Class</p>
                             <select multiple>
-                                <option>Driving License Class</option>
-                                <option>Driving License Class</option>
-                                <option>Driving License Class</option>
-                                <option>Driving License Class</option>
+                                <option>Driving License Class 1</option>
+                                <option>Driving License Class 2</option>
+                                <option>Driving License Class 3</option>
+                                <option>Driving License Class 4</option>
                             </select>
                         </div>
                         <div class="jp_adp_form_wrapper jdp-range">
-                            <p class="jdp-range-text range-salary">Basic Salary Range (in $): </p>
+                            <p class="jp-adp-form-label jdp-range-text range-salary">Basic Salary Range (in $)</p>
                             <input type="hidden" class="range-slider-salary" />
+                            <div class="range-min-max">
+                                <div class="range-min">
+                                    <p class="jp-adp-form-label">Min: </p><input type="text" name="range-salary-min"/>
+                                </div>
+                                <div class="range-max">
+                                    <p class="jp-adp-form-label">Max: </p><input type="text" name="range-salary-max"/>
+                                </div>
+                            </div>
                         </div>
                         <div class="jp_adp_form_wrapper jdp-range">
-                            <p class="jdp-range-text range-allowances">Allowances Range (in $): </p>
+                            <p class="jp-adp-form-label jdp-range-text range-allowances">Allowances Range (in $)</p>
                             <input type="hidden" class="range-slider-allowances" />
+                            <div class="range-min-max">
+                                <div class="range-min">
+                                    <p class="jp-adp-form-label">Min: </p><input type="text" name="range-allowances-min"/>
+                                </div>
+                                <div class="range-max">
+                                    <p class="jp-adp-form-label">Max: </p><input type="text" name="range-allowances-max"/>
+                                </div>
+                            </div>
                         </div>
                         <div class="jp_adp_form_wrapper">
-                            <p class="jdp-radio">Employment Type *</p>
+                            <p class="jp-adp-form-label jdp-radio">Employment Type *</p>
                             <input type="radio" name="employment-type" value="full-time" checked>&nbsp;&nbsp;Full time<br>
                             <input type="radio" name="employment-type" value="part-time">&nbsp;&nbsp;Part time<br>
                             <input type="radio" name="employment-type" value="full-part-time">&nbsp;&nbsp;Full Time/Part Time<br>
@@ -442,40 +469,42 @@ Purchase:
                             <input type="radio" name="employment-type" value="internship">&nbsp;&nbsp;Internship
                         </div>
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">Industry Type *</p>
                             <select>
-                                <option>Industry Type *</option>
                                 <option>Industry Type 1</option>
                                 <option>Industry Type 2</option>
                                 <option>Industry Type 3</option>
                             </select>
                         </div>
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">Working Hours *</p>
                             <select>
-                                <option>Working Hours *</option>
                                 <option>Office Hours</option>
                                 <option>Shift Hours</option>
                             </select>
                         </div>
                         <div class="jp_adp_textarea_main_wrapper">
-                            <textarea rows="4" cols="50" placeholder=" Benefits: "></textarea>
+                            <p class="jp-adp-form-label">Benefits</p>
+                            <textarea rows="4" cols="50"></textarea>
                         </div>
                         <div class="jp_adp_textarea_main_wrapper">
-                            <textarea rows="4" cols="50" placeholder=" Job Description: "></textarea>
+                            <p class="jp-adp-form-label">Job Description</p>
+                            <textarea rows="4" cols="50"></textarea>
                         </div>
                         <div class="jp_adp_form_wrapper">
-                            <p class="jdp-expiry-date">Expiry Date * </p>
+                            <p class="jp-adp-form-label jdp-expiry-date">Expiry Date * </p>
                             <input type="date" name="ExpiryDate">
                         </div>
                         <div class="jp_adp_form_wrapper">
+                            <p class="jp-adp-form-label">Skills *</p>
                             <select>
-                                <option>Skills *</option>
                                 <option>Skill 1</option>
                                 <option>Skill 2</option>
                                 <option>Skill 3</option>
                             </select>
                         </div>
                         <div class="jp_adp_choose_resume_bottom_btn_post">
-                            <ul>
+                            <ul class="d-flex justify-content-center">
                                 <li><a href="#"><i class="fa fa-plus-circle"></i>&nbsp; Save</a></li>
                             </ul>
                         </div>
