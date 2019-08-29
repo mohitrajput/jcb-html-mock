@@ -236,7 +236,8 @@
                 font-size: 16px;
                 color: #000000;
                 font-weight: bold;
-                padding-top: 20px;
+                padding-top: 15px;
+                padding-bottom: 15px;
             }
     
             .jp_job_listing_single_post_right_cont_wrapper p {
@@ -341,6 +342,10 @@
                 border: 1px solid #e9e9e9;
                 padding: 20px 60px 20px 60px;
             }
+            .jp_list_left_wrap{                
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
     
             .jp_job_post_right_overview_btn li {
                 float: left;
@@ -370,7 +375,9 @@
                 -webkit-border-radius: 10px;
                 -moz-border-radius: 10px;
                 border-radius: 10px;
-                background: #A6E043;
+            }
+            .jp_top_right_btn li:last-child a {
+                 background-color: #A6E043;
             }
     
             .jp_job_post_right_overview_btn ul {
@@ -462,7 +469,7 @@
     
             .jp_listing_left_bottom_sidebar_social_wrapper li a {
                 float: left;
-                width: 50px;
+                width: 60px;
                 height: 50px;
                 -webkit-border-radius: 20px;
                 -moz-border-radius: 20px;
@@ -679,7 +686,7 @@
                 color: #ffffff;
                 text-transform: uppercase;
                 font-weight: bold;
-                background: #23c0e9;
+                background:#A6E043; 
                 -webkit-border-radius: 10px;
                 -moz-border-radius: 10px;
                 border-radius: 10px;
@@ -738,7 +745,7 @@
                 margin-left: 20px;
                 float: left;
             }
-            .jp_tittle_main_wrapper {
+            .jp_tittle_main_company_wrapper {
                 background: url('../images/content/pricing_tittle_bg.jpg') 50% 0 repeat-y;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -749,4 +756,285 @@
                 padding-top: 100px;
                 padding-bottom: 0px;
             }
+            .jp_side_Button {
+                padding: 0 20px;
+                display: inline-block;
+                text-align: center;
+                background: #a6e043;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 30px;
+                border-radius: 10px 10px 0 0;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }    
+            .jp_side_Button:hover {
+                background: #fdd014;
+                color: #000000;
+            }              
+            .jp_side_ButtonWrap {
+                display: block;
+                position: fixed;
+                bottom: 0;
+                transform:translate(-50%,0);
+                left:50%;
+                z-index: 999;
+            }
+            .jp_side_ButtonInner {
+                position: relative;
+            }
+
+            /**------ notification wrapper css ------**/ 
+.jp_notify_main_wrapper{
+	float:right;
+	width:auto;
+	padding-top:24px;
+}
+#notify_block_tab{
+	display:none;
+	width:290px !important;
+	padding:0 !important;
+	top:60px !important;
+	right:-20px !important;
+}
+.jp_notify_main_wrapper li{
+	margin-left:26px;
+	float:left;
+	position:relative;
+}
+.budge_noti{
+	position:relative;
+}
+.budge_noti i:before{
+	color:#fff;
+	margin-left:0;
+}
+#profile_block_tab {
+	top:67px !important;
+}
+.budge_noti:after {
+    content: '4';
+    width: 17px;
+    height: 17px;
+    color: #ffffff;
+    background: -moz-linear-gradient(90deg, rgb(248, 71, 62) 20%, rgb(254, 121, 69) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(248, 71, 62) 20%, rgb(254, 121, 69) 100%);
+    background: linear-gradient(90deg, rgb(248, 71, 62) 20%, rgb(254, 121, 69) 100%);
+    border-radius: 100%;
+    font-size: 12px;
+    float: left;
+    line-height: 18px;
+    text-align: center;
+    position: absolute;
+    left: 13px;
+    bottom: 10px;
+}
+.jp_notify_main_box_wrapper{
+	float:left;
+	width:100%;
+	margin-top:15px;
+	margin-bottom:5px;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+.jp_notify_img_wrapper{
+	float:left;
+	width:45px;
+}
+.jp_notify_img_wrapper img{
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+	width:100%;
+}
+.jp_notify_img_cont_wrapper{
+	float:left;
+	width:calc(100% - 50px);
+	padding-left:10px;
+	padding-top: 9px;
+}
+.jp_notify_img_cont_wrapper h4{
+	font-size:14px !important;
+	color:#191919 !important;
+	font-weight:600 !important;
+}
+.jp_notify_img_cont_wrapper h4 span{
+	font-size:12px;
+	color:#191919;
+	float:right;
+}
+.crm_mess_all_main_box_wrapper p{
+	margin:0;
+	padding:5px;
+}
+.jp_notify_img_cont_wrapper p{
+	font-size:14px !important;
+	line-height:0 !important;
+	padding-top:10px !important;
+	color: #756666 !important;
+	margin-top:5px !important;
+	margin-left:0 !important;
+}
+.jp_notify_dropbox_wrapper ul li:first-child{
+	border-bottom:1px solid #e6e6e6;
+	padding-left:15px;
+	height:50px;
+	line-height:50px;
+}
+.jp_notify_dropbox_wrapper ul li:first-child a{
+	text-transform:capitalize;
+	font-size:16px;
+	color:#191919;
+}
+.crm_mess_all_main_box_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+	margin-top:20px;
+	padding:5px;
+	border-top:1px solid #e6e6e6;
+}
+.crm_mess_all_main_box_wrapper p a{
+	text-transform:capitalize;
+	color:#191919;
+	font-size:16px;
+	  -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.crm_mess_all_main_box_wrapper p a:hover{
+	color:#f94a3f;
+}
+.jp_notify_dropbox_wrapper .nice-select .list:hover .option:first-child:not(:hover){
+	background:#f9f9f9 !important;
+}
+.jp_notify_dropbox_wrapper .nice-select .option{
+	float:left;
+	width:100%;
+}
+.jp_notify_dropbox_wrapper .nice-select .option:last-child{
+	text-align:center;
+	padding-top:10px;
+	color:#666666;
+	font-weight:600;
+}
+/* .jp_navi_right_btn_wrapper li{
+	margin-left:8px;
+}
+.jp_navi_right_btn_wrapper li a{
+	width:100px;
+} */
+.notify_wraper_content li:first-child {
+	padding:10px 15px;
+	border-bottom:1px solid #e6e6e6;
+	width:100%;
+}
+.notify_wraper_content li:first-child  a{
+	font-size: 16px;
+    color: #111;
+	text-transform: capitalize;
+	font-weight:500;
+}
+.jp_notify_dropbox_wrapper{
+	float:left;
+	width:100%;
+	padding:15px;
+	padding-bottom:0;
+}
+#notify_block_tab li{
+	width:100%;
+	margin-left:0;
+}
+#profile_block_tab{
+	display:none;
+	width: 230px !important;
+    padding: 0 !important;
+}
+#profile_block_tab li{
+	width:100%;
+	margin-left:0;
+	padding:10px 15px;
+	border-bottom:1px solid #e6e6e6;
+}
+/* .jp_navi_right_btn_wrapper ul li{
+	position:relative;
+} */
+.jp_profile_box img {
+    float: left;
+    width: 40px;
+    padding-top: 5px;
+    border-radius: 100px;
+}
+.jp_profile_box .luca_profile_wrapper {
+    float: left;
+    width: calc(100% - 50px);
+    padding-left: 15px;
+}
+.luca_profile_wrapper h1{
+	line-height:32px;
+}
+.jp_profile_box .luca_profile_wrapper h1 {
+    line-height: 20px;
+}
+.luca_profile_wrapper h1 a {
+    font-size: 16px;
+    color: #ffff;
+    text-transform: capitalize;
+}
+.jp_profile_box .luca_profile_wrapper p {
+    line-height: 19px;
+}
+.luca_profile_wrapper p a{
+	color: #a6e043;
+}
+.luca_profile_wrapper{
+	float:left;
+	padding-left:10px;
+}
+#profile_hover_hide{
+	position:relative;
+	top:-10px;
+}
+#profile_block_tab li a i{
+	margin-right:10px;
+	position:relative;
+	top:1px;
+}
+#profile_block_tab li a {
+	color:#1d1d1d;
+	float:left;
+	width:100%;
+	  -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	text-transform:capitalize;
+}
+#profile_block_tab li a:hover{
+	color:#f36969;
+	  -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#profile_block_tab li:last-child{
+	border-bottom:0;
+}
+@media (max-width: 1650px){
+	.mainmenu:after{
+		right:-2px;
+	}
+}
+@media (max-width: 1300px){
+	.luca_profile_wrapper h1 a{
+		display:none;
+	}
+}
+
+
         
