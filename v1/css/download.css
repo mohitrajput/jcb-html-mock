@@ -120,3 +120,62 @@ table.dataTable {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
 }
+
+
+/*download css starts*/
+
+.search_section_main_wrapper {
+    clear: both;
+}
+
+.search_wrapper {
+    width: 100%;
+    background: #eee;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.search_wrapper_section input {
+    width: 100%;
+    height: 50px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: transparent;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.search_wrapper_section .first_icon {
+    position: absolute;
+    top: 17px;
+    font-size: 20px;
+    left: 30px;
+    z-index: 1;
+    color: #0e1427d4;
+}
+
+.mytag ul li {
+    float: left;
+}
+
+.card-head {
+    padding-bottom: 20px;
+}
+
+.round-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.round-corners {
+    border-radius: 10px;
+}
+
+
+/*downloa css ends*/
