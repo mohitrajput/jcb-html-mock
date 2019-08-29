@@ -444,7 +444,181 @@ $('#return-to-top').on('click', function() {
 
 			});
 
+   /*------------------ Dropify chart Start -------------*/
+ $(document).ready(function() {
+
+
+
+
+            // Basic
+            $('.dropify').dropify();
+
+            // Translated
+            $('.dropify-fr').dropify({
+                messages: {
+                    default: 'Glissez-déposez un fichier ici ou cliquez',
+                    replace: 'Glissez-déposez un fichier ou cliquez pour remplacer',
+                    remove: 'Supprimer',
+                    error: 'Désolé, le fichier trop volumineux'
+                }
+            });
+
+            // Used events
+            var drEvent = $('#input-file-events').dropify();
+
+            drEvent.on('click dropify.beforeClear', function(event, element) {
+                return confirm("Do you really want to delete \"" + element.file.name + "\" ?");
+            });
+
+            drEvent.on('click dropify.afterClear', function(event, element) {
+                alert('File deleted');
+            });
+
+            drEvent.on('click dropify.errors', function(event, element) {
+                console.log('Has Errors');
+            });
+
+            var drDestroy = $('#input-file-to-destroy').dropify();
+            drDestroy = drDestroy.data('dropify')
+            $('#toggleDropify').on('click', function(e) {
+                e.preventDefault();
+                if (drDestroy.isDropified()) {
+                    drDestroy.destroy();
+                } else {
+                    drDestroy.init();
+                }
+            })
+        });	
+	/*------------------ Dropify chart End -------------*/	
+	
+	  var wind = $(window);
+        $(".loading").fadeOut(500);
+
    
+            $(".skills-progress span").each(function() {
+                var bottom_of_object =
+                    $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window =
+                    $(window).scrollTop() + $(window).height();
+                var myVal = $(this).attr('data-value');
+                if (bottom_of_window > bottom_of_object) {
+                    $(this).css({
+                        width: myVal
+                    });
+                }
+            });
+   
+			// Menu js for Position fixed
+	$(window).scroll(function(){
+		var window_top = $(window).scrollTop() + 1; 
+		if (window_top > 800) {
+			$('.jp_edit_fix_header_content_main_wrapper').addClass('edit_menu_fixed');
+		} else {
+			$('.jp_edit_fix_header_content_main_wrapper').removeClass('edit_menu_fixed');
+		}
+	});
+	
+	$(window).scroll(function(){
+		var window_top = $(window).scrollTop() + 1; 
+		if (window_top > 3800) {
+			$('.jp_edit_fix_header_content_main_wrapper').addClass('edit_menu_fixed_bottom');
+		} else {
+			$('.jp_edit_fix_header_content_main_wrapper').removeClass('edit_menu_fixed_bottom');
+		}
+	});
+	
+	//Single page scroll js
+	$('.jp_edit_fix_header_content ul li a').on('click' , function(e){
+	  $('.jp_edit_fix_header_content ul li').removeClass('active');
+	  $(this).parent().addClass('active');
+	  var target = $('[section-scroll='+$(this).attr('href')+']');
+	  e.preventDefault();
+	  var targetHeight = target.offset().top-parseInt('0', 10);
+	  $('html, body').animate({
+	   scrollTop: targetHeight
+	  }, 1000);
+	});
+	
+	$(window).scroll(function() {
+	  var windscroll = $(window).scrollTop();
+	  var target = $('.jp_edit_fix_header_content ul li');
+	  if (windscroll >= 0) {
+	   $('[section-scroll]').each(function(i) {
+		if ($(this).position().top <= windscroll + 90) {
+		 target.removeClass('active');
+		 target.eq(i).addClass('active');
+		}
+	   });
+	  }else{
+	   target.removeClass('active');
+	   $('.jp_edit_fix_header_content ul li:first').addClass('active');
+	  }
+
+	});
+	
+	
+	//--------upload img file ----------//
+		var fileTypes = ['pdf', 'docx', 'rtf', 'jpg', 'jpeg', 'png', 'txt'];  //acceptable file types
+function readURL(input) {
+    if (input.files && input.files[0]) {
+        var extension = input.files[0].name.split('.').pop().toLowerCase(),  //file extension from input file
+            isSuccess = fileTypes.indexOf(extension) > -1;  //is extension in acceptable types
+
+        if (isSuccess) { //yes
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                if (extension == 'pdf'){
+                	$(input).closest('.fileUpload').find(".icon").attr('src','https://image.flaticon.com/icons/svg/179/179483.svg');
+                }
+                else if (extension == 'docx'){
+                	$(input).closest('.fileUpload').find(".icon").attr('src','https://image.flaticon.com/icons/svg/281/281760.svg');
+                }
+                else if (extension == 'rtf'){
+                	$(input).closest('.fileUpload').find(".icon").attr('src','https://image.flaticon.com/icons/svg/136/136539.svg');
+                }
+                else if (extension == 'png'){ $(input).closest('.fileUpload').find(".icon").attr('src','https://image.flaticon.com/icons/svg/136/136523.svg'); 
+                }
+                else if (extension == 'jpg' || extension == 'jpeg'){
+                	$(input).closest('.fileUpload').find(".icon").attr('src','https://image.flaticon.com/icons/svg/136/136524.svg');
+                }
+              else if (extension == 'txt'){
+                	$(input).closest('.fileUpload').find(".icon").attr('src','https://image.flaticon.com/icons/svg/136/136538.svg');
+                }
+                else {
+                	//console.log('here=>'+$(input).closest('.uploadDoc').length);
+                	$(input).closest('.uploadDoc').find(".docErr").slideUp('slow');
+                }
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+        else {
+        		//console.log('here=>'+$(input).closest('.uploadDoc').find(".docErr").length);
+            $(input).closest('.uploadDoc').find(".docErr").fadeIn();
+            setTimeout(function() {
+				   	$('.docErr').fadeOut('slow');
+					}, 9000);
+        }
+    }
+}
+$(document).ready(function(){
+   
+   $(document).on('change','.up', function(){
+   	var id = $(this).attr('id'); /* gets the filepath and filename from the input */
+	   var profilePicValue = $(this).val();
+	   var fileNameStart = profilePicValue.lastIndexOf('\\'); /* finds the end of the filepath */
+	   profilePicValue = profilePicValue.substr(fileNameStart + 1).substring(0,20); /* isolates the filename */
+	   //var profilePicLabelText = $(".upl"); /* finds the label text */
+	   if (profilePicValue != '') {
+	   	//console.log($(this).closest('.fileUpload').find('.upl').length);
+	      $(this).closest('.fileUpload').find('.upl').html(profilePicValue); /* changes the label text */
+	   }
+   });
+
+
+
+});
+
    
 	
 	});
