@@ -7922,7 +7922,7 @@ input[type="checkbox"]:checked+label:after {
 .jp_edit_phone_wrapper li a {
     float: right;
     background: #fff;
-    color: #a6e043;
+    color: #797979;
     width: 60px;
     height: 22px;
     line-height: 22px;
@@ -8286,7 +8286,7 @@ p {
 
 .jp_edit_right_box_main_wrapper2 li a {
     font-size: 14px;
-    color: #a6e043;
+    color: #797979;
 }
 
 .jp_edit_acco_main_box_wrapper h4 {
@@ -8311,7 +8311,7 @@ p {
 }
 
 .jp_edit_acco_main_box_wrapper p a {
-    color: #a6e043;
+    color: #797979;
 }
 
 .float_leftt {
@@ -8331,5 +8331,5 @@ p {
 }
 
 .jp_edit_right_section_heading_wrapper p a {
-    color: #a6e043;
+    color: #797979;
 }
