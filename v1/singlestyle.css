@@ -453,7 +453,7 @@
                 border: 1px solid #e9e9e9;
                 background: #ffffff;
                 border-top: 0;
-                padding: 0px 60px 5px 60px;
+                padding: 5px 60px 5px 60px;
                 border-bottom-right-radius: 10px;
                 border-bottom-left-radius: 10px;
             }
@@ -463,9 +463,9 @@
     
             .jp_listing_left_bottom_sidebar_social_wrapper li:first-child {
                 margin-left: 0;
-                color: #000000;
+                color:grey;
                 font-weight: bold;
-                margin-top: 12px;
+                float:left;
             }
     
             .jp_listing_left_bottom_sidebar_social_wrapper li a {
@@ -484,6 +484,9 @@
                 -ms-transition: all 0.5s;
                 -moz-transition: all 0.5s;
                 transition: all 0.5s;
+            }
+            .jp_listing_left_bottom_sidebar_social_wrapper li a:hover {
+                color:#A6E043;
             }
     
             .jp_listing_related_heading_wrapper h2 {
@@ -868,10 +871,16 @@
 }
 .jp_side_scroll_notification h4{
 	font-size:13px ;
-	color:#191919 ;
+	color:grey ;
     font-weight:500 ;
-    margin-bottom:10px;
+    padding: 10px;
     line-height: 1.4;
+    transition:.3s;
+    cursor: pointer;
+}
+.jp_side_scroll_notification h4:hover{
+    color:#1d1d1d;
+    background: #f1f1f1;
 }
 .crm_mess_all_main_box_wrapper p{
 	margin:0;
@@ -882,6 +891,9 @@
 	padding-left:15px;
 	height:50px;
 	line-height:50px;
+}
+.jp_share{
+    margin-top:12px;
 }
 .jp_notify_dropbox_wrapper ul li:first-child a{
 	text-transform:capitalize;
@@ -941,7 +953,6 @@
 .jp_notify_dropbox_wrapper{
 	float:left;
 	width:100%;
-	padding:15px;
     padding-bottom:0;
     border-bottom: 1px solid #e6e6e6;
 }
@@ -959,6 +970,9 @@
 	margin-left:0;
 	padding:10px 15px;
 	border-bottom:1px solid #e6e6e6;
+}
+#profile_block_tab li:hover{
+    background: #f1f1f1;
 }
 /* .jp_navi_right_btn_wrapper ul li{
 	position:relative;
@@ -1005,7 +1019,7 @@
 	top:1px;
 }
 #profile_block_tab li a {
-	color:#1d1d1d;
+    color: grey;
 	float:left;
 	width:100%;
 	  -webkit-transition: all 0.5s;
@@ -1016,7 +1030,7 @@
 	text-transform:capitalize;
 }
 #profile_block_tab li a:hover{
-	color:#f36969;
+    color: #1d1d1d;
 	  -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
