@@ -1608,7 +1608,7 @@ ul{
 	font-family: 'Lato', sans-serif;
 	padding-bottom: 13px;
 	padding-top: 13px;
-	border-left:1px solid rgba(0, 0, 0, 0.14901960784313725) !important;
+	border-left:1px solid rgba(0, 0, 0, 0.14901960784313725);
 	margin-right:0;
 	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
