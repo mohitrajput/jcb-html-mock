@@ -164,6 +164,27 @@ table.dataTable {
     float: left;
 }
 
+.card {
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover h6 {
+    color: #000000;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
 .card-head {
     padding-bottom: 20px;
 }
@@ -177,15 +198,15 @@ table.dataTable {
     border-radius: 10px;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.container1 {
+    position: relative;
+    width: 100%;
 }
 
-.zoom:hover {
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: .3s ease;
+.image1 {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlay1 {
@@ -202,9 +223,9 @@ table.dataTable {
     border-radius: 10px;
 }
 
-.overlay1,
-.icon1 {
-    color: rgba(255, 255, 255, 0.8);
+.container1:hover .overlay1 {
+    opacity: 1;
+    cursor: pointer;
 }
 
 .icon1 {
@@ -217,9 +238,9 @@ table.dataTable {
     text-align: center;
 }
 
-.container1:hover .overlay1 {
-    opacity: 1;
-    cursor: pointer;
+.overlay1,
+.icon1 {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 
