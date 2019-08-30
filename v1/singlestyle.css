@@ -1,0 +1,1077 @@
+
+            .jp_cl_job_cont p {
+                margin-bottom: 5px;
+                padding-top: 10px;
+            }
+    
+            .jp_cl_job_cont h5 {
+                font-size: 18px;
+                color: #23c0e9;
+                padding-top: 10px;
+            }
+    
+            .jp_cs_com_info_wrapper {
+                float: left;
+                width: 100%;
+                background: #f9f9f9;
+                padding: 20px;
+                margin-top: 25px;
+            }
+    
+            .jp_cs_com_info_img {
+                float: left;
+                width: 155px;
+            }
+    
+            .jp_cs_com_info_img_cont {
+                float: left;
+                width: calc(100% - 155px);
+                padding-left: 20px;
+                padding-top: 40px;
+            }
+    
+            .jp_cs_tittle_main_wrapper {
+                padding-bottom: 0;
+            }
+    
+            .jp_cs_com_info_img_cont h3 {
+                font-family: 'Lato', sans-serif;
+                font-size: 16px;
+                color: #797979;
+            }
+    
+            .jp_cs_com_info_img_cont p {
+                padding-top: 10px;
+            }
+    
+            .jp_job_post_right_overview_btn li:first-child a {
+                float: left;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background: #325046;
+                color: #ffffff;
+                font-size: 12px;
+                text-transform: uppercase;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+            }
+    
+            .jp_tittle_breadcrumb_wrapper li:first-child {
+                margin-left: 0;
+            }
+    
+            .jp_listing_right_bar_btn li:last-child a {
+                background: #A6E043;
+            }
+    
+            .flex-wrapper {
+                display: flex;
+                flex-flow: row nowrap;
+            }
+    
+            .single-chart {
+                width: 60px;
+                justify-content: space-around;
+                margin-left: 0px;
+                margin-right: 30px;
+            }
+    
+            .circular-chart.first .circle {
+                stroke: #F05B6C;
+            }
+    
+            .circular-chart.second .circle {
+                stroke: #FCD32A;
+            }
+    
+            .circular-chart.third .circle {
+                stroke: #9FCD4F;
+            }
+    
+            .circular-chart {
+                display: block;
+                margin: 10px auto;
+                max-height: 200px;
+            }
+    
+            .circle-bg {
+                fill: none;
+                stroke: #eee;
+                stroke-width: 2.4;
+            }
+    
+            .circle {
+                fill: none;
+                stroke-width: 1.4;
+                stroke-linecap: round;
+                animation: progress 1s ease-out forwards;
+            }
+    
+            @keyframes progress {
+                0% {
+                    stroke-dasharray: 0 100;
+                }
+            }
+    
+            .jp_job_des h2 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+    
+            .percentage {
+                fill: #ffff;
+                font-family: sans-serif;
+                font-size: 0.5em;
+                text-anchor: middle;
+            }
+    
+            .jp_circles p {
+                text-align: center;
+                color: #ffff;
+            }
+    
+            .bubble-text {
+                margin-top: 10px;
+            }
+    
+            .bubble-text .btn {
+                background: transparent;
+                color: #b6b0b0;
+                border: 1px solid #b6b0b0;
+                margin-right: 6px;
+                line-height: 1;
+                padding: 6px 10px;
+                border-radius: 20px;
+                display: inline;
+            }
+    
+            .bubble-text .active {
+                background-color: rgb(182, 176, 176);
+                color: #ffffff;
+            }
+    
+            .jp_listing_list_icon_cont_wrapper ul {
+                margin-bottom: 12px;
+            }
+    
+            .job-descrption h1,
+            .job-descrption h2,
+            .job-descrption h3 {
+                font-weight: bold;
+                color: #000000;
+                text-transform: uppercase;
+                position: relative;
+                padding-bottom: 10px;
+            }
+    
+            .jp_job_res {
+                padding-top: 20px;
+            }
+    
+            .jp_job_res h2 {
+                font-size: 20px;
+                color: #222222;
+            }
+    
+            .jp_job_apply h2 {
+                font-size: 20px;
+                color: #222222;
+                margin-bottom: 10px;
+            }
+    
+            .jp_job_res li i {
+                color: #797979;
+            }
+    
+            .jp_job_res li {
+                margin-top: 10px;
+            }
+    
+            .job-descrption li {
+                margin-top: 10px;
+            }
+    
+            .job-descrption li:first-child {
+                margin-top: 0;
+            }
+    
+            .job-descrption li:last-child {
+                margin-bottom: 10px;
+            }
+    
+            .jp_listing_right_bar_btn ul {
+                margin-top: 0px;
+            }           
+    
+            .jp_listing_overview_list_main_wrapper2 {
+                padding-top: 20px;
+            }
+    
+            .jp_job_apply {
+                float: left;
+                width: 100%;
+                padding-top: 30px;
+            }
+    
+            .jp_rightside_job_categories_heading {
+                background: #353A4A;
+            }
+    
+    
+            .jp_rightside_listing_single_wrapper {
+                float: left;
+                width: 100%;
+                border: 1px solid #e9e9e9;
+                background: #ffffff;
+            }
+    
+            .jp_jop_overview_img_wrapper {
+                text-align: center;
+            }
+    
+            .jp_job_listing_single_post_right_cont_wrapper h4 {
+                font-size: 16px;
+                color: #000000;
+                font-weight: bold;
+                padding-top: 15px;
+            }
+            .jp_job_list_right_cont h4{
+                padding-bottom: 15px;
+            }    
+            .jp_job_listing_single_post_right_cont_wrapper p {
+                font-size: 16px;
+                color: #23c0e9;
+                padding-top: 10px;
+            }
+    
+            .jp_job_listing_single_post_right_cont {
+                float: left;
+                width: 100%;
+                text-align: center;
+            }
+    
+            .jp_job_post_right_overview_btn_wrapper {
+                text-align: center;
+                padding-bottom: 10px;
+                border-bottom: 1px solid #e9e9e9;
+            }
+    
+            .jp_rightside_listing_single_wrapper {
+                float: left;
+                width: 100%;
+                border: 1px solid #e9e9e9;
+                background: #ffffff;
+            }
+    
+            .jp_jop_overview_img_wrapper {
+                text-align: center;
+            }
+    
+            .jp_job_listing_single_post_right_cont_wrapper p {
+                font-size: 16px;
+                color: #23c0e9;
+                padding-top: 10px;
+            }
+    
+            .jp_job_listing_single_post_right_cont {
+                float: left;
+                width: 100%;
+                text-align: center;
+            }
+    
+            .jp_listing_overview_list_outside_main_wrapper {
+                float: left;
+                width: 100%;
+                padding: 0px 50px 20px 50px;
+            }
+    
+            .jp_listing_list_icon {
+                float: left;
+                width: 20px;
+            }
+    
+            .jp_listing_list_icon i {
+                color: #ff5353;
+            }
+    
+            .jp_listing_list_icon_cont_wrapper {
+                float: left;
+                width: calc(100% - 20px);
+                padding-left: 10px;
+            }
+    
+            .jp_listing_list_icon_cont_wrapper li:first-child {
+                font-weight: bold;
+                color: #000000;
+            }
+    
+            .jp_listing_overview_list_main_wrapper2 {
+                padding-top: 20px;
+            }
+    
+            .jp_listing_right_bar_btn li:last-child a {
+                float: left;
+                width: 230px;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-weight: bold;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                -ms-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+    
+            .jp_job_post_right_overview_btn li {
+                float: left;
+                margin-left: 20px;
+            }
+    
+            .jp_listing_left_sidebar_wrapper {
+                float: left;
+                width: 100%;
+                background: #ffffff;
+                border: 1px solid #e9e9e9;
+                padding: 20px 60px 20px 60px;
+            }
+            .jp_list_left_wrap{                
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+    
+            .jp_job_post_right_overview_btn li {
+                float: left;
+                margin-left: 20px;
+            }
+    
+            *,
+            ::after,
+            ::before {
+                box-sizing: border-box;
+            }
+    
+            user agent stylesheet li {
+                display: list-item;
+                text-align: -webkit-match-parent;
+            }
+    
+            .jp_job_post_right_overview_btn li:last-child a {
+                float: left;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                color: #ffffff;
+                font-size: 12px;
+                text-transform: uppercase;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+            }
+            .jp_top_right_btn li:last-child a {
+                 background-color: #A6E043;
+            }
+    
+            .jp_job_post_right_overview_btn ul {
+                display: inline-block;
+            }
+    
+            .jp_listing_right_bar_btn_wrapper {
+                float: left;
+                width: 100%;
+                text-align: center;
+                margin-top: 5px;
+            }
+    
+            .jp_listing_single_main_wrapper {
+                float: left;
+                width: 100%;
+                background: #f9f9f9;
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+    
+            .jp_top_header_img_wrapper {
+                float: left;
+                width: 100%;
+                background: #ffffff;
+            }
+    
+            .jp_tittle_main_wrapper {
+                background: url(../images/content/pricing_tittle_bg.jpg) 50% 0 repeat-y;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center 0;
+                position: relative;
+                float: left;
+                width: 100%;
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+    
+            .jp_tittle_img_overlay {
+                position: absolute;
+                top: 0%;
+                right: 0%;
+                left: 0%;
+                bottom: 0%;
+                background: #0e1427d9;
+            }
+    
+            .jp_tittle_heading h2 {
+                font-size: 36px;
+                color: #ffffff;
+                font-weight: bold;
+            }
+    
+            .jp_rightside_job_categories_wrapper {
+                float: left;
+                width: 100%;
+                margin-top: 0px;
+                border-radius: 10px;
+            }
+    
+            a:hover,
+            a:focus {
+                color: #707070;
+                text-decoration: none;
+                outline: none;
+            }
+    
+            .jp_listing_left_bottom_sidebar_wrapper {
+                float: left;
+                width: 100%;
+                border: 1px solid #e9e9e9;
+                background: #ffffff;
+                border-top: 0;
+                padding: 0px 60px 5px 60px;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+            .jp_right_side_cont{
+                margin-top:15px;
+            }
+    
+            .jp_listing_left_bottom_sidebar_social_wrapper li:first-child {
+                margin-left: 0;
+                color: #000000;
+                font-weight: bold;
+                margin-top: 12px;
+            }
+    
+            .jp_listing_left_bottom_sidebar_social_wrapper li a {
+                float: left;
+                width: 60px;
+                height: 50px;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                border-radius: 20px;
+                background: transparent;
+                text-align: center;
+                line-height: 50px;
+                color: #797979;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                -ms-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+    
+            .jp_listing_related_heading_wrapper h2 {
+                font-size: 20px;
+                color: #000000;
+                font-weight: bold;
+                position: relative;
+                text-transform: uppercase;
+            }
+    
+            .jp_listing_related_heading_wrapper h2:before {
+                content: '';
+                border: 1px solid #23c0e9;
+                width: 8px;
+                position: absolute;
+                bottom: -15px;
+                left: 0;
+            }
+    
+            .jp_listing_related_heading_wrapper h2:after {
+                content: '';
+                border: 1px solid #23c0e9;
+                width: 30px;
+                position: absolute;
+                bottom: -15px;
+                left: 11px;
+            }
+    
+            .jp_listing_related_heading_wrapper {
+                float: left;
+                width: 100%;
+                margin-top: 60px;
+            }
+    
+            .jp_job_post_side_img {
+                float: left;
+                width: 105px;
+            }
+    
+            .jp_job_post_right_btn_wrapper li:first-child a {
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background: #a6e043;
+                color: #0e1427d4;
+                font-size: 12px;
+                font-weight: bold;
+                text-transform: uppercase;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                transition: all 0.5s;
+            }
+    
+            .jp_job_post_right_btn_wrapper li:last-child a {
+                display: inline-block;
+                width: 100px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                background: transparent;
+                color: #353b4a;
+                font-size: 12px;
+                text-transform: uppercase;
+                border: 1px solid #353b4a;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                transition: all 0.5s;
+            }
+    
+            .jp_job_post_right_cont {
+                float: right;
+                width: 200px;
+                padding-left: 0px;
+                padding-top: 0px;
+            }
+    
+            .jp_job_post_grid_right_btn_wrapper ul {
+                float: right;
+                display: inline-flex;
+                margin-top: 20px;
+    
+            }
+    
+            .jp_job_post_main_wrapper {
+                border: 1px solid #e9e9e9;
+                border-radius: 10px;
+                border-bottom-color: #e9e9e9;
+            }
+    
+    
+            .jp_listing_related_slider_wrapper .owl-theme .owl-nav {
+                position: absolute;
+                top: -46px;
+                margin: 0;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+                display: block;
+            }
+    
+            .jp_listing_related_slider_wrapper .owl-theme .owl-nav .owl-prev {
+                font-size: 12px;
+                float: left;
+                width: 60px;
+                height: 30px;
+                line-height: 30px;
+                background: #ffffff;
+                margin-top: 25px;
+                padding: 0;
+                right: 75px;
+                top: 0;
+                color: #000000;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                border: 1px solid #e9e9e9;
+                position: absolute;
+                text-align: center;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                -ms-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+    
+            .jp_listing_related_slider_wrapper .owl-theme .owl-nav .owl-next {
+                font-size: 12px;
+                float: left;
+                width: 60px;
+                height: 30px;
+                line-height: 30px;
+                margin-top: 25px;
+                padding: 0;
+                right: 0;
+                top: 0;
+                right: 0;
+                position: absolute;
+                color: #000000;
+                background: #ffffff;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                border: 1px solid #e9e9e9;
+                text-align: center;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                -ms-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+    
+            .jp_listing_left_sidebar_wrapper_heading {
+                float: left;
+                width: 100%;
+                background: #0e1427d4;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 20px;
+                -webkit-border-top-left-radius: 10px;
+                -moz-border-top-left-radius: 10px;
+                border-top-left-radius: 10px;
+                -webkit-border-top-right-radius: 10px;
+                -moz-border-top-right-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+    
+            .jp_listing_left_sidebar_wrapper_heading h4 {
+                font-size: 16px;
+                color: #fff;
+            }
+    
+            .owl-carousel .owl-nav .owl-prev,
+            .owl-carousel .owl-nav .owl-next,
+            .owl-carousel .owl-dot {
+                font-family: 'fontAwesome';
+    
+            }
+    
+            .owl-carousel .owl-nav .owl-prev:before {
+                content: "\f053";
+            }
+    
+            .owl-carousel .owl-nav .owl-next:after {
+                content: "\f054";
+            }
+    
+            .jp_rightside_job_categories_heading {
+                margin-bottom: 10px;
+            }
+    
+            .jp_listing_right_bar_btn li:first-child a {
+                float: left;
+                width: 230px;
+                height: 50px;
+                text-align: center;
+                line-height: 50px;
+                color: #ffffff;
+                text-transform: uppercase;
+                font-weight: bold;
+                background:#A6E043; 
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                -ms-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                transition: all 0.5s;
+                margin-bottom: 15px;
+            }
+    
+            .jp_cs_com_info_wrapper {
+                float: left;
+                width: 100%;
+                background: #f9f9f9;
+                padding: 20px;
+                margin-top: 25px;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;               
+            }
+    
+            .jp_tittle_breadcrumb_wrapper li a {
+                color: #ffffffa6;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                -ms-transition: all 0.5s;
+                -moz-transition: all 0.5s;
+                transition: all 0.5s;
+            }
+    
+            .jp_tittle_breadcrumb_main_wrapper {
+                float: left;
+                width: 100%;
+                padding-top: 25px;
+            }
+    
+            .jp_cs_com_info_img_cont {
+                float: left;
+                width: calc(100% - 155px);
+                padding-left: 20px;
+                padding-top: 40px;
+            }
+    
+            .jp_cs_com_info_img_cont h2 {
+                font-size: 18px;
+                color: #344154;
+            }
+    
+            .jp_cs_com_info_img_cont p {
+                padding-top: 10px;
+            }
+    
+            .jp_tittle_breadcrumb_wrapper li:last-child {
+                color: #23c0e9;
+            }
+    
+            .jp_tittle_breadcrumb_wrapper li {
+                margin-left: 20px;
+                float: left;
+            }
+            .jp_tittle_main_company_wrapper {
+                background: url('../images/content/pricing_tittle_bg.jpg') 50% 0 repeat-y;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center 0;
+                position: relative;
+                float: left;
+                width: 100%;
+                padding-top: 100px;
+                padding-bottom: 0px;
+            }
+            .jp_side_Button {
+                padding: 0 20px;
+                display: inline-block;
+                text-align: center;
+                background: #a6e043;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 30px;
+                border-radius: 10px 10px 0 0;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }    
+            .jp_side_Button:hover {
+                background: #fdd014;
+                color: #000000;
+            }              
+            .jp_side_ButtonWrap {
+                display: block;
+                position: fixed;
+                bottom: 0;
+                transform:translate(-50%,0);
+                left:50%;
+                z-index: 999;
+            }
+            .jp_side_ButtonInner {
+                position: relative;
+            }
+
+            /**------ notification wrapper css ------**/ 
+.jp_notify_main_wrapper{
+	float:right;
+	width:auto;
+	padding-top:24px;
+}
+#notify_block_tab{
+	display:none;
+	width:290px !important;
+	padding:0 !important;
+	top:60px !important;
+	right:-20px !important;
+}
+.jp_notify_main_wrapper li{
+	margin-left:26px;
+	float:left;
+	position:relative;
+}
+.budge_noti{
+	position:relative;
+}
+.budge_noti i:before{
+	color:#fff;
+	margin-left:0;
+}
+#profile_block_tab {
+	top:67px !important;
+}
+.budge_noti:after {
+    content: '4';
+    width: 17px;
+    height: 17px;
+    color: #ffffff;
+    background: -moz-linear-gradient(90deg, rgb(248, 71, 62) 20%, rgb(254, 121, 69) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(248, 71, 62) 20%, rgb(254, 121, 69) 100%);
+    background: linear-gradient(90deg, rgb(248, 71, 62) 20%, rgb(254, 121, 69) 100%);
+    border-radius: 100%;
+    font-size: 12px;
+    float: left;
+    line-height: 18px;
+    text-align: center;
+    position: absolute;
+    left: 13px;
+    bottom: 10px;
+}
+.jp_notify_main_box_wrapper{
+	float:left;
+	width:100%;
+	margin-top:15px;
+	margin-bottom:5px;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+.jp_notify_img_wrapper{
+	float:left;
+	width:45px;
+}
+.jp_notify_img_wrapper img{
+	-webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+	width:100%;
+}
+/* .jp_notify_img_cont_wrapper{
+	float:left;
+	width:calc(100% - 50px);
+	padding-left:10px;
+	padding-top: 9px;
+}
+.jp_notify_img_cont_wrapper h4{
+	font-size:14px !important;
+	color:#191919 !important;
+	font-weight:600 !important;
+} */
+#notify_block_tab {
+    display: none;
+    width: 360px !important;
+}
+.jp_side_scroll_notification h4{
+	font-size:13px ;
+	color:#191919 ;
+    font-weight:500 ;
+    margin-bottom:10px;
+    line-height: 1.4;
+}
+.crm_mess_all_main_box_wrapper p{
+	margin:0;
+	padding:5px;
+}
+.jp_notify_dropbox_wrapper ul li:first-child{
+	border-bottom:1px solid #e6e6e6;
+	padding-left:15px;
+	height:50px;
+	line-height:50px;
+}
+.jp_notify_dropbox_wrapper ul li:first-child a{
+	text-transform:capitalize;
+	font-size:16px;
+	color:#191919;
+}
+.crm_mess_all_main_box_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding:5px;
+	border-top:1px solid #e6e6e6;
+}
+.crm_mess_all_main_box_wrapper p a{
+	text-transform:capitalize;
+	color:#8f8a8a;
+	font-size:16px;
+	  -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.crm_mess_all_main_box_wrapper p a:hover{
+	color:#f94a3f;
+}
+.jp_notify_dropbox_wrapper .nice-select .list:hover .option:first-child:not(:hover){
+	background:#f9f9f9 !important;
+}
+.jp_notify_dropbox_wrapper .nice-select .option{
+	float:left;
+	width:100%;
+}
+.jp_notify_dropbox_wrapper .nice-select .option:last-child{
+	text-align:center;
+	padding-top:10px;
+	color:#666666;
+	font-weight:600;
+}
+/* .jp_navi_right_btn_wrapper li{
+	margin-left:8px;
+}
+.jp_navi_right_btn_wrapper li a{
+	width:100px;
+} */
+.notify_wraper_content li:first-child {
+	padding:10px 15px;
+	border-bottom:1px solid #e6e6e6;
+	width:100%;
+}
+.notify_wraper_content li:first-child  a{
+	font-size: 16px;
+    color: #111;
+	text-transform: capitalize;
+	font-weight:500;
+}
+.jp_notify_dropbox_wrapper{
+	float:left;
+	width:100%;
+	padding:15px;
+    padding-bottom:0;
+    border-bottom: 1px solid #e6e6e6;
+}
+#notify_block_tab li{
+	width:100%;
+	margin-left:0;
+}
+#profile_block_tab{
+	display:none;
+	width: 230px !important;
+    padding: 0 !important;
+}
+#profile_block_tab li{
+	width:100%;
+	margin-left:0;
+	padding:10px 15px;
+	border-bottom:1px solid #e6e6e6;
+}
+/* .jp_navi_right_btn_wrapper ul li{
+	position:relative;
+} */
+.jp_profile_box img {
+    float: left;
+    width: 40px;
+    padding-top: 5px;
+    border-radius: 100px;
+}
+.jp_profile_box .luca_profile_wrapper {
+    float: left;
+    width: calc(100% - 50px);
+    padding-left: 15px;
+}
+.luca_profile_wrapper h1{
+	line-height:32px;
+}
+.jp_profile_box .luca_profile_wrapper h1 {
+    line-height: 20px;
+}
+.luca_profile_wrapper h1 a {
+    font-size: 16px;
+    color: #ffff;
+    text-transform: capitalize;
+}
+.jp_profile_box .luca_profile_wrapper p {
+    line-height: 19px;
+}
+.luca_profile_wrapper p a{
+	color: #a6e043;
+}
+.luca_profile_wrapper{
+	float:left;
+	padding-left:10px;
+}
+#profile_hover_hide{
+	position:relative;
+	top:-10px;
+}
+#profile_block_tab li a i{
+	margin-right:10px;
+	position:relative;
+	top:1px;
+}
+#profile_block_tab li a {
+	color:#1d1d1d;
+	float:left;
+	width:100%;
+	  -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	text-transform:capitalize;
+}
+#profile_block_tab li a:hover{
+	color:#f36969;
+	  -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#profile_block_tab li:last-child{
+	border-bottom:0;
+}
+@media (max-width: 1650px){
+	.mainmenu:after{
+		right:-2px;
+	}
+}
+@media (max-width: 1300px){
+	.luca_profile_wrapper h1 a{
+		display:none;
+	}
+}
+
+.notify_wraper_content  .jp_notify_count {
+    font-size: 14px;
+    color: #ffff;
+    float: right;
+    background-color:  rgba(238, 52, 73, 0.8);
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+.navi_2_dropdown {
+    border-top: 0px solid #fff;  
+    overflow: auto;
+    height:310px;
+}
+.jp_navi_side_dropdown {
+    border-top: 0px solid #fff;  
+    overflow: auto;
+    height:220px;
+}
+.navi_2_dropdown::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  .navi_2_dropdown::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .navi_2_dropdown::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .navi_2_dropdown::-webkit-scrollbar-thumb:hover {
+    background: rgb(75, 74, 74);
+  }
