@@ -126,12 +126,26 @@
     margin-top:14px;
 }
 
+.remove-padding-top{
+    padding-top: 0px;
+}
+
+@media(max-width:991px){
+    .remove-padding-top{
+        padding-top: 48px;
+    }
+}
+
 .add-margin-top{
     margin-top:30px;
 }
 
 .add-margin-top2{
     margin-top:15px;
+}
+
+.add-margin-bottom{
+    margin-bottom: 23px;
 }
 
 .round-corners{
@@ -167,6 +181,10 @@
 
 .card:hover h6{
     color: #000000;
+}
+
+.yellow-back{
+    background:#fbf7d8;
 }
 
   .zoom:hover {
