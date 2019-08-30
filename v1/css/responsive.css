@@ -123,6 +123,11 @@
     .jp_fixe_top_bar_heading {
         display: none;
     }
+    .jp_edit_pro_main_wrapper .jp_edit_location_wrapper,
+    .jp_edit_pro_main_wrapper .jp_edit_phone_wrapper {
+        width: 100%;
+        float: none;
+    }
 }
 
 @media (max-width: 767px) {
@@ -222,6 +227,12 @@
     }
     .loading_popup .modal-body {
         padding: 20px;
+    }
+    .jp_edit_panding_main_wrapper {
+        margin: 10px 15px;
+    }
+    .jp_edit_pro_main_wrapper {
+        margin-top: 10px;
     }
 }
 
