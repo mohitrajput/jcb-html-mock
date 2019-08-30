@@ -138,6 +138,7 @@
 	border:1px solid #e4e4e4;
 	margin-bottom:30px;
 	width:100%;
+	border-radius:0 0 10px 10px;
 }
 .register_tab_wrapper .nav > li{
 	float:left;
@@ -288,7 +289,7 @@
 }
 .registration_tabs_Wrapper .nav-tabs .nav-link{
 	line-height: 20px;
-    padding: 18px 56.7px;
+    padding: 18px 57.1px;
     border: 0;
     border-radius: 0px;
     color: #6d6d6d;
@@ -983,7 +984,7 @@ p{
     filter: alpha(opacity=0);
 }
 .add_more_btn .add_employment_btn li a{
-	line-height:38px;
+	line-height:45px;
 }
 .btn.focus, .btn:focus{
 	box-shadow:none;
@@ -1058,8 +1059,8 @@ p{
 	padding: 0 14px;
 	height:auto;
 	line-height:auto;
-	background:#4f68e8;
-	border:1px solid #4f68e8;
+	background:#a6e043;
+	border:1px solid #a6e043;
 }
 .treatment_keyword li a strong {
     font-weight: 400;
@@ -1142,11 +1143,11 @@ p{
 	color:#fff;
 }
 .treatment_keyword li a:hover i{
-	color:#23c0e9;
+	color:#a6e043;
 }
 .treatment_keyword li a:hover{
 	background:#fff;
-	color:#23c0e9;
+	color:#a6e043;
 }
 .ctitle {
   text-align: center;
@@ -1431,8 +1432,8 @@ p{
     height: 40px;
     line-height: 38px;
     color: #ffffff;
-    border: 1px solid #23c0e9;
-    background: #23c0e9;
+    border: 1px solid #a6e043;
+    background: #a6e043;
     text-align: center;
     cursor: pointer;
     display: inline-block;
@@ -1721,7 +1722,7 @@ p{
 	/*border:1px solid #f36969;*/
 	background:#a6e043;
 	text-align:center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	border-radius:10px;
@@ -1751,10 +1752,16 @@ p{
 .remove-border{
     border-left: none;
 }
+
+.remove-border-bottom{
+	border-bottom: none;
+	margin:0;
+	padding-bottom: 0;
+}
 /*---- new responsive css start ------*/
 @media (min-width: 991px) and (max-width: 1199px){
 	.registration_tabs_Wrapper .nav-tabs .nav-link{
-		padding:18px 37.7px;
+		padding:18px 38.3px;
 	}
 	.job_type_schedule .nav-tabs .nav-link{
 		padding:12px 20px;
@@ -1764,7 +1771,7 @@ p{
 @media (max-width: 991px){
 	.registration_tabs_Wrapper .nav-tabs .nav-link{
 		font-size:16px;
-		padding:18px 31px;
+		padding:18px 31.7px;
 	}
 	.reset_btn_new li a {
 		width: 170px !important;

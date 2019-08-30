@@ -1849,18 +1849,17 @@ ul {
     background: #ffffff;
     color: #000000;
 }
-
-.nav-tabs>li>a {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #000000;
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    padding-bottom: 13px;
-    padding-top: 13px;
-    border-left: 1px solid rgba(0, 0, 0, 0.14901960784313725) !important;
-    margin-right: 0;
-    -webkit-transition: all 0.5s;
+.nav-tabs > li > a{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#000000;
+	font-size:14px;
+	font-family: 'Lato', sans-serif;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	border-left:1px solid rgba(0, 0, 0, 0.14901960784313725);
+	margin-right:0;
+	-webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -moz-transition: all 0.5s;
