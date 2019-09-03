@@ -261,6 +261,42 @@
                 $(this).off('inview');
             }
         });
+		
+		/*-----Range-----*/
+        
+		$(document).ready(function(){ 
+			$('.range-slider-age').jRange({
+				from: 18,
+				to: 30,
+				step: 1,
+				scale: [18, 25, 30],
+				format: '%s',
+				width: 'auto',
+				showLabels: true,
+				isRange : true
+			});
+			$('.range-slider-age').jRange('setValue', '20, 28');
+			$('.range-slider-salary').jRange({
+				from: 80000,
+				to: 1000000,
+				step: 10000,
+				scale: [80000,300000,700000,1000000],
+				format: '%s',
+				width: 'auto',
+				showLabels: true,
+				isRange : true
+			});
+				$('.range-slider-allowances').jRange({
+				from: 10000,
+				to: 50000,
+				step: 5000,
+				scale: [10000,20000,30000,40000,50000],
+				format: '%s',
+				width: 'auto',
+				showLabels: true,
+				isRange : true
+			});            
+		});
 
         //***------comment double hide show------***//
 
