@@ -5473,9 +5473,8 @@ ul {
 .jp_listing_sidebar_main_wrapper .jp_listing_tabs_wrapper {
     margin-top: 31px;
     float: none;
-    margin-left: -15px;
-    margin-right: -15px;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .gc_causes_select_box_wrapper,
