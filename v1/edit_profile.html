@@ -36,6 +36,7 @@ Purchase:
     <link rel="stylesheet" type="text/css" href="css/meanmenu.css" />
     <link rel="stylesheet" type="text/css" href="css/style_II.css" />
     <link rel="stylesheet" type="text/css" href="css/dropify.min.css" />
+    <link rel="stylesheet" type="text/css" href="singlestyle.css" />
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="images/header/favicon.ico" />
 
@@ -101,7 +102,7 @@ Purchase:
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12 center_responsive">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 center_responsive">
                         <div class="header-area hidden-menu-bar stick" id="sticker">
                             <!-- mainmenu start -->
                             <div class="mainmenu">
@@ -316,8 +317,8 @@ Purchase:
                         </div>
                     </div>
                     <!-- mobile menu area end -->
-                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
-                        <div class="jp_navi_right_btn_wrapper">
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                      <!--  <div class="jp_navi_right_btn_wrapper">
                             <ul>
                                 <li class="jobsekker_hover_btn">
                                     <a href="login.html">Job Seeker</a>
@@ -357,7 +358,99 @@ Purchase:
                                     </ul>
                                 </li>
                             </ul>
+                        </div>-->
+
+                        <div class="jp_notify_main_wrapper">
+                            <ul>
+                                <li class="employer_hover_btn">
+                                    <a href="#!" id="notify_hover_hide"><span class="budge_noti"><i
+                                                class="flaticon-notification"></i></span></a>
+                                    <ul class="navi_2_dropdown signin_wrapper notify_wraper_content"
+                                        id="notify_block_tab">
+                                        <li><a href="#">Notifications<span class=jp_notify_count>5 New</span></a>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4> Your registration is completed</h4>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>You have been shortlisted for interview</h4>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>Your profile is been reviewed and accepted</h4>
+
+                                            </div>
+                                        </li>
+                                         <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4> Your registration is completed</h4>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>You have been shortlisted for interview</h4>
+
+                                            </div>
+                                        </li>
+                                       <!--<li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>Your profile is been reviewed and accepted</h4>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>You have been shortlisted for interview</h4>
+
+                                            </div>
+                                        </li>-->
+
+                                        <li>
+                                            <div class="crm_mess_all_main_box_wrapper">
+                                                <p><a href="notifications.html">View All notifications</a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="employer_hover_btn" id="profile_hover_hide">
+                                    <a href="#!" class="jp_profile_box"><img src="images/content/pf.png" alt="img">
+                                        <div class="luca_profile_wrapper">
+                                            <h1><a href="#"> maria H.</a></h1>
+
+                                        </div>
+                                    </a>
+                                    <ul class="navi_2_dropdown signin_wrapper notify_wraper_content jp_navi_side_dropdown"
+                                        id="profile_block_tab">
+                                       <!-- <li><a href="#"><i class="fa fa-user"></i>account</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-cog"></i>setting</a>
+                                        </li> -->
+                                        <li><a href="#"><i class="fa fa-laptop"></i>jobs</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-black-tie first_icon"></i>profile</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>logout</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -785,6 +878,66 @@ Purchase:
     <script src="js/dropify.min.js"></script>
     <script src="js/custom_II.js"></script>
     <!--main js file end-->
+    <script>
+        // ----------- notification js ----------//
+        $(document).ready(function () {
+
+            $('#notify_hover_hide').click(function (e) {
+
+                e.preventDefault(); // stops link from making page jump to the top
+                e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
+                $('#notify_block_tab').toggle('fade');
+                $('#profile_block_tab').toggle().hide();
+
+            });
+
+            $('#notify_block_tab').click(function (e) {
+
+                e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+
+            });
+            $('#notify_block_tab').click(function (e) {
+
+                e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+
+            });
+
+            $('body').click(function () {
+
+                $('#notify_block_tab').hide();
+
+            });
+
+        });
+
+
+        $(document).ready(function () {
+
+            $('#profile_hover_hide').click(function (e) {
+
+                e.preventDefault(); // stops link from making page jump to the top
+                e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
+                $('#profile_block_tab').toggle('fade');
+                $('#notify_block_tab').toggle().hide();
+
+            });
+
+            $('#profile_block_tab').click(function (e) {
+
+                e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+
+            });
+
+
+            $('body').click(function (e) {
+
+                $('#profile_block_tab').hide();
+
+            });
+
+        });
+
+    </script>
 </body>
 
 </html>

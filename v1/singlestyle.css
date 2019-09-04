@@ -1062,12 +1062,12 @@
 .navi_2_dropdown {
     border-top: 0px solid #fff;  
     overflow: auto;
-    height:310px;
+    height:auto;
 }
 .jp_navi_side_dropdown {
     border-top: 0px solid #fff;  
     overflow: auto;
-    height:220px;
+    height:auto;
 }
 .navi_2_dropdown::-webkit-scrollbar {
     width: 7px;
