@@ -41,101 +41,101 @@
         //------------------------ OWL JS Start --------------------//
 
 
-        $(document).ready(function() {
-
-            $('.news-ticker').owlCarousel({
-                items: 1,
-                loop: true,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                dots: false,
-                slideTransition: 'linear',
-                animateIn: 'slideInRight',
-                animateOut: 'slideOutLeft'
-            });
-
-            $('.jp_tittle_slider_content_wrapper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
-                animateOut: 'bounceInDown',
-                animateIn: 'bounceInDown',
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 1,
-                        nav: true
-                    },
-                    1000: {
-                        items: 1,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
-                }
-            })
-        })
 
 
-        $(document).ready(function() {
-            $('.jp_hiring_slider_wrapper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 2,
-                        nav: true
-                    },
-                    1000: {
-                        items: 4,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
-                }
-            })
-        })
+        $('.news-ticker').owlCarousel({
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            dots: false,
+            slideTransition: 'linear',
+            animateIn: 'slideInRight',
+            animateOut: 'slideOutLeft'
+        });
 
-        $(document).ready(function() {
-                $('.jp_career_slider_wrapper .owl-carousel').owlCarousel({
+        $('.jp_tittle_slider_content_wrapper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+            animateOut: 'bounceInDown',
+            animateIn: 'bounceInDown',
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
                     loop: true,
-                    margin: 10,
-                    autoplay: true,
-                    responsiveClass: true,
-                    smartSpeed: 1200,
-                    navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
-                    responsive: {
-                        0: {
-                            items: 1,
-                            nav: true
-                        },
-                        600: {
-                            items: 2,
-                            nav: true
-                        },
-                        1000: {
-                            items: 3,
-                            nav: true,
-                            loop: true,
-                            margin: 20
-                        }
-                    }
-                })
-            })
-            // Featured Products Js
+                    margin: 20
+                }
+            }
+        })
+
+
+
+
+        $('.jp_hiring_slider_wrapper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: true,
+                    margin: 20
+                }
+            }
+        })
+
+
+
+        $('.jp_career_slider_wrapper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: true,
+                    margin: 20
+                }
+            }
+        })
+
+        // Featured Products Js
         $('.ss_featured_products .owl-carousel').owlCarousel({
             loop: true,
             margin: 0,
@@ -158,86 +158,86 @@
         });
 
 
-        $(document).ready(function() {
-            $('.jp_spotlight_slider_wrapper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 1,
-                        nav: true
-                    },
-                    1000: {
-                        items: 1,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+
+        $('.jp_spotlight_slider_wrapper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
+            }
         })
 
-        $(document).ready(function() {
-            $('.jp_best_deal_slider_wrapper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 1,
-                        nav: true
-                    },
-                    1000: {
-                        items: 1,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+
+
+        $('.jp_best_deal_slider_wrapper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
+            }
         })
 
-        $(document).ready(function() {
-            $('.jp_client_slider_wrapper .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                responsiveClass: true,
-                smartSpeed: 1200,
-                navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
-                responsive: {
-                    0: {
-                        items: 1,
-                        nav: true
-                    },
-                    600: {
-                        items: 1,
-                        nav: true
-                    },
-                    1000: {
-                        items: 1,
-                        nav: true,
-                        loop: true,
-                        margin: 20
-                    }
+
+
+        $('.jp_client_slider_wrapper .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsiveClass: true,
+            smartSpeed: 1200,
+            navText: ['<i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>'],
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: true,
+                    margin: 20
                 }
-            })
+            }
         })
+
 
         //------------------------ OWL JS End--------------------//
 
@@ -300,58 +300,109 @@
 
         //***------comment double hide show------***//
 
-        $(document).ready(function() {
 
-            $('#epm_hover_hide').click(function(e) {
 
-                e.preventDefault(); // stops link from making page jump to the top
-                e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
-                $('#emp_block_tab').toggle('fade');
+        $('#epm_hover_hide').click(function(e) {
 
-            });
+            e.preventDefault(); // stops link from making page jump to the top
+            e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
+            $('#emp_block_tab').toggle('fade');
 
-            $('#emp_block_tab').click(function(e) {
+        });
 
-                e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+        $('#emp_block_tab').click(function(e) {
 
-            });
+            e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
 
-            $('body').click(function() {
+        });
 
-                $('#emp_block_tab').hide();
+        $('body').click(function() {
 
-            });
+            $('#emp_block_tab').hide();
 
         });
 
 
 
-        $(function() {
-            $(".fab,.backdrop").click(function() {
-                if ($(".backdrop").is(":visible")) {
-                    $(".backdrop").fadeOut(125);
-                    $(".fab.child")
-                        .stop()
-                        .animate({
-                            bottom: $("#masterfab").css("bottom"),
-                            opacity: 0
-                        }, 125, function() {
-                            $(this).hide();
-                        });
-                } else {
-                    $(".backdrop").fadeIn(125);
-                    $(".fab.child").each(function() {
-                        $(this)
-                            .stop()
-                            .show()
-                            .animate({
-                                bottom: (parseInt($("#masterfab").css("bottom")) + parseInt($("#masterfab").outerHeight()) + 70 * $(this).data("subitem") - $(".fab.child").outerHeight()) + "px",
-                                opacity: 1
-                            }, 125);
+
+
+
+        $(".fab,.backdrop").click(function() {
+            if ($(".backdrop").is(":visible")) {
+                $(".backdrop").fadeOut(125);
+                $(".fab.child")
+                    .stop()
+                    .animate({
+                        bottom: $("#masterfab").css("bottom"),
+                        opacity: 0
+                    }, 125, function() {
+                        $(this).hide();
                     });
-                }
-            });
+            } else {
+                $(".backdrop").fadeIn(125);
+                $(".fab.child").each(function() {
+                    $(this)
+                        .stop()
+                        .show()
+                        .animate({
+                            bottom: (parseInt($("#masterfab").css("bottom")) + parseInt($("#masterfab").outerHeight()) + 70 * $(this).data("subitem") - $(".fab.child").outerHeight()) + "px",
+                            opacity: 1
+                        }, 125);
+                });
+            }
         });
+
+
+        $("#demo_1").ionRangeSlider({
+            type: "double",
+            grid: true,
+            min: 0,
+            max: 100,
+            from: 18,
+            to: 80,
+            step: 1
+        });
+        $("#salary_range").ionRangeSlider({
+            type: "double",
+            grid: true,
+            min: 0,
+            max: 10000000,
+            from: 0,
+            to: 10000000,
+            step: 10
+        });
+
+        $('.js-example-basic-multiple').select2();
+
+
+        /*-- Date Picker Config Start ------------------------------------------------------------------- */
+
+        /**
+         * formatDateToString Function get date in valid fromat.
+         * @input: call the function with date object.
+         */
+        function formatDateToString(date) {
+            // 01, 02, 03, ... 29, 30, 31
+            var dd = (date.getDate() < 10 ? '0' : '') + date.getDate();
+            // 01, 02, 03, ... 10, 11, 12
+            var mm = ((date.getMonth() + 1) < 10 ? '0' : '') + (date.getMonth() + 1);
+            // 1970, 1971, ... 2015, 2016, ...
+            var yyyy = date.getFullYear();
+
+            // create the format you want
+            return (mm + "/" + dd + "/" + yyyy); // Set format patten according Datepicker format.
+        }
+        $('#datepicker').val(formatDateToString(new Date()));
+        $('#datepicker').datepicker({
+            clearBtn: true,
+            daysOfWeekDisabled: "0,6", // 0 - Su, 1 - Mo, 2 - Tu, 3 - We, 4 - Th, 5 - Fr, 6 - Sa
+            defaultViewDate: { year: new Date().getFullYear(), month: new Date().getMonth(), day: new Date().getDate() },
+            format: "mm/dd/yyyy",
+            todayHighlight: true
+        });
+
+
+        /*-- Date Picker Config Ends ------------------------------------------------------------------- */
 
     });
 })();
