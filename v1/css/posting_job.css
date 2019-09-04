@@ -80,7 +80,6 @@
     float: left;
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .register_form_wrapper {
@@ -151,11 +150,11 @@
 }
 
 .register_tab_wrapper .tab-content {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     padding: 30px;
     float: left;
     border: 1px solid #e4e4e4;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     width: 100%;
     border-radius: 10px;
 }
@@ -229,8 +228,7 @@
 .jp_regiter_top_heading p {
     font-size: 16px;
     text-transform: capitalize;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .check-box {
@@ -1673,20 +1671,18 @@ p {
 /* login_section start */
 
 .login_wrapper {
+    padding: 0;
     width: 100%;
-    background: #f7f7f7;
-    /*padding:50px;
-	margin-bottom:20px;*/
+    border: none !important;
 }
 
 .login_wrapper a.btn {
-    color: #fff;
+    color: #000000;
     width: 100%;
     height: 50px;
     padding: 6px 25px;
     line-height: 36px;
-    margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
     border-radius: 8px;
     background: #a6e043;
     font-size: 16px;
@@ -2193,6 +2189,10 @@ p {
 
 .registration_tabs_Wrapper.job_type_schedule {
     margin-bottom: 10px;
+}
+
+.content-head {
+    padding: 0 20px;
 }
 
 
