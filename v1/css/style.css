@@ -1949,7 +1949,7 @@ ul {
     width: 100%;
 }
 
-.jp_job_post_main_wrapper {
+.jp_job_post_main_wrapper_cont .jp_job_post_main_wrapper {
     float: left;
     width: 100%;
     background: #ffffff;
@@ -1967,71 +1967,71 @@ ul {
     transition: all 0.5s;
 }
 
-.jp_job_post_side_img {
+.jp_job_post_main_wrapper_cont .jp_job_post_side_img {
     float: left;
     width: 105px;
 }
 
-.jp_job_post_right_cont {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_cont {
     float: left;
     width: calc(100% - 105px);
     padding-left: 30px;
     padding-top: 10px;
 }
 
-.jp_job_post_right_cont h4 {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_cont h4 {
     font-size: 16px;
     color: #000000;
     font-weight: bold;
 }
 
-.jp_job_post_right_cont p {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_cont p {
     font-size: 16px;
     color: #797979;
     padding-top: 5px;
 }
 
-.jp_job_post_right_cont li {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_cont li {
     margin-left: 20px;
     float: left;
 }
 
-.jp_job_post_right_cont li i {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_cont li i {
     color: #f36969;
 }
 
-.jp_job_post_right_cont li:first-child {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_cont li:first-child {
     margin-left: 0;
     color: #000000;
     font-size: 14px;
     font-weight: bold;
 }
 
-.jp_job_post_right_cont li:last-child {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_cont li:last-child {
     color: #797979;
     font-size: 14px;
 }
 
-.jp_job_post_heading_wrapper {
+.jp_job_post_main_wrapper_cont .jp_job_post_heading_wrapper {
     float: left;
 }
 
-.jp_job_post_right_btn_wrapper ul {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper ul {
     float: right;
     margin-top: 0;
 }
 
-.jp_job_post_right_btn_wrapper li {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper li {
     float: left;
     margin-left: 20px;
 }
 
-.jp_job_post_right_btn_wrapper li:first-child {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper li:first-child {
     float: none;
     margin-left: 50px;
 }
 
-.jp_job_post_right_btn_wrapper li:first-child a {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper li:first-child a {
     display: inline-block;
     width: 100px;
     height: 30px;
@@ -2048,23 +2048,23 @@ ul {
     transition: all 0.5s;
 }
 
-.jp_job_post_right_btn_wrapper li:first-child a:hover {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper li:first-child a:hover {
     background: #fdd014;
 }
 
-.jp_job_post_right_btn_wrapper li.btn-applied:first-child a {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper li.btn-applied:first-child a {
     background: #d4d4d4;
     color: #777;
     cursor: not-allowed;
 }
 
-.jp_job_post_right_btn_wrapper li:last-child {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper li:last-child {
     margin-left: 50px;
     margin-top: 15px;
     float: none;
 }
 
-.jp_job_post_right_btn_wrapper li:last-child a {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper li:last-child a {
     display: inline-block;
     width: 100px;
     height: 30px;
@@ -2081,12 +2081,12 @@ ul {
     transition: all 0.5s;
 }
 
-.jp_job_post_right_btn_wrapper li:last-child a:hover {
+.jp_job_post_main_wrapper_cont .jp_job_post_right_btn_wrapper li:last-child a:hover {
     background-color: #0e1427d4;
     color: #fff;
 }
 
-.jp_job_post_keyword_wrapper {
+.jp_job_post_main_wrapper_cont .jp_job_post_keyword_wrapper {
     float: left;
     width: 100%;
     padding-top: 10px;
@@ -2105,12 +2105,12 @@ ul {
     transition: all 0.5s;
 }
 
-.jp_job_post_keyword_wrapper li {
+.jp_job_post_main_wrapper_cont .jp_job_post_keyword_wrapper li {
     float: left;
     margin-left: 20px;
 }
 
-.jp_job_post_keyword_wrapper li:first-child {
+.jp_job_post_main_wrapper_cont .jp_job_post_keyword_wrapper li:first-child {
     margin-left: 0;
     color: #000000;
     -webkit-transition: all 0.5s;
@@ -2120,7 +2120,7 @@ ul {
     transition: all 0.5s;
 }
 
-.jp_job_post_keyword_wrapper li i {
+.jp_job_post_main_wrapper_cont .jp_job_post_keyword_wrapper li i {
     padding-right: 5px;
     color: #a6e043;
     -webkit-transition: all 0.5s;
@@ -2130,7 +2130,7 @@ ul {
     transition: all 0.5s;
 }
 
-.jp_job_post_keyword_wrapper li a {
+.jp_job_post_main_wrapper_cont .jp_job_post_keyword_wrapper li a {
     color: #797979;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -6149,5 +6149,119 @@ input[type="checkbox"]:checked+label:after {
 
 /*-- jp listing sidebar Wrapper End --*/
 
-
+/**------ hover tooltip css ---------**/
+.circle_tooltip{
+	position:relative;
+}
+.circle_tooltip span {
+	left: -40px;
+    width: 165px;
+    padding-top: 11px;
+    text-align: center;
+    background: #1d2333;
+    color: #ffffff;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 5px;
+    position: absolute;
+    top: -100px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.38);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 15px;
+}
+.circle_tooltip span:after {
+    content: '';
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #1d2333;
+    position: absolute;
+    left: 40%;
+    bottom: -8px;
+}
+.circle_tooltip:hover span {
+    top: -80px;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.single-chart{
+	cursor:pointer;
+}
+.skills_percentage_wrapper li a {
+    float: left;
+    width: auto;
+    text-align: center;
+    background: #2f3444;
+    color: #ffffff;
+    font-size: 12px;
+	padding:4px 10px;
+    text-transform: capitalize;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.skills_percentage_wrapper li{
+	margin-left:0;
+	margin-right:10px;
+}
+.skills_percentage_wrapper{
+	float:left;
+	width:100%;
+	margin-top:20px;
+}
+.skills_percentage_wrapper .circle_tooltip:hover span{
+	top:-93px;
+}
+.skills_percentage_wrapper .circle_tooltip span{
+	box-shadow:0 4px 16px 0 rgba(0, 0, 0, 0.16);
+	font-weight:400;
+}
+.skills_percentage_wrapper li.education a {
+    background: #f36969;
+}
+.skills_percentage_wrapper li.course a {
+    background: #fdd014;
+}
+.skills_percentage_wrapper li.skills a {
+    background: #a6e043;
+}
+/**------ responsive css --------**/
+@media (min-width: 991px) and (max-width: 1199px) {
+	.skills_percentage_wrapper li{
+		margin-right:5px;
+	}
+}
+@media (max-width: 991px) {
+	.skills_percentage_wrapper li{
+		margin-bottom:5px;
+	}
+}
+@media (max-width: 767px) {
+	.skills_percentage_wrapper{
+		margin-bottom:10px;
+	}
+}
+@media (max-width: 580px) {
+	.skills_percentage_wrapper{
+		margin-bottom:10px;
+	}
+	.skills_percentage_wrapper li{
+		margin-bottom:5px;
+		float:left !important;
+	}
+}
+/**------ hover tooltip css end ---------**/
 /************************* ---- Listing CSS End---- *************************/
