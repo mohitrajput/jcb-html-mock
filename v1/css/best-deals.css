@@ -137,6 +137,10 @@
     margin-top:0px;
 }
 
+.jp_spotlight_slider_cont_Wrapper ul li.remove-margin-top-full{
+    margin-top: 0px;
+}
+
 .remove-padding-top{
     padding-top: 0px;
 }
@@ -144,6 +148,9 @@
     padding-bottom:5px;
 }
 
+h4.remove-padding-top2{
+    padding-top:15px;
+}
 
 
 @media(max-width:991px){
@@ -175,6 +182,7 @@
 .recent-outer-wrapper{
     padding:0px 25px 15px 25px;
     border-radius:0px 0px 10px 10px;
+    background: #eee;
 }
 
 .recent-outer-wrapper2{
