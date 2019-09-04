@@ -122,18 +122,35 @@
     padding-bottom: 70px;
 }
 
+.add-padding-top{
+    padding:25px 0px;
+}
+
+.jp_hiring_slider_wrapper .owl-theme.arrows .owl-nav {
+    top: -67px;
+}
 .remove-margin-top{
     margin-top:14px;
+}
+
+.remove-margin-top-full{
+    margin-top:0px;
 }
 
 .remove-padding-top{
     padding-top: 0px;
 }
+.remove-padding-bottom{
+    padding-bottom:5px;
+}
+
+
 
 @media(max-width:991px){
     .remove-padding-top{
         padding-top: 48px;
     }
+    
 }
 
 .add-margin-top{
@@ -146,6 +163,81 @@
 
 .add-margin-bottom{
     margin-bottom: 23px;
+}
+
+.recent-wrapper{
+    padding:0px 25px 20px 25px;
+    margin-bottom:15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.recent-outer-wrapper{
+    padding:0px 25px 15px 25px;
+    border-radius:0px 0px 10px 10px;
+}
+
+.recent-outer-wrapper2{
+    padding:15px 50px 10px 50px;
+    border-radius:0px 00px 10px 10px;
+}
+
+
+
+.recent-wrapper h4{
+    transition: 0.5s;
+}
+
+.recent-wrapper:hover h4{
+    color:#a6e043;
+}
+
+.recent-wrapper:hover{
+    border:1px solid #d4d4d4;
+}
+
+/*resume carousel */
+
+.carousel-wrapper{
+    border-radius:0px 00px 10px 10px;
+    padding: 0px 10px 0px 18px;
+}
+
+.floating-left{
+    float: left;
+}
+
+.carousel-arrows-wrapper{
+    position: relative;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    bottom: 3px;
+}
+
+.carousel-arrows{
+    color:#dedede;
+    font-size:24px;
+    margin:0px 2px;
+}
+
+/*end of resume carousel */
+
+@media(max-width:472px){
+    .recent-outer-wrapper{
+        padding:20px 25px 15px 25px;
+    }
+}
+
+.arrows .owl-prev{
+    margin-top:25px;
+}
+
+.add-padding-right{
+    margin-right:20px;
+}
+
+.recent-wrapper p{
+    margin-bottom: 0rem;
 }
 
 .round-corners{
@@ -197,6 +289,7 @@
       .zoom:active{
           transform: scale(1);
       }
+     
   }
 
 /* The Modal (background) */
