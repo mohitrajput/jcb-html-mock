@@ -336,6 +336,7 @@
             step: 10
         });
 
+        $('.js-example-basic-multiple').select2();
 
 
         /*-- Date Picker Config Start ------------------------------------------------------------------- */

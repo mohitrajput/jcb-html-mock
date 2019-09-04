@@ -2176,7 +2176,15 @@ p {
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
-    padding: 6px 5px !important;
+    padding: 3px 5px !important;
+    background-color: rgb(241, 92, 109) !important;
+    border: 1px solid #f15c6d !important;
+    color: #fff;
+    margin-top: 8px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff !important;
 }
 
 .select2-container {
