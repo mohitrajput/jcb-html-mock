@@ -140,6 +140,11 @@
 .remove-padding-top{
     padding-top: 0px;
 }
+.remove-padding-bottom{
+    padding-bottom:5px;
+}
+
+
 
 @media(max-width:991px){
     .remove-padding-top{
@@ -178,6 +183,7 @@
 }
 
 
+
 .recent-wrapper h4{
     transition: 0.5s;
 }
@@ -187,8 +193,34 @@
 }
 
 .recent-wrapper:hover{
-    color:#a6e043;
+    border:1px solid #d4d4d4;
 }
+
+/*resume carousel */
+
+.carousel-wrapper{
+    border-radius:0px 00px 10px 10px;
+    padding: 0px 10px 0px 18px;
+}
+
+.floating-left{
+    float: left;
+}
+
+.carousel-arrows-wrapper{
+    position: relative;
+    float: right;
+    padding: 0px 10px 0px 10px;
+    bottom: 3px;
+}
+
+.carousel-arrows{
+    color:#dedede;
+    font-size:24px;
+    margin:0px 2px;
+}
+
+/*end of resume carousel */
 
 @media(max-width:472px){
     .recent-outer-wrapper{
