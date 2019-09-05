@@ -1329,7 +1329,7 @@ p{
 	-ms-box-shadow: 2px 2px 5px rgba(0,0,0,.04);
 	-o-box-shadow: 2px 2px 5px rgba(0,0,0,.04);
 	box-shadow: 2px 2px 5px rgba(0,0,0,.04);
-	border: 1px solid #ECECEC;
+	border: 1px solid #797979;
 	right: -280px;
 	position: fixed;
 	top: 45%;
@@ -1386,11 +1386,15 @@ p{
     -webkit-animation-name: tada;
     -moz-animation-name: tada;
     -o-animation-name: tada;
-    animation-name: tada;
+	animation-name: tada;
+	transition: 0.5s;
+}
+#style-switcher .bottom a.settings:hover{
+	background:#fdd014;
 }
 #style-switcher .bottom a.settings i {
 	font-size: 22px;
-	color: #fff;
+	color: #000;
 }
 #style-switcher > div > h3 {
 	font-size: 14px;
@@ -1410,8 +1414,8 @@ p{
 }
 
 .quick_contact_wraper{
-	padding:20px;
-	background:#fff;
+	padding:18px;
+	
 }
 .quick_contact_wraper h1{
 	font-size:18px;
@@ -1420,6 +1424,37 @@ p{
 	text-transform:capitalize;
 	font-weight:600;
 }
+
+.quick_contact_wraper ul{
+	
+	list-style-position: inside;
+}
+
+.quick_contact_wraper ul li{
+	font-size: 18px;
+	padding: 7px 0px;
+	
+}
+
+.quick_contact_wraper ul li a{
+	transition: 0.5s;
+	color:#e5e5e5;
+}
+
+.back-black{
+	background: #0e1427d4;
+    border-radius: 2px;
+}
+
+.quick_contact_wraper ul li a i{
+	font-size: 20px;
+	padding:0px 5px;
+}
+
+.quick_contact_wraper ul li a:hover{
+	color:#a6e043;
+}
+
 .quick_fields{
 	padding:0 !important;
 }

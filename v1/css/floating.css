@@ -16,7 +16,7 @@
     height: 45px;
     text-align: center;
     background: #a6e043;
-    color: #fff;
+    color: #333;
     line-height: 50px;
     position: absolute;
     border-radius: 50% 50%;
@@ -29,6 +29,10 @@
     transition: all 0.4s;
 }
 
+.floatingButton:hover{
+    background:#fdd014;
+}
+
 .floatingButton .fa {
     font-size: 22px !important;
 }
@@ -38,7 +42,7 @@
 .floatingButton:focus,
 .floatingButton:active {
     opacity: 1;
-    color: #fff;
+    color: #333;
 }
 
 .floatingButton .fa {
