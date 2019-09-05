@@ -1089,3 +1089,29 @@
   .navi_2_dropdown::-webkit-scrollbar-thumb:hover {
     background: rgb(75, 74, 74);
   }
+
+  .jp_back_button p{
+    float: left;   
+    text-align: center;
+    line-height: 20px;   
+    text-transform:capitalize;
+    font-weight: bold;    
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    cursor:pointer;
+}
+.jp_back_button a:hover{
+    color: #f36969;
+}
+.jp_back_button{
+z-index:99999;
+}
+
+.jp_back_button .fa{   
+    font-size:15px; 
+    padding-right:8px 
+
+}
+.jp_best_deal_heading {
+    display: inline;
+}
