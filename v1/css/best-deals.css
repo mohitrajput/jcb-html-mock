@@ -690,3 +690,122 @@ h4.remove-padding-top2{
   .navi_2_dropdown::-webkit-scrollbar-thumb:hover {
     background: rgb(75, 74, 74);
   }
+
+  /**------ hover tooltip css ---------**/
+.circle_tooltip{
+	position:relative;
+}
+.circle_tooltip span {
+	left: -40px;
+    width: 165px;
+    padding-top: 11px;
+    text-align: center;
+    background: #1d2333;
+    color: #ffffff;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 5px;
+    position: absolute;
+    top: -100px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.38);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    padding: 15px;
+}
+.circle_tooltip span:after {
+    content: '';
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #1d2333;
+    position: absolute;
+    left: 40%;
+    bottom: -8px;
+}
+.circle_tooltip:hover span {
+    top: -80px;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.single-chart{
+	cursor:pointer;
+}
+.skills_percentage_wrapper li a {
+    float: left;
+    width: auto;
+    text-align: center;
+    background: #2f3444;
+    color: #ffffff;
+    font-size: 12px;
+	padding:4px 10px;
+    text-transform: capitalize;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.skills_percentage_wrapper li{
+	margin-left:0;
+	margin-right:10px;
+}
+.skills_percentage_wrapper{
+	float:left;
+	width:100%;
+	margin-top:20px;
+}
+.skills_percentage_wrapper .circle_tooltip:hover span{
+	top:-93px;
+}
+.skills_percentage_wrapper .circle_tooltip span{
+	box-shadow:0 4px 16px 0 rgba(0, 0, 0, 0.16);
+	font-weight:400;
+}
+
+.circle_tooltip:first-child a{
+    background: #E36B72;
+}
+
+.circle_tooltip:nth-child(2) a{
+    background:#E6C555;
+}
+
+.circle_tooltip:nth-child(3) a{
+    background:#AACC66;
+}
+/**------ responsive css --------**/
+@media (min-width: 991px) and (max-width: 1199px) {
+	.skills_percentage_wrapper li{
+		margin-right:5px;
+	}
+}
+@media (max-width: 991px) {
+	.skills_percentage_wrapper li{
+		margin-bottom:5px;
+	}
+}
+@media (max-width: 767px) {
+	.skills_percentage_wrapper{
+		margin-bottom:10px;
+	}
+}
+@media (max-width: 580px) {
+	.skills_percentage_wrapper{
+		margin-bottom:10px;
+	}
+	.skills_percentage_wrapper li{
+		margin-bottom:5px;
+		float:left !important;
+	}
+}
+/**------ hover tooltip css end ---------**/
