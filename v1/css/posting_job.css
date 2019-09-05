@@ -1505,7 +1505,7 @@ p {
 
 .job_type_schedule .nav-tabs .nav-link {
     line-height: 20px;
-    padding: 12px 20px;
+    padding: 12px 15px;
     border: 0;
     border-radius: 0px;
     color: #797979;
@@ -2154,10 +2154,10 @@ p {
     margin-bottom: 15px;
 }
 
-.select2-container--default.select2-container--focus .select2-selection--multiple,
-.select2-container--default .select2-selection--multiple {
+.register_form_select .select2-container--default.select2-container--focus .select2-selection--multiple,
+.register_form_select .select2-container--default .select2-selection--multiple {
     width: 100%;
-    height: 50px;
+    height: 50px !important;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
@@ -2169,6 +2169,39 @@ p {
     -moz-appearance: none;
     position: relative;
     overflow: auto;
+}
+
+.register_form_select .select2-container .select2-selection--single,
+.register_form_select .select2-container--default.select2-container--open .select2-selection--single {
+    width: 100%;
+    height: 50px !important;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: transparent;
+    text-transform: capitalize;
+    padding-left: 10px;
+    border: 1px solid #e0e0e0 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+}
+
+.dropdown-div .select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.select2-container .select2-selection.select2-selection--single:focus {
+    outline: none;
+}
+
+.register_form_select .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+    color: #888888;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    display: none;
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
@@ -2193,6 +2226,107 @@ p {
 
 .content-head {
     padding: 0 20px;
+}
+
+.date_picker {
+    display: flex;
+}
+
+.date_picker .fa.fa-calendar.icon {
+    position: absolute;
+    z-index: 1;
+    right: 30px;
+    top: 44px;
+    font-size: 25px;
+}
+
+.checkbox_wrapper .checkbox {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right: 12px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.checkbox_wrapper .checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkbox_wrapper .checkbox .checkmark {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 16px;
+    top: 5px;
+    margin-left: -20px;
+    border: 2px solid #a6e043;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transition: border .15s ease-in-out;
+    -o-transition: border .15s ease-in-out;
+    transition: border .15s ease-in-out;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.checkbox_wrapper .checkbox:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.checkbox_wrapper .checkbox input:checked~.checkmark {
+    border: 2px solid #a6e043;
+    background-color: #fff;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkbox_wrapper .checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.checkbox_wrapper .checkbox input:checked~.checkmark:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    border-radius: 10px;
+    left: 23px;
+    top: 3px;
+    margin-left: -20px;
+    border: 2.5px solid #a6e043;
+    border-radius: 50%;
+    -webkit-transition: border .15s ease-in-out;
+    -o-transition: border .15s ease-in-out;
+    transition: border .15s ease-in-out;
+    z-index: 1;
 }
 
 

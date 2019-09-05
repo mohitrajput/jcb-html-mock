@@ -6149,5 +6149,41 @@ input[type="checkbox"]:checked+label:after {
 
 /*-- jp listing sidebar Wrapper End --*/
 
+.jb_seeker_heading {
+    padding: 20px 15px;
+    background: #0e1427d4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid #ee3449;
+    border: 1px solid #e9e9e9;
+}
+
+.jb_seeker_heading h4 {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.jb_seeker_content {
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.jb_seeker_content li {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.jb_seeker_content li span {
+    float: right;
+}
+
+.jb_seeker_content li:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 
 /************************* ---- Listing CSS End---- *************************/

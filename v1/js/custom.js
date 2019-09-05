@@ -373,6 +373,10 @@
         });
 
         $('.js-example-basic-multiple').select2();
+        $('.js-example-templating').select2({
+            dropdownParent: $('.dropdown-div')
+        });
+
 
 
         /*-- Date Picker Config Start ------------------------------------------------------------------- */
