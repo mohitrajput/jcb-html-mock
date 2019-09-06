@@ -6187,3 +6187,10 @@ input[type="checkbox"]:checked+label:after {
 
 
 /************************* ---- Listing CSS End---- *************************/
+
+.jp_edit_panding_main_wrapper span{
+    text-transform: uppercase;
+    color: #0e1427d4;
+    float: right;
+    font-weight:bold;
+}
