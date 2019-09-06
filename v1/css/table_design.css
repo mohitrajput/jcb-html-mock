@@ -1,0 +1,83 @@
+.table .thead-dark th:first-child{
+    border-radius:10px 0 0 0;
+    overflow:hidden;
+}
+
+.table .thead-dark th:last-child{
+    border-radius:0 10px 0 0;
+}
+
+
+.table tbody tr td{
+    vertical-align: middle;
+    padding:5px 15px;
+    border-left:1px solid #d4d4d4;
+}
+
+/* .table tbody tr td:last-child{
+    border-right: 1px solid #d4d4d4;
+}*/
+
+.table td, .table th{
+    border-top:none;
+}
+
+.searchbar{
+    float: right;
+    padding:20px 0;
+}
+
+.searchbar input{
+    width:200px;
+    float: left;
+    margin-right: 10px;
+    height: 38px;
+    border:1px solid #d4d4d4;
+    border-radius:5px;
+    padding:5px 0 5px 20px;
+    transition: 0.5s;
+}
+
+/*.searchbar input:focus{
+    box-shadow: 0 0 0 0.1rem rgba(0,123,255,.5);
+    
+}*/
+
+.searchbar button{
+    float: right;
+    border-radius: 5px;
+    background:#d4d4d4;
+}
+
+.searchbar button:hover{
+    background:#a6e043;
+}
+
+/*.pagination{
+    margin:20px 0;
+    float:right;
+}
+
+.pagination ul{
+    list-style-type:none;
+}
+
+.pagination ul li{
+    display: inline;
+    padding:15px;
+    border:1px solid #d4d4d4;
+    border-radius:3px;
+    color:#007bff;
+}
+
+.pagination ul li:first-child{
+    background: #007bff;
+    color:white;
+    border:1px solid #007bff;
+}
+
+.pagination ul li:hover{
+    cursor: pointer;
+    border:1px solid #007bff;
+
+}*/

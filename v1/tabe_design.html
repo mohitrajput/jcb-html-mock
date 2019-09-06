@@ -34,40 +34,11 @@ Purchase:
     <link rel="stylesheet" type="text/css" href="singlestyle.css" />
     <link rel="stylesheet" type="text/css" href="css/notification_style.css" />
     <link rel="stylesheet" type="text/css" href="css/contact.css" />
+    <link rel="stylesheet" type="text/css" href="css/table_design.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css" />
   <!--  <link rel="stylesheet" type="text/css" href="css/best-deals.css" /> -->
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="images/header/favicon.ico" />
-    <style>
-
-    
-
-
-    .table .thead-dark th:first-child{
-        border-radius:10px 0 0 0;
-        overflow:hidden;
-    }
-
-    .table .thead-dark th:last-child{
-        border-radius:0 10px 0 0;
-    }
-
-
-    .table tbody tr td{
-        vertical-align: middle;
-        padding:5px 15px;
-        border-left:1px solid #d4d4d4;
-    }
-
-    .table tbody tr td:last-child{
-        border-right: 1px solid #d4d4d4;
-    }
-    
-    .table td, .table th{
-        border-top:none;
-    }
-
-    </style>
 </head>
 
 <body>
@@ -545,7 +516,13 @@ Purchase:
                         </tbody>
                       </table> -->
 
-                      <table id="example" class="table  table-striped table-responsive-lg" style="width:100%">
+                      <div class="searchbar">
+                          <input type="text" placeholder="Search"/>
+                          <button type="button" class="btn"><i class="fa fa-search"></i></button>
+                          
+                      </div>
+
+                      <table id="example" class="table  table-striped" style="width:100%">
                             <thead class="thead-dark">
                                 <tr>
                                     <th>Name</th>
@@ -842,6 +819,27 @@ Purchase:
                                 </tr>
                             </tfoot> -->
                         </table>
+                       <!-- <div class="pagination">
+                            <ul>
+                                <li>1</li>
+                                <li>2</li>
+                                <li>3</li>
+                                <li>4</li>
+                                <li>5</li>
+                            </ul>
+                        </div>-->
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                                <div class="pager_wrapper gc_blog_pagination">
+                                    <ul class="pagination">
+                                        <li><a href="#">Prev.</a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="hidden-xs"><a href="#">4</a></li>
+                                        <li><a href="#">Next</a></li>
+                                    </ul>
+                                </div>
+                            </div>
         </div>
     </div>
     <!-- notification wrapepr end -->

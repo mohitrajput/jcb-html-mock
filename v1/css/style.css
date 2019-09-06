@@ -6046,7 +6046,7 @@ input[type="checkbox"]:checked+label:after {
 }
 
 .pager_wrapper {
-    margin-top: 80px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -6115,8 +6115,8 @@ input[type="checkbox"]:checked+label:after {
 }
 
 .pager_wrapper .pagination>li:first-child:hover>a {
-    background: #23c0e9;
-    border: 1px solid #23c0e9;
+    background: #a6e043;
+    border: 1px solid #a6e043;
 }
 
 .pager_wrapper .pagination>li>a:hover,
@@ -6125,8 +6125,8 @@ input[type="checkbox"]:checked+label:after {
 .pager_wrapper .pagination>li>span:focus {
     z-index: 2;
     color: #fff;
-    border: 1px solid #23c0e9;
-    background-color: #23c0e9;
+    border: 1px solid #a6e043;
+    background-color: #a6e043;
     border-color: none;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
