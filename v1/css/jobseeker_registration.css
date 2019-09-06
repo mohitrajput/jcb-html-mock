@@ -1335,7 +1335,7 @@ p{
 	top: 45%;
 	width: 280px;
 	z-index: 10;
-	border-radius:5px;
+	border-radius: 0px 0px 0px 5px;
 }
 #style-switcher div {
 	padding: 5px 9px;
@@ -1358,7 +1358,8 @@ p{
     display: block;
     height: 45px;
     position: absolute;
-    left: -43px;
+	left: -46px;
+	top:-1px;
     width: 45px;
     padding: 6px;
     font-family: sosa;
@@ -1371,7 +1372,7 @@ p{
     -webkit-border-bottom-left-radius: 5px;
     -moz-border-bottom-left-radius: 5px;
     border-bottom-left-radius: 5px;
-	    -webkit-animation-duration: 1.5s;
+	  /*  -webkit-animation-duration: 1.5s;
     -moz-animation-duration: 1.5s;
     -o-animation-duration: 1.5s;
     animation-duration: 1.5s;
@@ -1386,7 +1387,7 @@ p{
     -webkit-animation-name: tada;
     -moz-animation-name: tada;
     -o-animation-name: tada;
-	animation-name: tada;
+	animation-name: tada;*/
 	transition: 0.5s;
 }
 #style-switcher .bottom a.settings:hover{
@@ -1443,7 +1444,7 @@ p{
 
 .back-black{
 	background: #0e1427d4;
-    border-radius: 2px;
+    border-radius: 0px 0px 0px 3px;
 }
 
 .quick_contact_wraper ul li a i{
