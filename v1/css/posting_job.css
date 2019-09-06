@@ -2329,5 +2329,48 @@ p {
     z-index: 1;
 }
 
+.multiselect-native-select .multi_select {
+    display: none;
+}
+
+.multiselect-native-select .btn-group button {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 26px;
+    color: #888888;
+    padding: 12px 15px;
+    border-radius: 7px;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    text-align: left;
+}
+
+.multiselect-native-select .btn-group {
+    display: block;
+}
+
+.multiselect-native-select .btn-group .dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+}
+
+.multiselect-native-select ul.multiselect-container.dropdown-menu.show {
+    width: 100%;
+    padding: 10px;
+}
+
+.multiselect-native-select ul.multiselect-container.dropdown-menu.show li a label {
+    display: block;
+}
+
 
 /**********************  css for range slider ends ***********************/
