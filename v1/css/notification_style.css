@@ -108,3 +108,12 @@
 		position:absolute;
 	}
 }
+
+.collapse{
+	
+	color:#000;
+}
+
+div[id^="demo"]{
+	margin: 10px 0px;
+}
