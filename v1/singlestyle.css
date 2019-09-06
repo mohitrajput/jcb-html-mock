@@ -1115,3 +1115,14 @@ z-index:99999;
 .jp_best_deal_heading {
     display: inline;
 }
+.jp_img_btn img{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+}
+.jp_img_btn  {
+    background-color: transparent;
+}
+.jp_img_btn:hover {
+    background-color: transparent;
+}
