@@ -350,13 +350,13 @@
         $("#style-switcher .bottom a.settings").on('click', function(e) {
             e.preventDefault();
             var div = $("#style-switcher");
-            if (div.css("right") === "-170px") {
+            if (div.css("right") === "-200px") {
                 $("#style-switcher").animate({
                     right: "0px"
                 });
             } else {
                 $("#style-switcher").animate({
-                    right: "-170px"
+                    right: "-200px"
                 });
             }
         });
