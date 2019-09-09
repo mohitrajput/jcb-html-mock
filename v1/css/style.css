@@ -6194,3 +6194,119 @@ input[type="checkbox"]:checked+label:after {
     float: right;
     font-weight:bold;
 }
+.float_leftt {
+    margin-top: 15px;
+}
+.form-group .login_btn{
+    background-color:rgba(150, 201, 62, 0.9);
+    border-color:rgba(150, 201, 62, 0.9);
+}
+.jp_uploader{
+    margin-top:20px;
+}
+.form-header {
+    padding-left:0px;
+    margin-bottom: 10px;
+}
+.nxt{
+    float: right;
+}
+.bubble-content-text .btn {
+    background: rgba(150, 201, 62, 0.9);
+    color: rgba(255,255,255,1);
+    margin-right: 6px;
+    line-height: 1;
+    padding: 6px 10px;
+    border-radius: 20px;
+    display: inline;
+}
+.rel-btn{
+    margin-top:50px;
+}
+.jp_cls{
+    margin-top:15x
+}
+.register_form_select select[multiple]{
+    width: 100%;
+    height: 80px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: transparent;
+    text-transform: capitalize;
+    padding-left: 18px;
+    border: 1px solid #e0e0e0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+}
+.register_left_form .jp_doc_fin input[type="text"] {    
+    display: inline;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 500px;
+}
+ @media only screen and (max-width: 1200px) {
+    .register_left_form .jp_doc_fin input[type="text"] {           
+        width: 380px;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    .register_left_form .jp_doc_fin input[type="text"] {           
+        width: 220px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .register_left_form .jp_doc_fin input[type="text"] {           
+        width: 180px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .rel-btn{
+        margin-top:10px;
+        margin-bottom:30px;
+    }
+   
+}
+ 
+.form-group h6{
+    font-size: 10px;
+    color: rgba(212,212,212,1);
+}
+.form-group h5{
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.jp-form-group input[type=radio] {
+    display:inline;
+}
+.jp-form-group p{
+    font-weight: 600;
+    text-align:center;
+    margin-bottom:30px;
+}
+.jp_right_radio{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+.jp_form_group table, th, td {
+    border: 1px solid black;
+  }
+.jp-form-group table {
+    border-collapse: inherit;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.jp-form-group table .btn{
+padding: 4px 8px;
+margin: 2px;
+background-color: rgb(195, 191, 191);
+color: rgba(14,20,39,0.83);
+}
+.jp_edit_panding_main_wrapper h3{
+    text-transform: capitalize;
+}
