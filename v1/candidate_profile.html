@@ -14,7 +14,7 @@ Purchase:
 
 <head>
     <meta charset="utf-8" />
-    <title>Company_Listing_single</title>
+    <title>Candidate-Profile</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Job Pro" />
     <meta name="keywords" content="Job Pro" />
@@ -31,14 +31,23 @@ Purchase:
     <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="singlestyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/best-deals.css" />
+    <link rel="stylesheet" type="text/css" href="css/about.css"/>
+    <link rel="stylesheet" type="text/css" href="css/notification_style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/candidate.css" />
     <link rel="stylesheet" type="text/css" href="css/floating.css" />
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="images/header/favicon.ico" />
-   
 </head>
 
 <body>
+    <!-- preloader Start -->
+ <!--   <div id="preloader">
+        <div id="status"><img src="images/header/loadinganimation.gif" id="preloader_image" alt="loader">
+        </div>
+    </div>-->
+    <!-- Top Scroll End -->
+    
     <!-- Header Wrapper Start -->
     <div class="jp_top_header_img_wrapper">
         <div class="modal fade loading_popup" id="myModal" role="dialog">
@@ -95,7 +104,7 @@ Purchase:
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12 center_responsive">
+                    <div class="col-xl-8 col-lg-6 col-md-12 col-sm-12 col-12 center_responsive">
                         <div class="header-area hidden-menu-bar stick" id="sticker">
                             <!-- mainmenu start -->
                             <div class="mainmenu">
@@ -103,27 +112,26 @@ Purchase:
                                     <li class="gc_main_navigation"><a href="#" class="gc_main_navigation active">
                                             Home</a>
                                     </li>
+
                                     <li class="has-mega gc_main_navigation"><a href="#"
                                             class="gc_main_navigation">iReady <i class="fa fa-angle-down"></i></a>
-                                        <!-- mega menu start -->
+
                                         <ul>
                                             <li class="parent"><a href="listing_left.html">Listing-Left</a></li>
-                                            <li class="parent"><a href="listing_right.html">Listing-Right</a></li>
+                                            <!-- <li class="parent"><a href="listing_right.html">Listing-Right</a></li> -->
                                             <li class="parent"><a href="listing_single.html">Listing-Single</a></li>
 
                                         </ul>
                                     </li>
-                                    <li class="has-mega gc_main_navigation"><a href="#" class="gc_main_navigation">About
-                                            Us <i class="fa fa-angle-down"></i></a>
+
+                                    <li class="has-mega gc_main_navigation"><a href="about.html"
+                                            class="gc_main_navigation">About Us <i class="fa fa-angle-down"></i></a>
                                         <!-- sub menu start -->
                                         <ul>
-                                            <li class="parent"><a href="company_listing.html">Company-Listing</a></li>
-                                            <li class="parent"><a href="company_listing_single.html">Company-Single</a>
-                                            </li>
-                                            <li class="parent"><a href="candidate_listing.html">candidate-Listing</a>
-                                            </li>
-                                            <li class="parent"><a href="candidate_profile.html">candidate-Profile</a>
-                                            </li>
+                                            <li class="parent"><a href="faq.html">FAQ</a></li>
+                                            <li class="parent"><a href="gallery.html">Gallery</a></li>
+                                            <li class="parent"><a href="download.html">Download</a></li>
+
                                         </ul>
                                         <!-- sub menu end -->
                                     </li>
@@ -240,7 +248,7 @@ Purchase:
                                                                         href="candidate_listing.html">candidate-Listing</a>
                                                                 </li>
                                                                 <li><a
-                                                                        href="candidate_profile.html">candidate-Profile</a>
+                                                                        href="candidate_profile.html">Candidate-Profile</a>
                                                                 </li>
                                                                 <!-- .has-children -->
 
@@ -322,45 +330,92 @@ Purchase:
                     </div>
                     <!-- mobile menu area end -->
                     <div
-                        class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
-                        <div class="jp_navi_right_btn_wrapper">
+                        class="col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                        <div class="jp_notify_main_wrapper">
                             <ul>
-                                <li class="jobsekker_hover_btn">
-                                    <a href="login.html">Job Seeker</a>
-                                </li>
                                 <li class="employer_hover_btn">
-                                    <a href="#!" id="epm_hover_hide">Employer</a>
-                                    <ul class="navi_2_dropdown signin_wrapper" id="emp_block_tab">
-                                        <li class="signin_dropdown">
-                                            <div class="formsix-pos">
-                                                <div class="form-group i-email">
-                                                    <input type="email" class="form-control" required="" id="emailTen"
-                                                        placeholder="ROC Number *">
-                                                </div>
+                                    <a href="#!" id="notify_hover_hide"><span class="budge_noti"><i
+                                                class="flaticon-notification"></i></span></a>
+                                    <ul class="navi_2_dropdown signin_wrapper notify_wraper_content"
+                                        id="notify_block_tab">
+                                        <li><a href="#">Notifications<span class=jp_notify_count>5 New</span></a>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4> Your registration is completed</h4>
+
                                             </div>
-                                            <div class="formsix-e">
-                                                <div class="form-group i-password">
-                                                    <input type="password" class="form-control" required=""
-                                                        id="namTen-first" placeholder="Password *">
-                                                </div>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>You have been shortlisted for interview</h4>
+
                                             </div>
-                                            <div class="remember_box">
-                                                <label class="control control--checkbox">Remember me
-                                                    <input type="checkbox">
-                                                    <span class="control__indicator"></span>
-                                                </label>
-                                                <a href="#" class="forget_password">
-                                                    Forgot Password
-                                                </a>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>Your profile is been reviewed and accepted</h4>
+
                                             </div>
-                                            <div class="jp_spotlight_slider_btn emp_login_btn">
-                                                <ul>
-                                                    <li><a href="#"><i class="fa fa-sign-in"></i>&nbsp;login</a></li>
-                                                </ul>
+                                        </li>
+                                         <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4> Your registration is completed</h4>
+
                                             </div>
-                                            <div class="sign_up_message">
-                                                <p>Don’t have an account ? <a href="#"> Sign up </a> </p>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>You have been shortlisted for interview</h4>
+
                                             </div>
+                                        </li>
+                                       <!--<li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>Your profile is been reviewed and accepted</h4>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="jp_notify_dropbox_wrapper jp_side_scroll_notification">
+
+                                                <h4>You have been shortlisted for interview</h4>
+
+                                            </div>
+                                        </li>-->
+
+                                        <li>
+                                            <div class="crm_mess_all_main_box_wrapper">
+                                                <p><a href="notifications.html">View All notifications</a>
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="employer_hover_btn" id="profile_hover_hide">
+                                    <a href="#!" class="jp_profile_box"><img src="images/content/pf.png" alt="img">
+                                        <div class="luca_profile_wrapper">
+                                            <h1><a href="#"> maria H.</a></h1>
+
+                                        </div>
+                                    </a>
+                                    <ul class="navi_2_dropdown signin_wrapper notify_wraper_content jp_navi_side_dropdown"
+                                        id="profile_block_tab">
+                                       <!-- <li><a href="#"><i class="fa fa-user"></i>account</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-cog"></i>setting</a>
+                                        </li> -->
+                                        <li><a href="#"><i class="fa fa-laptop"></i>jobs</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-black-tie first_icon"></i>profile</a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>logout</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -370,38 +425,27 @@ Purchase:
                 </div>
             </div>
         </div>
+
     </div>
-    <!-- Header Wrapper End -->   
-    <!-- jp Tittle Wrapper Start -->
-    <div class="jp_tittle_main_company_wrapper jp_cs_tittle_main_wrapper">
+    <!-- Header Wrapper End -->
+	  <!-- jp Tittle Wrapper Start -->
+    <div class="jp_tittle_main_wrapper">
         <div class="jp_tittle_img_overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="jp_tittle_heading_wrapper">
                         <div class="jp_tittle_heading">
-                            <h2>KZant Inc</h2>
+                            <h2>Candidate-Profile</h2>
                         </div>
                         <div class="jp_tittle_breadcrumb_main_wrapper">
                             <div class="jp_tittle_breadcrumb_wrapper">
                                 <ul>
                                     <li><a href="#">Home</a> <i class="fa fa-angle-right"></i></li>
-                                    <li><a href="#">Company</a> <i class="fa fa-angle-right"></i></li>
-                                    <li><a href="#">IT</a> <i class="fa fa-angle-right"></i></li>
-                                    <li>KZant Inc</li>
+                                    <li><a href="#">Pages</a> <i class="fa fa-angle-right"></i></li>
+                                    <li>Candidate-Profile</li>
                                 </ul>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <div class="jp_cs_com_info_wrapper">
-                        <div class="jp_cs_com_info_img">
-                            <img src="images/content/cs1.jpg" alt="job_img">
-                        </div>
-                        <div class="jp_cs_com_info_img_cont">
-                            <h2>User Interface Project Manager With Comera At Mumbai Location</h2>
-                            <p>Technology Management Consulting</p>
                         </div>
                     </div>
                 </div>
@@ -409,98 +453,177 @@ Purchase:
         </div>
     </div>
     <!-- jp Tittle Wrapper End -->
-    <!-- jp listing Single cont Wrapper Start -->
-    <div class="jp_listing_single_main_wrapper">
+    <!-- jp profile Wrapper Start -->
+	<div class="jp_cp_profile_main_wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-sm-12 col-12">
+					<div class="jp_cp_left_side_wrapper">
+						<div class="jp_cp_left_pro_wallpaper">
+							<img src="images/content/cp1.png" alt="profile_img">
+							<h2>Farhan Shaikh</h2>
+							<!--UI/UX Designer in Dewas</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+							</ul>-->
+						</div>
+						<div class="jp_cp_rd_wrapper">
+							<ul>
+								<li><a href="#"><i class="fa fa-download"></i> &nbsp;Download Resume</a></li>
+							<!--	<li><a href="#"><i class="fa fa-phone"></i> &nbsp;Contact candidate</a></li>-->
+							</ul>
+						</div>
+					</div>
+                 
+				</div>
+				<div class="col-lg-8 col-md-12 col-sm-12 col-12">
+				<div class="row">
+						<div class="col-lg-12 col-md-12 col-12 col-sm-12">
+					<div class="jp_cp_right_side_wrapper">
+						<div class="jp_cp_right_side_inner_wrapper">
+							<h2>PERSONAL DETAILS</h2>
+							<table class="add-margin-bottom">
+                                <tbody>
+                                    <tr>
+                                        <td class="td-w25">Full Name</td>
+                                        <td class="td-w10">:</td>
+                                        <td class="td-w65">Farhan Shaikh</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-w25">Place of Birth</td>
+                                        <td class="td-w10">:</td>
+                                        <td class="td-w65">India</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-w25">Driving License Class</td>
+                                        <td class="td-w10">:</td>
+                                        <td class="td-w65">ABCDEFG</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-w25">Gender</td>
+                                        <td class="td-w10">:</td>
+                                        <td class="td-w65">Male</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-w25">Marital Status</td>
+                                        <td class="td-w10">:</td>
+                                        <td class="td-w65">Single</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-w25">Race</td>
+                                        <td class="td-w10">:</td>
+                                        <td class="td-w65">ABCDEFG</td>
+                                    </tr>
+                                    
+
+                                </tbody>
+                            </table>
+						</div>
+					</div>
+					</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-12 col-sm-12">
+							<!--div class="jp_cp_accor_heading_wrapper">
+								<h2>Education</h2>
+								<p>Proin gravida nibh vel velit quet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulpuate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</p>
+							</div>-->
+						</div>
+						<div class="col-lg-12 col-md-12 col-12 col-sm-12">
+							<div class="accordion_wrapper abt_page_2_wrapper">
+								<div class="panel-group" id="accordion_threeLeft">
+
+
+									<!-- /.panel-default -->
+									<div class="panel panel-default">
+										<div class="panel-heading bell">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion_threeLeft" href="#collapseTwentyLeftThree" aria-expanded="false">
+                                                CONTACT DETAILS
+									  </a>
+											</h4>
+										</div>
+										<div id="collapseTwentyLeftThree" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+											<div class="panel-body">
+												Praesent in nisl egestas mauris aliquam luctus. Ut auctor faucibus orci, nec semper purus ultrices idorbi nec lorem risus orbi vitae felis gravida Pellentesque id eros quis massa convallis feugiat eu quis urna.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading bell">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion_threeLeft" href="#collapseTwentyLeftThree2" aria-expanded="false">
+										EMPLOYMENT DETAILS
+									  </a>
+											</h4>
+										</div>
+										<div id="collapseTwentyLeftThree2" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+											<div class="panel-body">
+												Praesent in nisl egestas mauris aliquam luctus. Ut auctor faucibus orci, nec semper purus ultrices idorbi nec lorem risus orbi vitae felis gravida Pellentesque id eros quis massa convallis feugiat eu quis urna.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading bell">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion_threeLeft" href="#collapseTwentyLeftThree3" aria-expanded="false">
+										JOB PREFERENCE
+									  </a>
+											</h4>
+										</div>
+										<div id="collapseTwentyLeftThree3" class="panel-collapse collapse" aria-expanded="false" role="tablist">
+											<div class="panel-body">
+												Praesent in nisl egestas mauris aliquam luctus. Ut auctor faucibus orci, nec semper purus ultrices idorbi nec lorem risus orbi vitae felis gravida Pellentesque id eros quis massa convallis feugiat eu quis urna.
+											</div>
+										</div>
+									</div>
+									<!-- /.panel-default -->
+								</div>
+								<!--end of /.panel-group-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- jp profile Wrapper End -->
+	<!-- jp downlord Wrapper Start -->
+   <!-- <div class="jp_downlord_main_wrapper">
+        <div class="jp_downlord_img_overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
-                    <div class="jp_listing_left_sidebar_wrapper_heading">
-                        <h4>Company Description</h4>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                    <div class="jp_down_mob_img_wrapper">
+                        <img src="images/content/mobail.png" alt="mobail_img" />
                     </div>
-                    <div class="jp_listing_left_sidebar_wrapper jp_list_left_wrap">
-                        <div class="jp_job_des">
-                            <h2>KZant Inc</h2>
-                            <p>KZant (Nasdaq-100: CTSH) is one of the world's leading professional services companies,
-                                transforming clients'​ business, operating and technology models for the digital era.
-                                Our unique industry-based, consultative approach helps clients envision, build and run
-                                more innovative and efficient businesses. Headquartered in the U.S., KZant is ranked f93
-                                on the Fortune 500 and is consistently listed among the most admired companies in the
-                                world. Learn how KZant helps clients lead with digital at www.KZant.com or follow us
-                                @KZant.</p>
-                        </div>
-                    </div>                    
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div class="jp_rightside_job_categories_wrapper jp_rightside_listing_single_wrapper">
-                                <div class="jp_rightside_job_categories_heading">
-                                    <h4>Company Overview</h4>
-                                </div>
-                                <div class="jp_jop_overview_img_wrapper">
-                                    <div class="jp_jop_overview_img">
-                                        <img src="images/content/web.png" alt="post_img" />
-                                    </div>
-                                </div>
-                                <div class="jp_job_listing_single_post_right_cont">
-                                    <div class="jp_job_listing_single_post_right_cont_wrapper">
-                                        <h4>KZant Inc</h4>
-                                        <p>MARKETING JOB</p>
-                                    </div>
-                                </div>
-                                <div class="jp_job_post_right_overview_btn_wrapper">
-                                    <div class="jp_job_post_right_overview_btn">
-                                        <ul>
-                                            <li><a href="#">141 Jobs</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="jp_listing_overview_list_outside_main_wrapper">                                   
-                                    <div
-                                        class="jp_listing_overview_list_main_wrapper jp_listing_overview_list_main_wrapper2">
-                                        <div class="jp_listing_list_icon">
-                                            <i class="fa fa-th-large"></i>
-                                        </div>
-                                        <div class="jp_listing_list_icon_cont_wrapper">
-                                            <ul>
-                                                <li>Category:</li>
-                                                <li>Developer</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="jp_listing_left_bottom_sidebar_social_wrapper">
-                                        <ul class="d-none d-sm-none d-md-block d-lg-block d-xl-block">                                
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <!-- <div class="jp_listing_right_bar_btn_wrapper">
-                                        <div class="jp_listing_right_bar_btn">
-                                            <ul>
-                                                <li><a href="#"><i class="fa fa-plus-circle"></i> &nbsp;Follow
-                                                        Facebook</a></li>
-                                                <li><a href="#"><i class="fa fa-plus-circle"></i> &nbsp;Follow NOw!</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div> -->
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="ss_download_wrapper_details">
+                        <h1><span>Download</span><br>Job Portal App Now!</h1>
+                        <p>Fast, Simple & Delightful. All it takes is 30 seconds to Download.</p>
+                        <a href="#" class="ss_appstore"><span><i class="fa fa-apple" aria-hidden="true"></i></span> App Store</a>
+                        <a href="#" class="ss_playstore"><span><i class="fa fa-android" aria-hidden="true"></i></span> Play Store</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                    <div class="jp_down_mob_img_wrapper">
+                        <img src="images/content/mobail.png" class="img-responsive" alt="mobail_img" />
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- jp listing Single cont Wrapper End -->
+    </div> -->
+    <!-- jp downlord Wrapper End -->
     <!-- jp Newsletter Wrapper Start -->
     <div class="jp_main_footer_img_wrapper">
         <div class="jp_newsletter_img_overlay_wrapper"></div>
-
+        
         <!-- jp Newsletter Wrapper End -->
         <!-- jp footer Wrapper Start -->
+        
         <div class="jp_footer_main_wrapper">
             <div class="container">
                 <div class="jp_footer_three_sec_main_wrapper">
@@ -607,9 +730,8 @@ Purchase:
                 </div>
             </div>
         </div>
-    </div>
-    </div>
 
+        <div class="backdrop"></div>
     <div class="floatingButtonWrap">
         <div class="floatingButtonInner">
             <a href="#" class="floatingButton jp_img_btn">
@@ -636,8 +758,9 @@ Purchase:
             </ul>
         </div>
     </div>
+    </div>
     <!-- jp footer Wrapper End -->
-    <!--main js file start-->
+	<!--main js file start-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.menu-aim.js"></script>
@@ -650,22 +773,65 @@ Purchase:
     <script type="text/javascript" src="js/customecode-FlotingMenu.js"></script>
     <!--main js file end-->
     <script>
-        function initMap() {
-            var uluru = { lat: -36.742775, lng: 174.731559 };
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                scrollwheel: false,
-                center: uluru
+        // ----------- notification js ----------//
+        $(document).ready(function () {
+
+            $('#notify_hover_hide').click(function (e) {
+
+                e.preventDefault(); // stops link from making page jump to the top
+                e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
+                $('#notify_block_tab').toggle('fade');
+                $('#profile_block_tab').toggle().hide();
+
             });
-            var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
+
+            $('#notify_block_tab').click(function (e) {
+
+                e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+
             });
-        }
+            $('#notify_block_tab').click(function (e) {
+
+                e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+
+            });
+
+            $('body').click(function () {
+
+                $('#notify_block_tab').hide();
+
+            });
+
+        });
+
+
+        $(document).ready(function () {
+
+            $('#profile_hover_hide').click(function (e) {
+
+                e.preventDefault(); // stops link from making page jump to the top
+                e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
+                $('#profile_block_tab').toggle('fade');
+                $('#notify_block_tab').toggle().hide();
+
+            });
+
+            $('#profile_block_tab').click(function (e) {
+
+                e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
+
+            });
+
+
+            $('body').click(function (e) {
+
+                $('#profile_block_tab').hide();
+
+            });
+
+        });
+
     </script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmdG8C6ItElq5ipuFv6O9AE48wyZm_vqU&callback=initMap">
-        </script>
 </body>
 
 </html>
