@@ -520,7 +520,7 @@ $('#return-to-top').on('click', function() {
 	
 	$(window).scroll(function(){
 		var window_top = $(window).scrollTop() + 1; 
-		if (window_top > 3800) {
+		if (window_top > 4150) {
 			$('.jp_edit_fix_header_content_main_wrapper').addClass('edit_menu_fixed_bottom');
 		} else {
 			$('.jp_edit_fix_header_content_main_wrapper').removeClass('edit_menu_fixed_bottom');
