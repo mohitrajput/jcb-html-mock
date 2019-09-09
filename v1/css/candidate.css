@@ -163,3 +163,345 @@
     font-weight: 400;
     line-height: 40px;
 }
+
+.jp_recent_main:hover .jp_career_cont_wrapper h3 a{
+	color:#f36969;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.jp_recent_main:hover .jp_career_slider_bottom_cont{
+	border-bottom:1px solid #f36969;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.jp_career_slider_bottom_cont{
+	float:left;
+	width:100%;
+	border:1px solid #e9e9e9;
+	border-bottom:1px solid #23c0e9;
+	border-top:0;
+	background:#f9f9f9;
+	padding:20px;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.jp_career_slider_bottom_cont ul{
+	display:inline-block;
+}
+.jp_career_slider_bottom_cont li img{
+	width:auto !important;
+	float:left;
+}
+.jp_career_slider_bottom_cont li a{
+	position: relative;
+    top: 7px;
+}
+.jp_career_slider_bottom_cont p{
+	float:right;
+	font-size: 22px;
+    margin-top: 6px;
+}
+.jp_career_slider_bottom_cont p a{
+	color:#f36969;
+}
+.job_deatils_head{
+	padding-bottom:20px;
+}
+.jp_recent_resume_main_wrapper{
+	float:left;
+	width:100%;
+	padding-top:100px;
+	padding-bottom:95px;
+	background:#f9f9f9;
+}
+.jp_recent_resume_heading_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+	padding-bottom: 50px;
+}
+.jp_recent_resume_heading{
+	display:inline-block;
+}
+.jp_recent_resume_heading h4{
+	font-size:20px;
+	font-weight:bold;
+	color:#000000;
+	text-transform:uppercase;
+	position:relative;
+}
+.jp_recent_resume_heading h4:before {
+    content: '';
+    border: 1px solid #23c0e9;
+    width: 8px;
+    position: absolute;
+    bottom: -15px;
+    left: -45px;
+    right: 0;
+    margin: 0px auto;
+}
+.jp_recent_resume_heading h4:after {
+    content: '';
+    border: 1px solid #23c0e9;
+    width: 30px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+}
+.jp_recent_resume_box_wrapper{
+    border-radius:10px;
+	float:left;
+	width:100%;
+	background:#ffffff;
+	padding:25px;
+	border:1px solid #e9e9e9;
+	/*border-bottom:1px solid #23c0e9;*/
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+	margin-top:30px;
+}
+.jp_recent_resume_box_wrapper:hover{
+	/*border-bottom:1px solid #f36969;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;*/
+    border:1px solid #d4d4d4;
+}
+.jp_recent_resume_img_wrapper{
+	float:left;
+	width:75px;
+}
+.jp_recent_resume_cont_wrapper{
+	float:left;
+	width:calc(70% - 75px);
+	padding-left:20px;
+	padding-top:15px;
+}
+.jp_recent_resume_cont_wrapper h3{
+	font-size:18px;
+	color:#000000;
+	font-weight:bold;
+}
+.jp_recent_resume_cont_wrapper p{
+	padding-top:5px;
+	color:#f36969;
+}
+.jp_recent_resume_btn_wrapper{
+	float:left;
+	width:30%;
+}
+.jp_recent_resume_btn_wrapper ul{
+	float:right;
+   margin-top: 45px;
+}
+.jp_recent_resume_btn_wrapper li{
+	float:left;
+}
+.jp_recent_resume_btn_wrapper li a{
+	float:left;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+	font-weight:bold;
+	background:#a6e043;
+	-webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px; 
+	text-align:center;
+	color:#000000;
+	text-transform:uppercase;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+ .jp_recent_resume_btn_wrapper li a:hover{
+	background:#fdd014;
+	-webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.jp_recent_resume_view_btn_wrapper{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.jp_recent_resume_view_btn ul{
+	display:inline-block;
+	margin-top:60px;
+}
+.jp_recent_resume_view_btn li a{
+	float:left;
+	width:160px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	color:#ffffff;
+	font-weight:bold;
+	background:#23c0e9;
+	-webkit-border-radius: 10px; 
+  -moz-border-radius: 10px; 
+   border-radius: 10px; 
+   -webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_recent_resume_view_btn li a:hover{
+	background:#f36969;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.jp_listing_sidebar_main_22{
+	padding:50px 0;
+	padding-bottom:90px;
+}
+/*-- jp recent resume Wrapper End --*/
+
+.skills_percentage_wrapper1 li a {
+    float: left;
+    width: auto;
+    text-align: center;
+    background: #2f3444;
+    color: #ffffff;
+    font-size: 12px;
+	padding:4px 10px;
+    text-transform: capitalize;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.skills_percentage_wrapper1 li{
+	margin-left:0;
+	margin-right:10px;
+}
+.skills_percentage_wrapper1{
+	float:left;
+	width:100%;
+	margin-top:0px;
+}
+.skills_percentage_wrapper1 .circle_tooltip:hover span{
+	top:-93px;
+}
+.skills_percentage_wrapper1 .circle_tooltip span{
+	box-shadow:0 4px 16px 0 rgba(0, 0, 0, 0.16);
+	font-weight:400;
+}
+
+.circle_tooltip:first-child a{
+    background: #E36B72;
+}
+
+.circle_tooltip:nth-child(2) a{
+    background:#E6C555;
+}
+
+.circle_tooltip:nth-child(3) a{
+    background:#AACC66;
+}
+
+.jp_job_post_right_cont1 {
+    float: left;
+    width: calc(100% - 105px);
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.jp_job_post_right_cont1 h4 {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.jp_job_post_right_cont1 p {
+    font-size: 16px;
+    color: #797979;
+    padding-top: 5px;
+}
+
+.jp_job_post_right_cont1 li {
+    margin-left: 0px;
+    float: left;
+}
+
+.jp_job_post_right_cont1 li i {
+    color: #f36969;
+}
+
+.jp_job_post_right_cont1 li:first-child {
+    margin-left: 0;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.jp_job_post_right_cont1 li:last-child {
+    color: #797979;
+    font-size: 14px;
+}
+
+.jp_listing_tabs_wrapper1 {
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    padding: 25px;
+    margin-top: 60px;
+    border: 1px solid #e9e9e9;
+}
+
+.jp_listing_sidebar_main_wrapper .jp_listing_tabs_wrapper1 {
+    margin-top: 31px;
+    float: none;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+/**------ responsive css --------**/
+@media (min-width: 991px) and (max-width: 1199px) {
+	.skills_percentage_wrapper1 li{
+		margin-right:5px;
+	}
+}
+@media (max-width: 991px) {
+	.skills_percentage_wrapper1 li{
+		margin-bottom:5px;
+	}
+}
+@media (max-width: 767px) {
+	.skills_percentage_wrapper1{
+		margin-bottom:10px;
+	}
+}
+@media (max-width: 580px) {
+	.skills_percentage_wrapper1{
+		margin-bottom:10px;
+	}
+	.skills_percentage_wrapper1 li{
+		margin-bottom:5px;
+		float:left !important;
+	}
+}
