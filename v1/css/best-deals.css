@@ -137,6 +137,10 @@
     margin-top:0px;
 }
 
+.remove-margin-bottom{
+    margin-bottom:0px;
+}
+
 .jp_spotlight_slider_cont_Wrapper ul li.remove-margin-top-full{
     margin-top: 0px;
 }
