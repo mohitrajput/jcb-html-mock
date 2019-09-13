@@ -6,8 +6,8 @@
     position: relative;
     float: left;
     width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .jp_tittle_img_overlay {
@@ -25,7 +25,7 @@
 }
 
 .jp_tittle_heading h2 {
-    font-size: 36px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -33,7 +33,7 @@
 .jp_tittle_breadcrumb_main_wrapper {
     float: left;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .jp_tittle_breadcrumb_wrapper li {

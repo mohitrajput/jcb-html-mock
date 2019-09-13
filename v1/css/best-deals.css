@@ -4,8 +4,8 @@
 	float:left;
 	width:100%;
 	background:#f9f9f9;
-	padding-top:100px;
-	padding-bottom:100px;
+	/* padding-top:100px; */
+	padding-bottom:20px;
 }
 .jp_best_deal_heading_wrapper{
 	float:left;

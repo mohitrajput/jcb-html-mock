@@ -264,8 +264,8 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
     position: relative;
     float: left;
     width: 100%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .jp_title_main_wrapper-posting .jp_tittle_img_overlay {
     position: absolute;
@@ -280,14 +280,14 @@ input[type=date], input[type=datetime-local], input[type=month], input[type=time
     width: 100%;
 }
 .jp_title_main_wrapper-posting .jp_tittle_heading h2 {
-    font-size: 36px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: bold;
 }
 .jp_title_main_wrapper-posting .jp_tittle_breadcrumb_main_wrapper {
     float: left;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 .jp_title_main_wrapper-posting .jp_tittle_breadcrumb_wrapper li {
     margin-left: 20px;
