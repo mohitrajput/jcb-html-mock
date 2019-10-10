@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.nav-link.active{
+	background:dodgerblue;
+}
+
+</style>
+</head>
+</body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 collapse d-md-flex bg-light pt-2 min-vh-100 bg-dark" id="sidebar">
+            <ul class="nav flex-column flex-nowrap">
+                <li class="nav-item"><a class="nav-link text-white" role="tab" data-toggle="tab" href="#overview">Overview</a></li>
+               <!-- <li class="nav-item">
+                    <a class="nav-link collapsed  text-white" href="#submenu1" data-toggle="collapse" data-target="#submenu1">Reports <i class="fa fa-caret-down"></i></a>
+                    <div class="collapse" id="submenu1" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0 text-white" role="tab" data-toggle="tab" href="#orders">Orders</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link collapsed py-1 text-white" href="#submenu1sub1" data-toggle="collapse" data-target="#submenu1sub1">Customers <i class="fa fa-caret-down"></i></a>
+                                <div class="collapse" id="submenu1sub1" aria-expanded="false">
+                                    <ul class="flex-column nav pl-4">
+                                        <li class="nav-item text-white">
+                                            <a class="nav-link p-1 text-white" href="#">
+                                                <i class="fa fa-fw fa-clock-o"></i> Daily
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 text-white" href="#">
+                                                <i class="fa fa-fw fa-dashboard"></i> Dashboard
+                                            </a>
+                                        </li>
+                                        <li class="nav-item text-white">
+                                            <a class="nav-link p-1 text-white" href="#">
+                                                <i class="fa fa-fw fa-bar-chart"></i> Charts
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link p-1 text-white" href="#">
+                                                <i class="fa fa-fw fa-compass"></i> Areas
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>-->
+				<li class="nav-item"><a class="nav-link text-white" role="tab" data-toggle="tab" href="#customer">Customers</a></li>
+                <li class="nav-item"><a class="nav-link text-white" role="tab" data-toggle="tab" href="#analytics">Analytics</a></li>
+                <li class="nav-item"><a class="nav-link text-white" role="tab" data-toggle="tab" href="#export">Export</a></li>
+            </ul>
+        </div>
+		
+        <div class="tabcontent">
+			<div role="tabpanel" class="tab-pane fade in active" id="overview">Overview</div>
+		
+			<div role="tabpanel" class="tab-pane fade" id="customer">Customers</div>
+		
+			<div role="tabpanel" class="tab-pane fade" id="orders">Orders</div>
+		
+			<div role="tabpanel" class="tab-pane fade" id="analytics">Analytics</div>
+			
+			<div role="tabpanel" class="tab-pane fade" id="export">Export</div>
+		
+		
+    </div>
+	
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
