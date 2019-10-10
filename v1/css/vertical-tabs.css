@@ -1,0 +1,51 @@
+.nav-item [role=tab]{
+    color:#fff;
+    
+    text-align: center;
+}
+
+.nav-item [role=tab]:hover{
+    background:#000;
+}
+
+.nav-item [role=tab].active{
+    background:#a6e043;
+    color:#000;
+}
+.tabcontent{
+    position: relative;
+    margin-top:40px;
+    padding:0 30px;
+    
+}
+.tabcontent .tab-pane{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.tabcontent .tab-pane.active{
+    display: contents;
+    z-index: 1;
+}
+#sidebar{
+    padding:0;
+    margin-top:100px;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#sidebar ul{
+    width:100%;
+}
+
+#sidebar ul li{
+    line-height: 40px;
+}
+
+.tab-pane .jp_job_post_heading_wrapper{
+    margin-bottom: 30px;
+}
+
+.fa-ellipsis-v{
+    color:#797979;
+}
