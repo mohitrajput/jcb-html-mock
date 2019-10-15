@@ -97,9 +97,9 @@
         padding: 10px 15px 0px 15px;
         border-bottom: 1px solid #797979;
     }
-    .modal .modal-content .modal-body{
+    /*.modal .modal-content .modal-body{
         display:none;
-    }
+    }*/
     /* The Close Button */
     .close {
       color: #aaaaaa;

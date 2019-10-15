@@ -572,7 +572,7 @@
         <script src="js/jquery.inview.min.js"></script>
         <script src="js/owl.carousel.js"></script>
         <script src="js/modernizr.js"></script>
-        <script src="js/custom.js"></script>
+       <!-- <script src="js/custom.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.js"></script>
         <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/interaction/main.js"></script>-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.js"></script>
@@ -728,10 +728,12 @@
               datam = $(this).find('.fc-time').html();
 
               if(datam!=undefined){
-              $(".modal-body").css("display","block");
               $(".modal-body").text(datam);
               $(".modal-body").prepend("Event starting at ");
               $(".modal-body").append("m");
+              }
+              else{
+                $(".modal-body").text("Time not specified");
               }
           })
       })
