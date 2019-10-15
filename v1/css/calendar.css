@@ -1,0 +1,109 @@
+#calendar{
+    display:inline-block;
+    max-width: 100% !important;
+}
+.fc.fc-ltr{
+    width:100% !important;
+}
+.fc-right button{
+    background:#fff;
+    border:1px solid #32383E;
+    transition: 0.5s;
+    color:#000;
+    border-radius: 10px;
+    }
+    
+    .fc-right button:hover{
+    background:#212529;
+    border:1px solid #32383E;
+    color:#fff;
+    }
+    
+    a.fc-content.fc-start.fc-end{
+    background:#f36969;
+    border:1px solid #f36969 !important;
+    }
+    
+    .fc-content .fc-title, .fc-content .fc-time{
+        color:#000;
+    }
+    .fc-toolbar.fc-header-toolbar{
+        margin-top:30px;
+    }
+    .fc-event-container .fc-event{
+    background:#a6e043;
+    border:1px solid #a6e043
+    }
+    .fc-left h2{
+        position: relative;
+    }
+    .fc-left h2:before{
+        content: '';
+        border: 1px solid #a6e043;
+        width: 8px;
+        position: absolute;
+        bottom: -15px;
+        left: 0;
+    }
+    .fc-left h2::after{
+        content: '';
+        border: 1px solid #a6e043;
+        width: 30px;
+        position: absolute;
+        bottom: -15px;
+        left: 11px;
+    }
+    .fc-day-header.fc-widget-header{
+        background-color: #212529;
+        border-color: #32383E;
+        color:#fff;
+    }
+    
+    .fc-view, .fc-view > table{
+        border-radius: 10px 10px 0 0;
+        overflow: hidden;
+    }
+    #calendar {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+      .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+    .modal .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      border: 1px solid #888;
+      width: 80%;
+      display: block;
+    }
+    p.modalText{
+        font-size:20px;
+        font-weight: bold;
+    }
+    .modal .modal-content .modal-head{
+        padding: 10px 15px 0px 15px;
+        border-bottom: 1px solid #797979;
+    }
+    .modal .modal-content .modal-body{
+        display:none;
+    }
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
