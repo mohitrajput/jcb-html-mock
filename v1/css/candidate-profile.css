@@ -1,0 +1,275 @@
+.edit_profile_wrapper .jp_tittle_main_company_wrapper {
+        background: url('../images/content/pricing_tittle_bg.jpg') 50% 0 repeat-y;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center 0;
+        position: relative;
+        float: left;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+.edit_profile_wrapper .jp_tittle_img_overlay {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        bottom: 0%;
+        background: #0e1427d9;
+    }
+.edit_profile_wrapper .jp_tittle_heading h2 {
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: bold;
+    }
+.edit_profile_wrapper .jp_tittle_breadcrumb_main_wrapper {
+        float: left;
+        width: 100%;
+        padding-top: 15px;
+    }
+.edit_profile_wrapper .jp_tittle_breadcrumb_wrapper li:first-child {
+        margin-left: 0;
+    }
+.edit_profile_wrapper .jp_tittle_breadcrumb_wrapper li:last-child {
+        color: #23c0e9;
+    }
+.edit_profile_wrapper .jp_tittle_breadcrumb_wrapper li {
+        margin-left: 20px;
+        float: left;
+    }
+.edit_profile_wrapper .jp_tittle_breadcrumb_wrapper li a {
+        color: #ffffffa6;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+    /***------------Profile css starts-------------***/
+.edit_profile_wrapper .profile_column_one {
+        background: #f9f9f9;
+        padding: 20px;
+        margin-top: 25px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom: 1px solid #e9e9e9;
+    }
+.edit_profile_wrapper .profile_column_img {
+        border: 1px solid #e9e9e9;
+    }
+.edit_profile_wrapper .profile_column_img img {
+        width: 100%;
+        height: auto;
+    }
+.edit_profile_wrapper .profile_column_text {
+        padding-top: 15px;
+    }
+.edit_profile_wrapper .profile_column_text h2 {
+        font-size: 20px;
+        color: #344154;
+        font-weight: 700;
+    }
+.edit_profile_wrapper .profile_column_text p {
+        padding-top: 10px;
+    }
+.edit_profile_wrapper .download-btn{
+        margin-top: 18px;
+        text-align: center;
+        line-height: 40px;
+        background: #a6e043;
+        color: #000000;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        padding: 12px;
+    }
+.edit_profile_wrapper .download-btn:hover {
+        background: #fdd014;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
+        color: #000000;
+    }
+
+.edit_profile_wrapper .accordion_wrapper .panel {
+        background-color: transparent;
+        box-shadow: none;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        border-radius: 0;
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+        margin-bottom: 15px;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel-heading h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a {
+        display: block;
+        background: rgba(14, 20, 39, 0.8313725490196079);
+        padding: 10px;
+        color: #fff;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a.collapsed {
+        color: #fff;
+        background: rgba(108, 89, 89, 0.3);
+        display: block;
+        padding: 10px;
+        border-top: 1px solid transparent;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a.collapsed {
+        background: rgba(14, 20, 39, 0.8313725490196079) !important;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-body {
+        border-top: 0;
+        padding-top: 0;
+        padding: 21px 20px 20px 20px;
+        background: #eee;
+        color: #797979;
+        font-size: 16px;
+        line-height: 24px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /*tabs css starts*/
+.edit_profile_wrapper .tab-content {
+        border: 1px solid #e9e9e9;
+        padding: 30px;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+.edit_profile_wrapper .tabs-list {
+        padding-top: 40px;
+    }
+.edit_profile_wrapper .tabs-list .nav-tabs {
+        margin-top: -18px;
+        border: 1px solid #00000026;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+.edit_profile_wrapper .tabs-list .nav-tabs .nav-item {
+        margin-bottom: -1px;
+        width: 25%;
+        text-align: center;
+    }
+    /*tabs css ends*/
+.edit_profile_wrapper .jb_seeker_wrapper {
+        margin-top: 22px;
+    }
+
+    /***------------Profile css ends-------------***/
+
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading.bell a:before {
+        content: "\f0f3";
+        color: #ffffff;
+    }
+.edit_profile_wrapper .abt_page_2_wrapper .panel .panel-heading.bell a:before {
+        color: #fff;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a.collapsed:after {
+        content: "+";
+        color: #fff;
+        border: 1px solid #fff;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a:after {
+        content: "\2212";
+        color: #fff;
+        border: 1px solid #fff;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a:after, 
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a.collapsed:after {
+        font-size: 14px;
+        float: right;
+        width: 25px;
+        height: 25px;
+        line-height: 24px;
+        text-align: center;
+        display: block;
+        border-radius: 50%;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading.bell a.collapsed:before {
+        content: "\f0f3";
+        color: #ffffff;
+    }
+.edit_profile_wrapper .abt_page_2_wrapper .panel .panel-heading.bell a.collapsed:before {
+        color: #fff;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading.bell a:before {
+        content: "\f0f3";
+        color: #ffffff;
+    }
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a:before, 
+.edit_profile_wrapper .accordion_wrapper .panel .panel-heading a.collapsed:before {
+        font-family: 'FontAwesome';
+        font-size: 14px;
+        float: left;
+        margin-right: 5px;
+    }
+.edit_profile_wrapper .abt_page_2_wrapper .panel .panel-heading.bell a:before {
+        color: #fff;
+    }
+
+.edit_profile_wrapper .table tr td:first-child {
+        color: #000;
+        font-weight: 600;
+    }
+.edit_profile_wrapper .skills_sticky.stuck {
+        position: fixed;
+        width: 350px;
+        top: 0;
+    }
+
+    @media (max-width: 991px){
+        .edit_profile_wrapper a.nav-link {
+            padding: 5px;
+            font-size: 10px;
+        }
+        .edit_profile_wrapper .jb_seeker_heading {
+            padding: 12px;
+        }
+        .edit_profile_wrapper .jb_seeker_heading h4 {
+            font-size: 14px;
+        }
+        .edit_profile_wrapper .skills_sticky.stuck {
+            width: 210px;
+        }
+        .edit_profile_wrapper .accordion_wrapper .panel-heading h4 {
+            font-size: 14px;
+        }
+        .edit_profile_wrapper .accordion_wrapper {
+            margin-top: 0;
+        }
+        .edit_profile_wrapper .table tr td {
+            font-size: 12px;
+            padding: 5px;
+        }
+        .edit_profile_wrapper .accordion_wrapper .panel .panel-body {
+            padding: 10px;
+        }
+        .edit_profile_wrapper .tab-content {
+            padding: 15px;
+        }
+    }
+    @media (max-width: 991px){
+        .edit_profile_wrapper .skills_sticky.jb_seeker_wrapper  {
+            width: auto;
+            position: relative;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+    }
