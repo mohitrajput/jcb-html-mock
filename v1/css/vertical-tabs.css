@@ -49,3 +49,8 @@
 .fa-ellipsis-v{
     color:#797979;
 }
+
+.table td, .table th {
+    border-top: none;
+    border-bottom: 1px solid #dee2e6;
+}
