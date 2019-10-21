@@ -948,26 +948,43 @@ Purchase:
     </script>
     <script>
         $(document).ready(function() {
-            //store the element
-            var $cache = $('.skills_sticky');
+            $.fn.scrollBottom = function() {
+                return $(document).height() - this.scrollTop() - this.height();
+            };
 
-            //store the initial position of the element
-            var vTop = $cache.offset().top - parseFloat($cache.css('margin-top').replace(/auto/, 0));
+            var $el = $('.skills_sticky');
+            var $window = $(window);
             var $fTop = $(".jp_main_footer_img_wrapper");
-            var vFtop = $fTop.offset().top;
-            $(window).scroll(function(event) {
+            var vTop = $el.offset().top - parseFloat($el.css('margin-top').replace(/auto/, 0));
 
-                // what the y position of the scroll is
-                var y = $(this).scrollTop()
+            $window.bind("scroll resize", function() {
+                var gap = $window.height() - $el.height() - 10;
+                var visibleFoot = ($fTop.height() + parseFloat($fTop.css("margin-top"))) - $window.scrollBottom();
+                var scrollTop = $window.scrollTop()
 
-                // whether that's below the form
-                if (y >= vTop && y < (vFtop - ($cache.height()))) {
-                    // if so, ad the fixed class
-                    $cache.addClass('stuck');
+                if ($window.scrollTop() >= vTop) {
+                    if (scrollTop < $fTop.height() + 10) {
+                        $el.css({
+                            top: ($fTop.height() - scrollTop) + "px",
+                            bottom: "auto"
+                        });
+                        $el.addClass('stuck');
+                    } else if (visibleFoot > gap) {
+                        $el.css({
+                            top: "auto",
+                            bottom: visibleFoot + "px"
+                        });
+                        $el.addClass('stuck');
+                    } else {
+                        $el.css({
+                            top: 0,
+                            bottom: "auto"
+                        });
+                        $el.addClass('stuck');
+                    }
                 } else {
-                    $cache.removeClass('stuck');
+                    $el.removeClass('stuck');
                 }
-
 
             });
 
