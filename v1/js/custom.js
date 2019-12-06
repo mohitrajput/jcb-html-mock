@@ -371,6 +371,15 @@
             to: 10000000,
             step: 10
         });
+        $("#age_range").ionRangeSlider({
+            type: "double",
+            grid: true,
+            min: 0,
+            max: 10000000,
+            from: 0,
+            to: 10000000,
+            step: 10
+        });
 
         $('.js-example-basic-multiple').select2();
         $('.js-example-templating').select2({

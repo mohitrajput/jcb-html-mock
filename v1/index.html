@@ -21,13 +21,21 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="css/ion.rangeSlider.min.css" />
     <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.range.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/floating.css" />
+    <link rel="stylesheet" type="text/css" href="css/advance-search.css" />
+    
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/png" href="images/header/favicon.ico" />
+    <style>
+        .advance_search_target{
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -349,12 +357,12 @@
 
                         <div class="jp_header_form_wrapper">
                             <div class="row">
-                                <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                                <div class="col-lg-10 col-md-10 col-sm-12 col-12">
                                     <div class="jp_form_keyword_wrapper">
                                         <i class="fa fa-black-tie first_icon"></i><input type="text" placeholder="Keyword e.g. (Job Title, Description, Tags)">
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                               <!-- <div class="col-lg-3 col-md-12 col-sm-12 col-12">
                                     <div class="jp_form_exper_wrapper">
                                         <i class="fa fa-clock-o first_icon"></i><select>
                                             <option>Experience</option>
@@ -364,17 +372,62 @@
                                             <option>Experience</option>
                                         </select><i class="fa fa-angle-down second_icon"></i>
                                     </div>
-                                </div>
-                                <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+                                </div>-->
+                                <div class="col-lg-2 col-md-2 col-sm-12 col-12">
                                     <div class="jp_form_btn_wrapper">
                                         <ul>
                                             <li><a href="#"><i class="fa fa-search"></i> Search</a></li>
-                                            <li class="adv_search"><a>+ Advance Search</a></li>
+                                            <li class="adv_search"><a><span>+</span> Advance Search</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            
+                        
+                            <div class="advance_search_target col-12 col-lg-12 col-md-12 col-sm-12 mt-5 pt-4" style="border-top: 1px solid #828282;">
+                                   
+                                    <div class="register_left_form">
+                                        <div class="row">
+                                            <!--Form Group-->
+                                            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-12">
+                                                <label class="mandatory_fields">Experience</label>
+
+                                                <div class="jp_form_exper_wrapper">
+                                                    <i class="fa fa-clock-o first_icon"></i><select>
+                                                        <option>Experience</option>
+                                                        <option>Experience</option>
+                                                        <option>Experience</option>
+                                                        <option>Experience</option>
+                                                        <option>Experience</option>
+                                                    </select><i class="fa fa-angle-down second_icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-12">
+                                
+                                                <label class="mandatory_fields">Allowance Range</label>
+                                
+                                                <input id="demo_1" type="text" class="js-range-slider" name="my_range" value="" />
+                                
+                                            </div>
+                                            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-12">
+                                
+                                                <label class="mandatory_fields">Salary Range</label>
+                                
+                                                <input id="salary_range" type="text" class="js-range-slider" name="my_range" value="" />
+                                
+                                            </div>
+                                            <div class="form-group col-lg-6 col-md-6 col-sm-12 col-12">
+                                
+                                                <label class="mandatory_fields">Age Range</label>
+                                
+                                                <input id="age_range" type="text" class="js-range-slider" name="my_range" value="" />
+                                
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                            </div>
+                        </div> 
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                         <div class="jp_banner_main_jobs_wrapper">
@@ -1375,18 +1428,25 @@
     <script src="js/jquery.menu-aim.js"></script>
     <script src="js/jquery.countTo.js"></script>
     <script src="js/jquery.inview.min.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.range.js"></script>
     <script src="js/modernizr.js"></script>
     <script type="text/javascript" src="js/customecode-FlotingMenu.js"></script>
     <script src="js/custom.js"></script>
     <!--main js file end-->
-    <!--
+ 
     <script>
-        $(window).on('load', function() {
-            $('#myModal').modal('show');
+       $(document).ready(function () {
+            $('.adv_search').click(function (e) {
+                e.preventDefault(); //to prevent default action of link tag
+                $('.advance_search_target').slideToggle();
+                
+                $(".adv_search span").text(($(".adv_search span").text() == '+') ? '-' : '+');
+                
+            });
         });
-    </script> -->
+    </script>
 </body>
 
 </html>
