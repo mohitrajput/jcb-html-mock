@@ -39,13 +39,13 @@
     border: none;
     padding: 14px 22px;
 }
-.irs--flat .irs-bar, 
-.irs--flat .irs-from, 
-.irs--flat .irs-to, 
-.irs--flat .irs-single {
+.advance_search_target .irs--flat .irs-bar, 
+.advance_search_target .irs--flat .irs-from, 
+.advance_search_target .irs--flat .irs-to, 
+.advance_search_target .irs--flat .irs-single {
     background-color: #a6e043;
 }
-.irs--flat .irs-handle > i:first-child {
+.advance_search_target .irs--flat .irs-handle > i:first-child {
     position: absolute;
     display: block;
     top: 0;
@@ -55,20 +55,20 @@
     margin-left: -1px;
     background-color: #a6e043;
 }
-.irs--flat .irs-from:before, 
-.irs--flat .irs-to:before, 
-.irs--flat .irs-single:before {
+.advance_search_target .irs--flat .irs-from:before, 
+.advance_search_target .irs--flat .irs-to:before, 
+.advance_search_target .irs--flat .irs-single:before {
     border-top-color: #a6e043;
 }
-.irs--flat .irs-grid-text {
+.advance_search_target .irs--flat .irs-grid-text {
     color: #fff;
 }
-.irs--flat .irs-min, 
-.irs--flat .irs-max {
+.advance_search_target .irs--flat .irs-min, 
+.advance_search_target .irs--flat .irs-max {
     color: #000;
 }
-.irs--flat .irs-from, 
-.irs--flat .irs-to, 
-.irs--flat .irs-single {
+.advance_search_target .irs--flat .irs-from, 
+.advance_search_target .irs--flat .irs-to, 
+.advance_search_target .irs--flat .irs-single {
     color: #000000;
 }
