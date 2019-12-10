@@ -704,7 +704,7 @@ span.comboTreeItemTitle {
 }
 
 .job_field input[type=checkbox],
-input[type=radio] {
+.job_field input[type=radio] {
     display: none;
 }
 
