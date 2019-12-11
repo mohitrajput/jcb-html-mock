@@ -1396,6 +1396,9 @@
     <div class="backdrop"></div>
     <div class="floatingButtonWrap">
         <div class="floatingButtonInner">
+		  <div id="drop_icon">	
+			<img src="images/drop.png" alt="img">		  
+		  </div>
             <a href="#" class="floatingButton jp_img_btn">
                  <span class="fa">   <img src="jp_logo.jpg"> </span>       </a>
             <ul class="floatingMenu">
@@ -1446,6 +1449,11 @@
                 
             });
         });
+    		
+	// ------  fade out drop  icon ------------//
+		jQuery(window).on('load', function() {
+    	jQuery("#drop_icon").delay(5000).fadeOut("slow");
+     });
     </script>
 </body>
 
